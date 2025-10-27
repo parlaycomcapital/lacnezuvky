@@ -1,0 +1,2504 @@
+[
+  {
+    "id": "snus-1",
+    "code": "PAB-001",
+    "category": "PABLO",
+    "name": "PABLO Ice Cold",
+    "strength": 24,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-2",
+    "code": "PAB-002",
+    "category": "PABLO",
+    "name": "PABLO Mini Ice Cold",
+    "strength": 15,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-3",
+    "code": "PAB-003",
+    "category": "PABLO",
+    "name": "PABLO Ice Cold XXL",
+    "strength": 24,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-4",
+    "code": "PAB-004",
+    "category": "PABLO",
+    "name": "PABLO Ice Cold Limited Edition",
+    "strength": 35,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-5",
+    "code": "PAB-005",
+    "category": "PABLO",
+    "name": "PABLO X-Ice Cold",
+    "strength": 24,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-6",
+    "code": "PAB-006",
+    "category": "PABLO",
+    "name": "PABLO Mini X Ice Cold",
+    "strength": 15,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-7",
+    "code": "PAB-007",
+    "category": "PABLO",
+    "name": "PABLO Exclusive Kiwi",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-8",
+    "code": "PAB-008",
+    "category": "PABLO",
+    "name": "PABLO Exclusive Blue Raspberry",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-9",
+    "code": "PAB-009",
+    "category": "PABLO",
+    "name": "PABLO Exclusive Frosted Ice",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-10",
+    "code": "PAB-010",
+    "category": "PABLO",
+    "name": "PABLO Exclusive Cherry Cola",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-11",
+    "code": "PAB-011",
+    "category": "PABLO",
+    "name": "PABLO Exclusive Mango Ice",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-12",
+    "code": "PAB-012",
+    "category": "PABLO",
+    "name": "PABLO Exclusive Sour Blueberries",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-13",
+    "code": "PAB-013",
+    "category": "PABLO",
+    "name": "PABLO Exclusive Grape Ice",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-14",
+    "code": "PAB-014",
+    "category": "PABLO",
+    "name": "PABLO Exclusive Strawberry Kiwi",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-15",
+    "code": "PAB-015",
+    "category": "PABLO",
+    "name": "PABLO Exclusive Strawberry Watermelon",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-16",
+    "code": "PAB-016",
+    "category": "PABLO",
+    "name": "PABLO Exclusive Banana Ice",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-17",
+    "code": "PAB-017",
+    "category": "PABLO",
+    "name": "PABLO Exclusive Cola",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-18",
+    "code": "PAB-018",
+    "category": "PABLO",
+    "name": "PABLO Exclusive Dark Cherry",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-19",
+    "code": "PAB-019",
+    "category": "PABLO",
+    "name": "PABLO Exclusive Strawberry Lychee",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-20",
+    "code": "PAB-020",
+    "category": "PABLO",
+    "name": "PABLO Exclusive Pink Lemonade",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-21",
+    "code": "PAB-021",
+    "category": "PABLO",
+    "name": "PABLO Exclusive Bubblegum",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-22",
+    "code": "PAB-022",
+    "category": "PABLO",
+    "name": "PABLO Exclusive Orange",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-23",
+    "code": "PAB-023",
+    "category": "PABLO",
+    "name": "PABLO Exclusive Blue Mint",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-24",
+    "code": "PAB-024",
+    "category": "PABLO",
+    "name": "PABLO Exclusive Green Mint",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-25",
+    "code": "PAB-025",
+    "category": "PABLO",
+    "name": "PABLO Exclusive Liquorice",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-26",
+    "code": "PAB-026",
+    "category": "PABLO",
+    "name": "PABLO Exclusive Strawberry Cheesecake",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-27",
+    "code": "PAB-027",
+    "category": "PABLO",
+    "name": "PABLO Exclusive Blueberry Peach Ice",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-28",
+    "code": "PAB-028",
+    "category": "PABLO",
+    "name": "PABLO Exclusive Blueberry Cranberry Cherry",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-29",
+    "code": "PAB-029",
+    "category": "PABLO",
+    "name": "PABLO Exclusive Frosted Mint",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-30",
+    "code": "PAB-030",
+    "category": "PABLO",
+    "name": "PABLO Exclusive Tropical Punch",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-31",
+    "code": "PAB-031",
+    "category": "PABLO",
+    "name": "PABLO Exclusive Pear",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-32",
+    "code": "PAB-032",
+    "category": "PABLO",
+    "name": "PABLO Exclusive Lemonade",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-33",
+    "code": "PAB-033",
+    "category": "PABLO",
+    "name": "PABLO Exclusive Passion Fruit",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-34",
+    "code": "PAB-034",
+    "category": "PABLO",
+    "name": "PABLO Red",
+    "strength": 24,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-35",
+    "code": "PAB-035",
+    "category": "PABLO",
+    "name": "PABLO Mini Red",
+    "strength": 15,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-36",
+    "code": "KIL-001",
+    "category": "KILLA",
+    "name": "KILLA Cold Mint",
+    "strength": 11.2,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-37",
+    "code": "KIL-002",
+    "category": "KILLA",
+    "name": "KILLA Energy",
+    "strength": 11.2,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-38",
+    "code": "KIL-003",
+    "category": "KILLA",
+    "name": "KILLA Cola",
+    "strength": 11.2,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-39",
+    "code": "KIL-004",
+    "category": "KILLA",
+    "name": "KILLA Exclusive Tropical Punch",
+    "strength": 13.2,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-40",
+    "code": "KIL-005",
+    "category": "KILLA",
+    "name": "KILLA Blueberry",
+    "strength": 11.2,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-41",
+    "code": "KIL-006",
+    "category": "KILLA",
+    "name": "KILLA Exclusive Cherry Cola",
+    "strength": 13.2,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-42",
+    "code": "KIL-007",
+    "category": "KILLA",
+    "name": "KILLA Exclusive Strawberry Watermelon",
+    "strength": 13.2,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-43",
+    "code": "KIL-008",
+    "category": "KILLA",
+    "name": "KILLA Apple",
+    "strength": 11.2,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-44",
+    "code": "KIL-009",
+    "category": "KILLA",
+    "name": "KILLA Grape Ice",
+    "strength": 11.2,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-45",
+    "code": "KIL-010",
+    "category": "KILLA",
+    "name": "KILLA Watermelon",
+    "strength": 11.2,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-46",
+    "code": "KIL-011",
+    "category": "KILLA",
+    "name": "KILLA Mini Frosted Mint",
+    "strength": 8,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-47",
+    "code": "KIL-012",
+    "category": "KILLA",
+    "name": "KILLA Frosted Mint",
+    "strength": 11.2,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-48",
+    "code": "KIL-013",
+    "category": "KILLA",
+    "name": "KILLA Strawberry Lychee",
+    "strength": 16,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-49",
+    "code": "KIL-014",
+    "category": "KILLA",
+    "name": "KILLA Mini Cold Mint",
+    "strength": 8,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-50",
+    "code": "KIL-015",
+    "category": "KILLA",
+    "name": "KILLA Banana Ice",
+    "strength": 11.2,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-51",
+    "code": "KIL-016",
+    "category": "KILLA",
+    "name": "KILLA Bubblegum",
+    "strength": 11.2,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-52",
+    "code": "KIL-017",
+    "category": "KILLA",
+    "name": "KILLA Mango Ice",
+    "strength": 11.2,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-53",
+    "code": "KIL-018",
+    "category": "KILLA",
+    "name": "KILLA Pineapple",
+    "strength": 11.2,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-54",
+    "code": "KIL-019",
+    "category": "KILLA",
+    "name": "KILLA Exclusive Dark Cherry",
+    "strength": 13.2,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-55",
+    "code": "KIL-020",
+    "category": "KILLA",
+    "name": "KILLA Exclusive Orange",
+    "strength": 13.2,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-56",
+    "code": "KIL-021",
+    "category": "KILLA",
+    "name": "KILLA Spearmint",
+    "strength": 11.2,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-57",
+    "code": "KIL-022",
+    "category": "KILLA",
+    "name": "KILLA Mini Blueberry",
+    "strength": 8,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-58",
+    "code": "KIL-023",
+    "category": "KILLA",
+    "name": "KILLA Mini Mango Ice",
+    "strength": 8,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-59",
+    "code": "KIL-024",
+    "category": "KILLA",
+    "name": "KILLA Melon",
+    "strength": 11.2,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-60",
+    "code": "KIL-025",
+    "category": "KILLA",
+    "name": "KILLA Double Dutch Cold (Limited Edition)",
+    "strength": 11.2,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-61",
+    "code": "KIL-026",
+    "category": "KILLA",
+    "name": "KILLA 13",
+    "strength": 11.2,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-62",
+    "code": "KIL-027",
+    "category": "KILLA",
+    "name": "KILLA Exclusive Blue Mint",
+    "strength": 11.2,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-63",
+    "code": "KIL-028",
+    "category": "KILLA",
+    "name": "KILLA Exclusive Green Mint",
+    "strength": 13.2,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-64",
+    "code": "KIL-029",
+    "category": "KILLA",
+    "name": "KILLA Exclusive Cold Dry",
+    "strength": 13.2,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-65",
+    "code": "KIL-030",
+    "category": "KILLA",
+    "name": "KILLA Mini Banana Ice",
+    "strength": 8,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-66",
+    "code": "KIL-031",
+    "category": "KILLA",
+    "name": "KILLA Exclusive Blue Raspberry",
+    "strength": 13.2,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-67",
+    "code": "KIL-032",
+    "category": "KILLA",
+    "name": "KILLA Exclusive Lemonade",
+    "strength": 13.2,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-68",
+    "code": "KIL-033",
+    "category": "KILLA",
+    "name": "KILLA XXL Cold Mint",
+    "strength": 16.5,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-69",
+    "code": "KIL-034",
+    "category": "KILLA",
+    "name": "KILLA Cold Mint XXL",
+    "strength": 11.2,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-70",
+    "code": "KIL-035",
+    "category": "KILLA",
+    "name": "KILLA XXL Freeze Gold",
+    "strength": 16.5,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-71",
+    "code": "KIL-036",
+    "category": "KILLA",
+    "name": "KILLA XXL Double Mint",
+    "strength": 16.5,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-72",
+    "code": "KIL-037",
+    "category": "KILLA",
+    "name": "KILLA XXL Cold Dry",
+    "strength": 16.5,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-73",
+    "code": "KIL-038",
+    "category": "KILLA",
+    "name": "KILLA Exclusive Liquorice",
+    "strength": 13.2,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-74",
+    "code": "KIL-039",
+    "category": "KILLA",
+    "name": "KILLA Strawberry Cheesecake",
+    "strength": 11.2,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-75",
+    "code": "KIL-040",
+    "category": "KILLA",
+    "name": "KILLA Gold Freeze",
+    "strength": 11.2,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-76",
+    "code": "CUB-001",
+    "category": "CUBA",
+    "name": "CUBA Cherry Strong",
+    "strength": 43,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-77",
+    "code": "CUB-002",
+    "category": "CUBA",
+    "name": "CUBA Forest Berries Strong",
+    "strength": 43,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-78",
+    "code": "CUB-003",
+    "category": "CUBA",
+    "name": "CUBA Blueberry Strong",
+    "strength": 43,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-79",
+    "code": "CUB-004",
+    "category": "CUBA",
+    "name": "CUBA Cola Strong",
+    "strength": 43,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-80",
+    "code": "CUB-005",
+    "category": "CUBA",
+    "name": "CUBA Peach Strong",
+    "strength": 43,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-81",
+    "code": "CUB-006",
+    "category": "CUBA",
+    "name": "CUBA Apple Juice Strong",
+    "strength": 43,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-82",
+    "code": "CUB-007",
+    "category": "CUBA",
+    "name": "CUBA Grape Strong",
+    "strength": 43,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-83",
+    "code": "CUB-008",
+    "category": "CUBA",
+    "name": "CUBA Watermelon Strong",
+    "strength": 43,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-84",
+    "code": "CUB-009",
+    "category": "CUBA",
+    "name": "CUBA Pineapple Strong",
+    "strength": 43,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-85",
+    "code": "CUB-010",
+    "category": "CUBA",
+    "name": "CUBA Black Currant Strong",
+    "strength": 43,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-86",
+    "code": "CUB-011",
+    "category": "CUBA",
+    "name": "CUBA Cold Dry Strong",
+    "strength": 43,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-87",
+    "code": "CUB-012",
+    "category": "CUBA",
+    "name": "CUBA Cherry Medium",
+    "strength": 10.4,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-88",
+    "code": "CUB-013",
+    "category": "CUBA",
+    "name": "CUBA Banana Hit Strong",
+    "strength": 43,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-89",
+    "code": "CUB-014",
+    "category": "CUBA",
+    "name": "CUBA Peach Medium",
+    "strength": 10.4,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-90",
+    "code": "CUB-015",
+    "category": "CUBA",
+    "name": "CUBA Forest Berries Medium",
+    "strength": 10.4,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-91",
+    "code": "CUB-016",
+    "category": "CUBA",
+    "name": "CUBA Grape Medium",
+    "strength": 10.4,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-92",
+    "code": "CUB-017",
+    "category": "CUBA",
+    "name": "CUBA Apple Juice Medium",
+    "strength": 10.4,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-93",
+    "code": "CUB-018",
+    "category": "CUBA",
+    "name": "CUBA Watermelon Medium",
+    "strength": 10.4,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-94",
+    "code": "CUB-019",
+    "category": "CUBA",
+    "name": "CUBA Cola Medium",
+    "strength": 10.4,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-95",
+    "code": "CUB-020",
+    "category": "CUBA",
+    "name": "CUBA Black Currant Medium",
+    "strength": 10.4,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-96",
+    "code": "CUB-021",
+    "category": "CUBA",
+    "name": "CUBA Blueberry Medium",
+    "strength": 10.4,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-97",
+    "code": "CUB-022",
+    "category": "CUBA",
+    "name": "CUBA Pineapple Medium",
+    "strength": 10.4,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-98",
+    "code": "CUB-023",
+    "category": "CUBA",
+    "name": "CUBA MEGA Cherry Strong",
+    "strength": 43,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-99",
+    "code": "CUB-024",
+    "category": "CUBA",
+    "name": "CUBA Cold Dry Medium",
+    "strength": 10.4,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-100",
+    "code": "CUB-025",
+    "category": "CUBA",
+    "name": "CUBA Banana Hit Medium",
+    "strength": 10.4,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-101",
+    "code": "CUB-026",
+    "category": "CUBA",
+    "name": "CUBA MEGA Peach Strong",
+    "strength": 43,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-102",
+    "code": "CUB-027",
+    "category": "CUBA",
+    "name": "CUBA MEGA Double Fresh Strong",
+    "strength": 43,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-103",
+    "code": "CUB-028",
+    "category": "CUBA",
+    "name": "CUBA MEGA Blueberry Strong",
+    "strength": 43,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-104",
+    "code": "CUB-029",
+    "category": "CUBA",
+    "name": "CUBA MEGA Double Fresh Medium",
+    "strength": 10.4,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-105",
+    "code": "CUB-030",
+    "category": "CUBA",
+    "name": "CUBA MEGA Cherry Medium",
+    "strength": 10.4,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-106",
+    "code": "ICE-001",
+    "category": "ICEBERG",
+    "name": "Iceberg Emerald",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-107",
+    "code": "ICE-002",
+    "category": "ICEBERG",
+    "name": "Iceberg Sour Berries",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-108",
+    "code": "ICE-003",
+    "category": "ICEBERG",
+    "name": "Iceberg Dragon Fruit",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-109",
+    "code": "ICE-004",
+    "category": "ICEBERG",
+    "name": "Iceberg Black",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-110",
+    "code": "ICE-005",
+    "category": "ICEBERG",
+    "name": "Iceberg Energy",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-111",
+    "code": "ICE-006",
+    "category": "ICEBERG",
+    "name": "Iceberg Kiwi Strawberry",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-112",
+    "code": "ICE-007",
+    "category": "ICEBERG",
+    "name": "Iceberg Grape",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-113",
+    "code": "ICE-008",
+    "category": "ICEBERG",
+    "name": "Iceberg Pineapple Mango Coconut",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-114",
+    "code": "ICE-009",
+    "category": "ICEBERG",
+    "name": "Iceberg Cola",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-115",
+    "code": "ICE-010",
+    "category": "ICEBERG",
+    "name": "Iceberg Watermelon Mint Gum",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-116",
+    "code": "ICE-011",
+    "category": "ICEBERG",
+    "name": "Iceberg Arasaka",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-117",
+    "code": "ICE-012",
+    "category": "ICEBERG",
+    "name": "Iceberg Cherry",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-118",
+    "code": "ICE-013",
+    "category": "ICEBERG",
+    "name": "Iceberg Grape Gum",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-119",
+    "code": "ICE-014",
+    "category": "ICEBERG",
+    "name": "Iceberg Watermelon Lime",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-120",
+    "code": "ICE-015",
+    "category": "ICEBERG",
+    "name": "Iceberg Strawberry Mango Gum",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-121",
+    "code": "ICE-016",
+    "category": "ICEBERG",
+    "name": "Iceberg Dragon Fire",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-122",
+    "code": "ICE-017",
+    "category": "ICEBERG",
+    "name": "Iceberg Ninja Orange",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-123",
+    "code": "ICE-018",
+    "category": "ICEBERG",
+    "name": "Iceberg Melon Peach",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-124",
+    "code": "ICE-019",
+    "category": "ICEBERG",
+    "name": "Iceberg Raspberry Gum",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-125",
+    "code": "ICE-020",
+    "category": "ICEBERG",
+    "name": "Iceberg Crazy Mix",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-126",
+    "code": "ICE-021",
+    "category": "ICEBERG",
+    "name": "Iceberg Bubblegum",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-127",
+    "code": "ICE-022",
+    "category": "ICEBERG",
+    "name": "Iceberg Guava Lime",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-128",
+    "code": "ICE-023",
+    "category": "ICEBERG",
+    "name": "Iceberg Cherry Apricot Gum",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-129",
+    "code": "ICE-024",
+    "category": "ICEBERG",
+    "name": "Iceberg Strawberry Banana Gum",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-130",
+    "code": "ICE-025",
+    "category": "ICEBERG",
+    "name": "Iceberg Coconut",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-131",
+    "code": "ICE-026",
+    "category": "ICEBERG",
+    "name": "Iceberg Double Apple",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-132",
+    "code": "ICE-027",
+    "category": "ICEBERG",
+    "name": "Iceberg Menthol",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-133",
+    "code": "ICE-028",
+    "category": "ICEBERG",
+    "name": "Iceberg Strawberry Pomegranate",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-134",
+    "code": "ICE-029",
+    "category": "ICEBERG",
+    "name": "Iceberg Energy Mango",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-135",
+    "code": "ICE-030",
+    "category": "ICEBERG",
+    "name": "Iceberg Gummy Bears",
+    "strength": 30,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-136",
+    "code": "SIB-001",
+    "category": "SIBERIA",
+    "name": "Siberia -80°C All White Super Slim Nicotine",
+    "strength": 24.75,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-137",
+    "code": "SIB-002",
+    "category": "SIBERIA",
+    "name": "Siberia -80°C All White Original Nicotine",
+    "strength": 24.75,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-138",
+    "code": "SIB-003",
+    "category": "SIBERIA",
+    "name": "Siberia -80°C All White Slim Nicotine",
+    "strength": 24.75,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  },
+  {
+    "id": "snus-139",
+    "code": "SIB-004",
+    "category": "SIBERIA",
+    "name": "Siberia -80 All White Maxi Nicotine",
+    "strength": 29.7,
+    "prices": {
+      "tier1": 3.5,
+      "tier2": 3.2,
+      "tier3": 2.8,
+      "tier4": 2.6,
+      "tier5": 2.4
+    },
+    "stock": 999,
+    "tags": [
+      "premium"
+    ]
+  }
+]
