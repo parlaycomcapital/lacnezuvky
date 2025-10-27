@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-sky-blue: #B8E3F0;
+  --color-soft-pink: #FF9BBE;
+  --color-warm-orange: #FF6B4A;
+  --color-cream: #FFF9E6;
+  --color-deep-navy: #1A1A2E;
+}
+
+body {
+  background-color: var(--color-sky-blue);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Sticker-like borders and shadows */
+.sticker {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+  border: 3px solid var(--color-deep-navy);
+}
+
+.bounce-hover:hover {
+  animation: bounce 0.5s ease-in-out;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Playful rounded corners */
+.rounded-playful {
+  border-radius: 20px;
+}
+
+/* Mascot logo styling */
+.mascot-logo {
+  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
+}
+
+/* Smooth transitions */
+.transition-playful {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
