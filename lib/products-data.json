@@ -6,16 +6,16 @@
     "name": "PABLO Ice Cold",
     "strength": 24,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "PABLO snus with 24mg nicotine strength",
+    "flavor": "Ice Cold"
   },
   {
     "id": "snus-2",
@@ -24,16 +24,16 @@
     "name": "PABLO Mini Ice Cold",
     "strength": 15,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "PABLO snus with 15mg nicotine strength",
+    "flavor": "Mini Ice Cold"
   },
   {
     "id": "snus-3",
@@ -42,16 +42,16 @@
     "name": "PABLO Ice Cold XXL",
     "strength": 24,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "PABLO snus with 24mg nicotine strength",
+    "flavor": "Ice Cold XXL"
   },
   {
     "id": "snus-4",
@@ -60,16 +60,16 @@
     "name": "PABLO Ice Cold Limited Edition",
     "strength": 35,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "PABLO snus with 35mg nicotine strength",
+    "flavor": "Ice Cold Limited Edition"
   },
   {
     "id": "snus-5",
@@ -78,16 +78,16 @@
     "name": "PABLO X-Ice Cold",
     "strength": 24,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "PABLO snus with 24mg nicotine strength",
+    "flavor": "X-Ice Cold"
   },
   {
     "id": "snus-6",
@@ -96,16 +96,16 @@
     "name": "PABLO Mini X Ice Cold",
     "strength": 15,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "PABLO snus with 15mg nicotine strength",
+    "flavor": "Mini X Ice Cold"
   },
   {
     "id": "snus-7",
@@ -114,16 +114,16 @@
     "name": "PABLO Exclusive Kiwi",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "PABLO snus with 30mg nicotine strength",
+    "flavor": "Exclusive Kiwi"
   },
   {
     "id": "snus-8",
@@ -132,16 +132,16 @@
     "name": "PABLO Exclusive Blue Raspberry",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "PABLO snus with 30mg nicotine strength",
+    "flavor": "Exclusive Blue Raspberry"
   },
   {
     "id": "snus-9",
@@ -150,16 +150,16 @@
     "name": "PABLO Exclusive Frosted Ice",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "PABLO snus with 30mg nicotine strength",
+    "flavor": "Exclusive Frosted Ice"
   },
   {
     "id": "snus-10",
@@ -168,16 +168,16 @@
     "name": "PABLO Exclusive Cherry Cola",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "PABLO snus with 30mg nicotine strength",
+    "flavor": "Exclusive Cherry Cola"
   },
   {
     "id": "snus-11",
@@ -186,16 +186,16 @@
     "name": "PABLO Exclusive Mango Ice",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "PABLO snus with 30mg nicotine strength",
+    "flavor": "Exclusive Mango Ice"
   },
   {
     "id": "snus-12",
@@ -204,16 +204,16 @@
     "name": "PABLO Exclusive Sour Blueberries",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "PABLO snus with 30mg nicotine strength",
+    "flavor": "Exclusive Sour Blueberries"
   },
   {
     "id": "snus-13",
@@ -222,16 +222,16 @@
     "name": "PABLO Exclusive Grape Ice",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "PABLO snus with 30mg nicotine strength",
+    "flavor": "Exclusive Grape Ice"
   },
   {
     "id": "snus-14",
@@ -240,16 +240,16 @@
     "name": "PABLO Exclusive Strawberry Kiwi",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "PABLO snus with 30mg nicotine strength",
+    "flavor": "Exclusive Strawberry Kiwi"
   },
   {
     "id": "snus-15",
@@ -258,16 +258,16 @@
     "name": "PABLO Exclusive Strawberry Watermelon",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "PABLO snus with 30mg nicotine strength",
+    "flavor": "Exclusive Strawberry Watermelon"
   },
   {
     "id": "snus-16",
@@ -276,16 +276,16 @@
     "name": "PABLO Exclusive Banana Ice",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "PABLO snus with 30mg nicotine strength",
+    "flavor": "Exclusive Banana Ice"
   },
   {
     "id": "snus-17",
@@ -294,16 +294,16 @@
     "name": "PABLO Exclusive Cola",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "PABLO snus with 30mg nicotine strength",
+    "flavor": "Exclusive Cola"
   },
   {
     "id": "snus-18",
@@ -312,16 +312,16 @@
     "name": "PABLO Exclusive Dark Cherry",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "PABLO snus with 30mg nicotine strength",
+    "flavor": "Exclusive Dark Cherry"
   },
   {
     "id": "snus-19",
@@ -330,16 +330,16 @@
     "name": "PABLO Exclusive Strawberry Lychee",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "PABLO snus with 30mg nicotine strength",
+    "flavor": "Exclusive Strawberry Lychee"
   },
   {
     "id": "snus-20",
@@ -348,16 +348,16 @@
     "name": "PABLO Exclusive Pink Lemonade",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "PABLO snus with 30mg nicotine strength",
+    "flavor": "Exclusive Pink Lemonade"
   },
   {
     "id": "snus-21",
@@ -366,16 +366,16 @@
     "name": "PABLO Exclusive Bubblegum",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "PABLO snus with 30mg nicotine strength",
+    "flavor": "Exclusive Bubblegum"
   },
   {
     "id": "snus-22",
@@ -384,16 +384,16 @@
     "name": "PABLO Exclusive Orange",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "PABLO snus with 30mg nicotine strength",
+    "flavor": "Exclusive Orange"
   },
   {
     "id": "snus-23",
@@ -402,16 +402,16 @@
     "name": "PABLO Exclusive Blue Mint",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "PABLO snus with 30mg nicotine strength",
+    "flavor": "Exclusive Blue Mint"
   },
   {
     "id": "snus-24",
@@ -420,16 +420,16 @@
     "name": "PABLO Exclusive Green Mint",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "PABLO snus with 30mg nicotine strength",
+    "flavor": "Exclusive Green Mint"
   },
   {
     "id": "snus-25",
@@ -438,16 +438,16 @@
     "name": "PABLO Exclusive Liquorice",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "PABLO snus with 30mg nicotine strength",
+    "flavor": "Exclusive Liquorice"
   },
   {
     "id": "snus-26",
@@ -456,16 +456,16 @@
     "name": "PABLO Exclusive Strawberry Cheesecake",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "PABLO snus with 30mg nicotine strength",
+    "flavor": "Exclusive Strawberry Cheesecake"
   },
   {
     "id": "snus-27",
@@ -474,16 +474,16 @@
     "name": "PABLO Exclusive Blueberry Peach Ice",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "PABLO snus with 30mg nicotine strength",
+    "flavor": "Exclusive Blueberry Peach Ice"
   },
   {
     "id": "snus-28",
@@ -492,16 +492,16 @@
     "name": "PABLO Exclusive Blueberry Cranberry Cherry",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "PABLO snus with 30mg nicotine strength",
+    "flavor": "Exclusive Blueberry Cranberry Cherry"
   },
   {
     "id": "snus-29",
@@ -510,16 +510,16 @@
     "name": "PABLO Exclusive Frosted Mint",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "PABLO snus with 30mg nicotine strength",
+    "flavor": "Exclusive Frosted Mint"
   },
   {
     "id": "snus-30",
@@ -528,16 +528,16 @@
     "name": "PABLO Exclusive Tropical Punch",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "PABLO snus with 30mg nicotine strength",
+    "flavor": "Exclusive Tropical Punch"
   },
   {
     "id": "snus-31",
@@ -546,16 +546,16 @@
     "name": "PABLO Exclusive Pear",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "PABLO snus with 30mg nicotine strength",
+    "flavor": "Exclusive Pear"
   },
   {
     "id": "snus-32",
@@ -564,16 +564,16 @@
     "name": "PABLO Exclusive Lemonade",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "PABLO snus with 30mg nicotine strength",
+    "flavor": "Exclusive Lemonade"
   },
   {
     "id": "snus-33",
@@ -582,16 +582,16 @@
     "name": "PABLO Exclusive Passion Fruit",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "PABLO snus with 30mg nicotine strength",
+    "flavor": "Exclusive Passion Fruit"
   },
   {
     "id": "snus-34",
@@ -600,16 +600,16 @@
     "name": "PABLO Red",
     "strength": 24,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "PABLO snus with 24mg nicotine strength",
+    "flavor": "Red"
   },
   {
     "id": "snus-35",
@@ -618,16 +618,16 @@
     "name": "PABLO Mini Red",
     "strength": 15,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "PABLO snus with 15mg nicotine strength",
+    "flavor": "Mini Red"
   },
   {
     "id": "snus-36",
@@ -636,16 +636,16 @@
     "name": "KILLA Cold Mint",
     "strength": 11.2,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "KILLA snus with 11.2mg nicotine strength",
+    "flavor": "Cold Mint"
   },
   {
     "id": "snus-37",
@@ -654,16 +654,16 @@
     "name": "KILLA Energy",
     "strength": 11.2,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "KILLA snus with 11.2mg nicotine strength",
+    "flavor": "Energy"
   },
   {
     "id": "snus-38",
@@ -672,16 +672,16 @@
     "name": "KILLA Cola",
     "strength": 11.2,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "KILLA snus with 11.2mg nicotine strength",
+    "flavor": "Cola"
   },
   {
     "id": "snus-39",
@@ -690,16 +690,16 @@
     "name": "KILLA Exclusive Tropical Punch",
     "strength": 13.2,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "KILLA snus with 13.2mg nicotine strength",
+    "flavor": "Exclusive Tropical Punch"
   },
   {
     "id": "snus-40",
@@ -708,16 +708,16 @@
     "name": "KILLA Blueberry",
     "strength": 11.2,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "KILLA snus with 11.2mg nicotine strength",
+    "flavor": "Blueberry"
   },
   {
     "id": "snus-41",
@@ -726,16 +726,16 @@
     "name": "KILLA Exclusive Cherry Cola",
     "strength": 13.2,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "KILLA snus with 13.2mg nicotine strength",
+    "flavor": "Exclusive Cherry Cola"
   },
   {
     "id": "snus-42",
@@ -744,16 +744,16 @@
     "name": "KILLA Exclusive Strawberry Watermelon",
     "strength": 13.2,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "KILLA snus with 13.2mg nicotine strength",
+    "flavor": "Exclusive Strawberry Watermelon"
   },
   {
     "id": "snus-43",
@@ -762,16 +762,16 @@
     "name": "KILLA Apple",
     "strength": 11.2,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "KILLA snus with 11.2mg nicotine strength",
+    "flavor": "Apple"
   },
   {
     "id": "snus-44",
@@ -780,16 +780,16 @@
     "name": "KILLA Grape Ice",
     "strength": 11.2,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "KILLA snus with 11.2mg nicotine strength",
+    "flavor": "Grape Ice"
   },
   {
     "id": "snus-45",
@@ -798,16 +798,16 @@
     "name": "KILLA Watermelon",
     "strength": 11.2,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "KILLA snus with 11.2mg nicotine strength",
+    "flavor": "Watermelon"
   },
   {
     "id": "snus-46",
@@ -816,16 +816,16 @@
     "name": "KILLA Mini Frosted Mint",
     "strength": 8,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "KILLA snus with 8mg nicotine strength",
+    "flavor": "Mini Frosted Mint"
   },
   {
     "id": "snus-47",
@@ -834,16 +834,16 @@
     "name": "KILLA Frosted Mint",
     "strength": 11.2,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "KILLA snus with 11.2mg nicotine strength",
+    "flavor": "Frosted Mint"
   },
   {
     "id": "snus-48",
@@ -852,16 +852,16 @@
     "name": "KILLA Strawberry Lychee",
     "strength": 16,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "KILLA snus with 16mg nicotine strength",
+    "flavor": "Strawberry Lychee"
   },
   {
     "id": "snus-49",
@@ -870,16 +870,16 @@
     "name": "KILLA Mini Cold Mint",
     "strength": 8,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "KILLA snus with 8mg nicotine strength",
+    "flavor": "Mini Cold Mint"
   },
   {
     "id": "snus-50",
@@ -888,16 +888,16 @@
     "name": "KILLA Banana Ice",
     "strength": 11.2,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "KILLA snus with 11.2mg nicotine strength",
+    "flavor": "Banana Ice"
   },
   {
     "id": "snus-51",
@@ -906,16 +906,16 @@
     "name": "KILLA Bubblegum",
     "strength": 11.2,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "KILLA snus with 11.2mg nicotine strength",
+    "flavor": "Bubblegum"
   },
   {
     "id": "snus-52",
@@ -924,16 +924,16 @@
     "name": "KILLA Mango Ice",
     "strength": 11.2,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "KILLA snus with 11.2mg nicotine strength",
+    "flavor": "Mango Ice"
   },
   {
     "id": "snus-53",
@@ -942,16 +942,16 @@
     "name": "KILLA Pineapple",
     "strength": 11.2,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "KILLA snus with 11.2mg nicotine strength",
+    "flavor": "Pineapple"
   },
   {
     "id": "snus-54",
@@ -960,16 +960,16 @@
     "name": "KILLA Exclusive Dark Cherry",
     "strength": 13.2,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "KILLA snus with 13.2mg nicotine strength",
+    "flavor": "Exclusive Dark Cherry"
   },
   {
     "id": "snus-55",
@@ -978,16 +978,16 @@
     "name": "KILLA Exclusive Orange",
     "strength": 13.2,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "KILLA snus with 13.2mg nicotine strength",
+    "flavor": "Exclusive Orange"
   },
   {
     "id": "snus-56",
@@ -996,16 +996,16 @@
     "name": "KILLA Spearmint",
     "strength": 11.2,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "KILLA snus with 11.2mg nicotine strength",
+    "flavor": "Spearmint"
   },
   {
     "id": "snus-57",
@@ -1014,16 +1014,16 @@
     "name": "KILLA Mini Blueberry",
     "strength": 8,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "KILLA snus with 8mg nicotine strength",
+    "flavor": "Mini Blueberry"
   },
   {
     "id": "snus-58",
@@ -1032,16 +1032,16 @@
     "name": "KILLA Mini Mango Ice",
     "strength": 8,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "KILLA snus with 8mg nicotine strength",
+    "flavor": "Mini Mango Ice"
   },
   {
     "id": "snus-59",
@@ -1050,16 +1050,16 @@
     "name": "KILLA Melon",
     "strength": 11.2,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "KILLA snus with 11.2mg nicotine strength",
+    "flavor": "Melon"
   },
   {
     "id": "snus-60",
@@ -1068,16 +1068,16 @@
     "name": "KILLA Double Dutch Cold (Limited Edition)",
     "strength": 11.2,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "KILLA snus with 11.2mg nicotine strength",
+    "flavor": "Double Dutch Cold (Limited Edition)"
   },
   {
     "id": "snus-61",
@@ -1086,16 +1086,16 @@
     "name": "KILLA 13",
     "strength": 11.2,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "KILLA snus with 11.2mg nicotine strength",
+    "flavor": "13"
   },
   {
     "id": "snus-62",
@@ -1104,16 +1104,16 @@
     "name": "KILLA Exclusive Blue Mint",
     "strength": 11.2,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "KILLA snus with 11.2mg nicotine strength",
+    "flavor": "Exclusive Blue Mint"
   },
   {
     "id": "snus-63",
@@ -1122,16 +1122,16 @@
     "name": "KILLA Exclusive Green Mint",
     "strength": 13.2,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "KILLA snus with 13.2mg nicotine strength",
+    "flavor": "Exclusive Green Mint"
   },
   {
     "id": "snus-64",
@@ -1140,16 +1140,16 @@
     "name": "KILLA Exclusive Cold Dry",
     "strength": 13.2,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "KILLA snus with 13.2mg nicotine strength",
+    "flavor": "Exclusive Cold Dry"
   },
   {
     "id": "snus-65",
@@ -1158,16 +1158,16 @@
     "name": "KILLA Mini Banana Ice",
     "strength": 8,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "KILLA snus with 8mg nicotine strength",
+    "flavor": "Mini Banana Ice"
   },
   {
     "id": "snus-66",
@@ -1176,16 +1176,16 @@
     "name": "KILLA Exclusive Blue Raspberry",
     "strength": 13.2,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "KILLA snus with 13.2mg nicotine strength",
+    "flavor": "Exclusive Blue Raspberry"
   },
   {
     "id": "snus-67",
@@ -1194,16 +1194,16 @@
     "name": "KILLA Exclusive Lemonade",
     "strength": 13.2,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "KILLA snus with 13.2mg nicotine strength",
+    "flavor": "Exclusive Lemonade"
   },
   {
     "id": "snus-68",
@@ -1212,16 +1212,16 @@
     "name": "KILLA XXL Cold Mint",
     "strength": 16.5,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "KILLA snus with 16.5mg nicotine strength",
+    "flavor": "XXL Cold Mint"
   },
   {
     "id": "snus-69",
@@ -1230,16 +1230,16 @@
     "name": "KILLA Cold Mint XXL",
     "strength": 11.2,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "KILLA snus with 11.2mg nicotine strength",
+    "flavor": "Cold Mint XXL"
   },
   {
     "id": "snus-70",
@@ -1248,16 +1248,16 @@
     "name": "KILLA XXL Freeze Gold",
     "strength": 16.5,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "KILLA snus with 16.5mg nicotine strength",
+    "flavor": "XXL Freeze Gold"
   },
   {
     "id": "snus-71",
@@ -1266,16 +1266,16 @@
     "name": "KILLA XXL Double Mint",
     "strength": 16.5,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "KILLA snus with 16.5mg nicotine strength",
+    "flavor": "XXL Double Mint"
   },
   {
     "id": "snus-72",
@@ -1284,16 +1284,16 @@
     "name": "KILLA XXL Cold Dry",
     "strength": 16.5,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "KILLA snus with 16.5mg nicotine strength",
+    "flavor": "XXL Cold Dry"
   },
   {
     "id": "snus-73",
@@ -1302,16 +1302,16 @@
     "name": "KILLA Exclusive Liquorice",
     "strength": 13.2,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "KILLA snus with 13.2mg nicotine strength",
+    "flavor": "Exclusive Liquorice"
   },
   {
     "id": "snus-74",
@@ -1320,16 +1320,16 @@
     "name": "KILLA Strawberry Cheesecake",
     "strength": 11.2,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "KILLA snus with 11.2mg nicotine strength",
+    "flavor": "Strawberry Cheesecake"
   },
   {
     "id": "snus-75",
@@ -1338,16 +1338,16 @@
     "name": "KILLA Gold Freeze",
     "strength": 11.2,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "KILLA snus with 11.2mg nicotine strength",
+    "flavor": "Gold Freeze"
   },
   {
     "id": "snus-76",
@@ -1356,16 +1356,16 @@
     "name": "CUBA Cherry Strong",
     "strength": 43,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "CUBA snus with 43mg nicotine strength",
+    "flavor": "Cherry Strong"
   },
   {
     "id": "snus-77",
@@ -1374,16 +1374,16 @@
     "name": "CUBA Forest Berries Strong",
     "strength": 43,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "CUBA snus with 43mg nicotine strength",
+    "flavor": "Forest Berries Strong"
   },
   {
     "id": "snus-78",
@@ -1392,16 +1392,16 @@
     "name": "CUBA Blueberry Strong",
     "strength": 43,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "CUBA snus with 43mg nicotine strength",
+    "flavor": "Blueberry Strong"
   },
   {
     "id": "snus-79",
@@ -1410,16 +1410,16 @@
     "name": "CUBA Cola Strong",
     "strength": 43,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "CUBA snus with 43mg nicotine strength",
+    "flavor": "Cola Strong"
   },
   {
     "id": "snus-80",
@@ -1428,16 +1428,16 @@
     "name": "CUBA Peach Strong",
     "strength": 43,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "CUBA snus with 43mg nicotine strength",
+    "flavor": "Peach Strong"
   },
   {
     "id": "snus-81",
@@ -1446,16 +1446,16 @@
     "name": "CUBA Apple Juice Strong",
     "strength": 43,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "CUBA snus with 43mg nicotine strength",
+    "flavor": "Apple Juice Strong"
   },
   {
     "id": "snus-82",
@@ -1464,16 +1464,16 @@
     "name": "CUBA Grape Strong",
     "strength": 43,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "CUBA snus with 43mg nicotine strength",
+    "flavor": "Grape Strong"
   },
   {
     "id": "snus-83",
@@ -1482,16 +1482,16 @@
     "name": "CUBA Watermelon Strong",
     "strength": 43,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "CUBA snus with 43mg nicotine strength",
+    "flavor": "Watermelon Strong"
   },
   {
     "id": "snus-84",
@@ -1500,16 +1500,16 @@
     "name": "CUBA Pineapple Strong",
     "strength": 43,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "CUBA snus with 43mg nicotine strength",
+    "flavor": "Pineapple Strong"
   },
   {
     "id": "snus-85",
@@ -1518,16 +1518,16 @@
     "name": "CUBA Black Currant Strong",
     "strength": 43,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "CUBA snus with 43mg nicotine strength",
+    "flavor": "Black Currant Strong"
   },
   {
     "id": "snus-86",
@@ -1536,16 +1536,16 @@
     "name": "CUBA Cold Dry Strong",
     "strength": 43,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "CUBA snus with 43mg nicotine strength",
+    "flavor": "Cold Dry Strong"
   },
   {
     "id": "snus-87",
@@ -1554,16 +1554,16 @@
     "name": "CUBA Cherry Medium",
     "strength": 10.4,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "CUBA snus with 10.4mg nicotine strength",
+    "flavor": "Cherry Medium"
   },
   {
     "id": "snus-88",
@@ -1572,16 +1572,16 @@
     "name": "CUBA Banana Hit Strong",
     "strength": 43,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "CUBA snus with 43mg nicotine strength",
+    "flavor": "Banana Hit Strong"
   },
   {
     "id": "snus-89",
@@ -1590,16 +1590,16 @@
     "name": "CUBA Peach Medium",
     "strength": 10.4,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "CUBA snus with 10.4mg nicotine strength",
+    "flavor": "Peach Medium"
   },
   {
     "id": "snus-90",
@@ -1608,16 +1608,16 @@
     "name": "CUBA Forest Berries Medium",
     "strength": 10.4,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "CUBA snus with 10.4mg nicotine strength",
+    "flavor": "Forest Berries Medium"
   },
   {
     "id": "snus-91",
@@ -1626,16 +1626,16 @@
     "name": "CUBA Grape Medium",
     "strength": 10.4,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "CUBA snus with 10.4mg nicotine strength",
+    "flavor": "Grape Medium"
   },
   {
     "id": "snus-92",
@@ -1644,16 +1644,16 @@
     "name": "CUBA Apple Juice Medium",
     "strength": 10.4,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "CUBA snus with 10.4mg nicotine strength",
+    "flavor": "Apple Juice Medium"
   },
   {
     "id": "snus-93",
@@ -1662,16 +1662,16 @@
     "name": "CUBA Watermelon Medium",
     "strength": 10.4,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "CUBA snus with 10.4mg nicotine strength",
+    "flavor": "Watermelon Medium"
   },
   {
     "id": "snus-94",
@@ -1680,16 +1680,16 @@
     "name": "CUBA Cola Medium",
     "strength": 10.4,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "CUBA snus with 10.4mg nicotine strength",
+    "flavor": "Cola Medium"
   },
   {
     "id": "snus-95",
@@ -1698,16 +1698,16 @@
     "name": "CUBA Black Currant Medium",
     "strength": 10.4,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "CUBA snus with 10.4mg nicotine strength",
+    "flavor": "Black Currant Medium"
   },
   {
     "id": "snus-96",
@@ -1716,16 +1716,16 @@
     "name": "CUBA Blueberry Medium",
     "strength": 10.4,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "CUBA snus with 10.4mg nicotine strength",
+    "flavor": "Blueberry Medium"
   },
   {
     "id": "snus-97",
@@ -1734,16 +1734,16 @@
     "name": "CUBA Pineapple Medium",
     "strength": 10.4,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "CUBA snus with 10.4mg nicotine strength",
+    "flavor": "Pineapple Medium"
   },
   {
     "id": "snus-98",
@@ -1752,16 +1752,16 @@
     "name": "CUBA MEGA Cherry Strong",
     "strength": 43,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "CUBA snus with 43mg nicotine strength",
+    "flavor": "MEGA Cherry Strong"
   },
   {
     "id": "snus-99",
@@ -1770,16 +1770,16 @@
     "name": "CUBA Cold Dry Medium",
     "strength": 10.4,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "CUBA snus with 10.4mg nicotine strength",
+    "flavor": "Cold Dry Medium"
   },
   {
     "id": "snus-100",
@@ -1788,16 +1788,16 @@
     "name": "CUBA Banana Hit Medium",
     "strength": 10.4,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "CUBA snus with 10.4mg nicotine strength",
+    "flavor": "Banana Hit Medium"
   },
   {
     "id": "snus-101",
@@ -1806,16 +1806,16 @@
     "name": "CUBA MEGA Peach Strong",
     "strength": 43,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "CUBA snus with 43mg nicotine strength",
+    "flavor": "MEGA Peach Strong"
   },
   {
     "id": "snus-102",
@@ -1824,16 +1824,16 @@
     "name": "CUBA MEGA Double Fresh Strong",
     "strength": 43,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "CUBA snus with 43mg nicotine strength",
+    "flavor": "MEGA Double Fresh Strong"
   },
   {
     "id": "snus-103",
@@ -1842,16 +1842,16 @@
     "name": "CUBA MEGA Blueberry Strong",
     "strength": 43,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "CUBA snus with 43mg nicotine strength",
+    "flavor": "MEGA Blueberry Strong"
   },
   {
     "id": "snus-104",
@@ -1860,16 +1860,16 @@
     "name": "CUBA MEGA Double Fresh Medium",
     "strength": 10.4,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "CUBA snus with 10.4mg nicotine strength",
+    "flavor": "MEGA Double Fresh Medium"
   },
   {
     "id": "snus-105",
@@ -1878,16 +1878,16 @@
     "name": "CUBA MEGA Cherry Medium",
     "strength": 10.4,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "CUBA snus with 10.4mg nicotine strength",
+    "flavor": "MEGA Cherry Medium"
   },
   {
     "id": "snus-106",
@@ -1896,16 +1896,16 @@
     "name": "Iceberg Emerald",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "ICEBERG snus with 30mg nicotine strength",
+    "flavor": "Emerald"
   },
   {
     "id": "snus-107",
@@ -1914,16 +1914,16 @@
     "name": "Iceberg Sour Berries",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "ICEBERG snus with 30mg nicotine strength",
+    "flavor": "Sour Berries"
   },
   {
     "id": "snus-108",
@@ -1932,16 +1932,16 @@
     "name": "Iceberg Dragon Fruit",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "ICEBERG snus with 30mg nicotine strength",
+    "flavor": "Dragon Fruit"
   },
   {
     "id": "snus-109",
@@ -1950,16 +1950,16 @@
     "name": "Iceberg Black",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "ICEBERG snus with 30mg nicotine strength",
+    "flavor": "Black"
   },
   {
     "id": "snus-110",
@@ -1968,16 +1968,16 @@
     "name": "Iceberg Energy",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "ICEBERG snus with 30mg nicotine strength",
+    "flavor": "Energy"
   },
   {
     "id": "snus-111",
@@ -1986,16 +1986,16 @@
     "name": "Iceberg Kiwi Strawberry",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "ICEBERG snus with 30mg nicotine strength",
+    "flavor": "Kiwi Strawberry"
   },
   {
     "id": "snus-112",
@@ -2004,16 +2004,16 @@
     "name": "Iceberg Grape",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "ICEBERG snus with 30mg nicotine strength",
+    "flavor": "Grape"
   },
   {
     "id": "snus-113",
@@ -2022,16 +2022,16 @@
     "name": "Iceberg Pineapple Mango Coconut",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "ICEBERG snus with 30mg nicotine strength",
+    "flavor": "Pineapple Mango Coconut"
   },
   {
     "id": "snus-114",
@@ -2040,16 +2040,16 @@
     "name": "Iceberg Cola",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "ICEBERG snus with 30mg nicotine strength",
+    "flavor": "Cola"
   },
   {
     "id": "snus-115",
@@ -2058,16 +2058,16 @@
     "name": "Iceberg Watermelon Mint Gum",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "ICEBERG snus with 30mg nicotine strength",
+    "flavor": "Watermelon Mint Gum"
   },
   {
     "id": "snus-116",
@@ -2076,16 +2076,16 @@
     "name": "Iceberg Arasaka",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "ICEBERG snus with 30mg nicotine strength",
+    "flavor": "Arasaka"
   },
   {
     "id": "snus-117",
@@ -2094,16 +2094,16 @@
     "name": "Iceberg Cherry",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "ICEBERG snus with 30mg nicotine strength",
+    "flavor": "Cherry"
   },
   {
     "id": "snus-118",
@@ -2112,16 +2112,16 @@
     "name": "Iceberg Grape Gum",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "ICEBERG snus with 30mg nicotine strength",
+    "flavor": "Grape Gum"
   },
   {
     "id": "snus-119",
@@ -2130,16 +2130,16 @@
     "name": "Iceberg Watermelon Lime",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "ICEBERG snus with 30mg nicotine strength",
+    "flavor": "Watermelon Lime"
   },
   {
     "id": "snus-120",
@@ -2148,16 +2148,16 @@
     "name": "Iceberg Strawberry Mango Gum",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "ICEBERG snus with 30mg nicotine strength",
+    "flavor": "Strawberry Mango Gum"
   },
   {
     "id": "snus-121",
@@ -2166,16 +2166,16 @@
     "name": "Iceberg Dragon Fire",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "ICEBERG snus with 30mg nicotine strength",
+    "flavor": "Dragon Fire"
   },
   {
     "id": "snus-122",
@@ -2184,16 +2184,16 @@
     "name": "Iceberg Ninja Orange",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "ICEBERG snus with 30mg nicotine strength",
+    "flavor": "Ninja Orange"
   },
   {
     "id": "snus-123",
@@ -2202,16 +2202,16 @@
     "name": "Iceberg Melon Peach",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "ICEBERG snus with 30mg nicotine strength",
+    "flavor": "Melon Peach"
   },
   {
     "id": "snus-124",
@@ -2220,16 +2220,16 @@
     "name": "Iceberg Raspberry Gum",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "ICEBERG snus with 30mg nicotine strength",
+    "flavor": "Raspberry Gum"
   },
   {
     "id": "snus-125",
@@ -2238,16 +2238,16 @@
     "name": "Iceberg Crazy Mix",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "ICEBERG snus with 30mg nicotine strength",
+    "flavor": "Crazy Mix"
   },
   {
     "id": "snus-126",
@@ -2256,16 +2256,16 @@
     "name": "Iceberg Bubblegum",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "ICEBERG snus with 30mg nicotine strength",
+    "flavor": "Bubblegum"
   },
   {
     "id": "snus-127",
@@ -2274,16 +2274,16 @@
     "name": "Iceberg Guava Lime",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "ICEBERG snus with 30mg nicotine strength",
+    "flavor": "Guava Lime"
   },
   {
     "id": "snus-128",
@@ -2292,16 +2292,16 @@
     "name": "Iceberg Cherry Apricot Gum",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "ICEBERG snus with 30mg nicotine strength",
+    "flavor": "Cherry Apricot Gum"
   },
   {
     "id": "snus-129",
@@ -2310,16 +2310,16 @@
     "name": "Iceberg Strawberry Banana Gum",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "ICEBERG snus with 30mg nicotine strength",
+    "flavor": "Strawberry Banana Gum"
   },
   {
     "id": "snus-130",
@@ -2328,16 +2328,16 @@
     "name": "Iceberg Coconut",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "ICEBERG snus with 30mg nicotine strength",
+    "flavor": "Coconut"
   },
   {
     "id": "snus-131",
@@ -2346,16 +2346,16 @@
     "name": "Iceberg Double Apple",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "ICEBERG snus with 30mg nicotine strength",
+    "flavor": "Double Apple"
   },
   {
     "id": "snus-132",
@@ -2364,16 +2364,16 @@
     "name": "Iceberg Menthol",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "ICEBERG snus with 30mg nicotine strength",
+    "flavor": "Menthol"
   },
   {
     "id": "snus-133",
@@ -2382,16 +2382,16 @@
     "name": "Iceberg Strawberry Pomegranate",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "ICEBERG snus with 30mg nicotine strength",
+    "flavor": "Strawberry Pomegranate"
   },
   {
     "id": "snus-134",
@@ -2400,16 +2400,16 @@
     "name": "Iceberg Energy Mango",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "ICEBERG snus with 30mg nicotine strength",
+    "flavor": "Energy Mango"
   },
   {
     "id": "snus-135",
@@ -2418,16 +2418,16 @@
     "name": "Iceberg Gummy Bears",
     "strength": 30,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "ICEBERG snus with 30mg nicotine strength",
+    "flavor": "Gummy Bears"
   },
   {
     "id": "snus-136",
@@ -2436,16 +2436,16 @@
     "name": "Siberia -80°C All White Super Slim Nicotine",
     "strength": 24.75,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "SIBERIA snus with 24.75mg nicotine strength",
+    "flavor": "-80°C All White Super Slim Nicotine"
   },
   {
     "id": "snus-137",
@@ -2454,16 +2454,16 @@
     "name": "Siberia -80°C All White Original Nicotine",
     "strength": 24.75,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "SIBERIA snus with 24.75mg nicotine strength",
+    "flavor": "-80°C All White Original Nicotine"
   },
   {
     "id": "snus-138",
@@ -2472,16 +2472,16 @@
     "name": "Siberia -80°C All White Slim Nicotine",
     "strength": 24.75,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "SIBERIA snus with 24.75mg nicotine strength",
+    "flavor": "-80°C All White Slim Nicotine"
   },
   {
     "id": "snus-139",
@@ -2490,15 +2490,15 @@
     "name": "Siberia -80 All White Maxi Nicotine",
     "strength": 29.7,
     "prices": {
-      "tier1": 3.5,
-      "tier2": 3.2,
-      "tier3": 2.8,
-      "tier4": 2.6,
-      "tier5": 2.4
+      "tier1": 4,
+      "tier2": 3.5,
+      "tier3": 3
     },
     "stock": 999,
     "tags": [
       "premium"
-    ]
+    ],
+    "description": "SIBERIA snus with 29.7mg nicotine strength",
+    "flavor": "-80 All White Maxi Nicotine"
   }
 ]

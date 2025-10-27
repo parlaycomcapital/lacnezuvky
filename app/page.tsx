@@ -31,7 +31,7 @@ export default function PasswordGate() {
   }
 
   return (
-    <div className="min-h-screen relative overflow-hidden bg-gradient-dark">
+    <div className="min-h-screen relative overflow-hidden bg-gradient-to-br from-night-bg to-night-surface">
       {/* Animated Background Particles */}
       <div className="absolute inset-0">
         <div className="particle absolute top-20 left-10"></div>
@@ -40,7 +40,7 @@ export default function PasswordGate() {
         <div className="particle absolute bottom-20 right-1/3"></div>
         <div className="particle absolute top-1/2 left-1/2"></div>
         
-        {/* Gradient Orbs */}
+        {/* Glowing Orbs */}
         <div className="absolute top-20 left-10 w-32 h-32 bg-neon-pink/20 rounded-full blur-xl animate-float"></div>
         <div className="absolute bottom-20 right-10 w-48 h-48 bg-neon-blue/20 rounded-full blur-xl animate-float" style={{ animationDelay: '2s' }}></div>
         <div className="absolute top-1/2 left-1/2 w-64 h-64 bg-neon-orange/10 rounded-full blur-2xl animate-float" style={{ animationDelay: '4s' }}></div>
@@ -58,38 +58,38 @@ export default function PasswordGate() {
                   {/* Glow effect */}
                   <div className="absolute inset-0 bg-gradient-to-br from-neon-pink/30 to-neon-blue/30 rounded-full blur-2xl animate-glow"></div>
                   
-                  {/* Mascot container */}
+                  {/* Mascot container with wave animation */}
                   <div className="relative z-10 w-full h-full flex items-center justify-center">
-                    <div className="text-9xl mascot-float">😊</div>
+                    <div className="text-9xl mascot-wave">😊</div>
                   </div>
                   
-                  {/* Floating money bag and thumbs up */}
+                  {/* Floating elements */}
                   <div className="absolute -top-6 -right-6 text-5xl animate-bounce-gentle">💰</div>
                   <div className="absolute -bottom-6 -left-6 text-4xl animate-bounce-gentle" style={{ animationDelay: '1s' }}>👍</div>
                 </div>
               </div>
               
-              <h1 className="text-6xl lg:text-8xl font-black text-night-text-dark mt-8 font-display neon-text">
+              <h1 className="text-6xl lg:text-8xl font-black text-white mt-8 font-display tracking-wider">
                 LACNÉ ŽUVKY
               </h1>
               <p className="text-3xl lg:text-4xl font-bold text-neon-orange mt-4 font-mascot animate-pulse-neon">
                 NABIJEME?!
               </p>
               <p className="text-xl text-night-text-light mt-6 max-w-md mx-auto lg:mx-0">
-                Lacné Žuvky — Nabité aj v noci.
+                Lacné Žuvky — nabité chuťou aj energiou.
               </p>
             </div>
 
             {/* Right Side - Login Form */}
             <div className={`glass-card rounded-3xl p-8 lg:p-12 max-w-md mx-auto lg:mx-0 ${shake ? 'animate-pulse' : ''}`}>
               <div className="text-center mb-8">
-                <h2 className="text-3xl font-bold text-night-text-dark mb-2">Prístup do obchodu</h2>
+                <h2 className="text-3xl font-bold text-white mb-2">Prístup do obchodu</h2>
                 <p className="text-night-text-light">Zadajte heslo pre pokračovanie</p>
               </div>
 
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
-                  <label htmlFor="password" className="block text-sm font-semibold text-night-text mb-3">
+                  <label htmlFor="password" className="block text-sm font-semibold text-white mb-3">
                     Heslo
                   </label>
                   <input
@@ -97,7 +97,7 @@ export default function PasswordGate() {
                     id="password"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
-                    className="w-full px-6 py-4 bg-night-card border-2 border-night-border rounded-xl focus:outline-none focus:ring-4 focus:ring-neon-pink/20 focus:border-neon-pink transition-premium text-center text-lg font-medium text-night-text-dark placeholder-night-text-light"
+                    className="w-full px-6 py-4 bg-night-card border-2 border-night-border rounded-xl focus:outline-none focus:ring-4 focus:ring-neon-pink/20 focus:border-neon-pink transition-premium text-center text-lg font-medium text-white placeholder-night-text-light"
                     placeholder="••••••"
                     required
                     disabled={isLoading}

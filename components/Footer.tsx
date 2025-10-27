@@ -30,7 +30,7 @@ export default function Footer() {
               <div className="flex items-center justify-center md:justify-start space-x-2">
                 <span className="text-2xl">📱</span>
                 <div>
-                  <p className="text-night-text-light text-sm">Signal</p>
+                  <p className="text-night-text-light text-sm">Kontaktuj nás na Signal:</p>
                   <p className="text-neon-pink font-semibold">@golo.21</p>
                 </div>
               </div>

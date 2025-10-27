@@ -13,7 +13,7 @@ export default function SearchBar({ value, onChange }: SearchBarProps) {
         value={value}
         onChange={(e) => onChange(e.target.value)}
         placeholder="Hľadať produkty, značky, kódy..."
-        className="w-full px-6 py-4 pr-16 text-lg bg-night-card border-2 border-night-border rounded-2xl focus:outline-none focus:ring-4 focus:ring-neon-pink/20 focus:border-neon-pink transition-premium font-medium text-night-text-dark placeholder-night-text-light"
+        className="w-full px-6 py-4 pr-16 text-lg bg-night-card border-2 border-night-border rounded-2xl focus:outline-none focus:ring-4 focus:ring-neon-pink/20 focus:border-neon-pink transition-premium font-medium text-white placeholder-night-text-light"
       />
       <div className="absolute right-4 top-1/2 transform -translate-y-1/2">
         <div className="text-2xl animate-pulse">🔍</div>

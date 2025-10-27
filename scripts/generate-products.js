@@ -16,14 +16,14 @@ const products = data.map((row, index) => ({
   name: row['Product Name'] || 'Unknown Product',
   strength: parseFloat(row['MG/Pouch']) || 0,
   prices: {
-    tier1: parseFloat(row['Price 10 pcs *minimum (€)']) || 0,
-    tier2: parseFloat(row['Price 1–49 pcs (€)']) || 0,
-    tier3: parseFloat(row['Price 50–149 pcs (€)']) || 0,
-    tier4: parseFloat(row['Price 150+ pcs (€)']) || 0,
-    tier5: parseFloat(row['Price 240+ pcs (€)']) || 0,
+    tier1: 4.0, // 1-10 pcs = €4 per unit
+    tier2: 3.5, // 11-49 pcs = €3.5 per unit
+    tier3: 3.0, // 50+ pcs = €3 per unit
   },
   stock: 999, // Default stock
   tags: ['premium'],
+  description: `${row['Category']} snus with ${row['MG/Pouch']}mg nicotine strength`,
+  flavor: row['Product Name']?.split(' ').slice(1).join(' ') || 'Classic',
 }));
 
 // Get unique categories

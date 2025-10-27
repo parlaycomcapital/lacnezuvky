@@ -21,7 +21,7 @@ export default function CategoryFilter({ selected, onChange, categories }: Categ
 
   return (
     <div className="space-y-4">
-      <h3 className="text-lg font-bold text-night-text-dark">Filtrovať podľa značky</h3>
+      <h3 className="text-lg font-bold text-white">Filtrovať podľa značky</h3>
       <div className="flex flex-wrap gap-3">
         {categories.map(category => (
           <button

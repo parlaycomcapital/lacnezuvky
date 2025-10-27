@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import { getProductById, products } from '@/lib/products'
-import { Product, PRICE_TIERS } from '@/types/product'
+import { Product, PRICE_TIERS, calculatePrice } from '@/types/product'
 
 export default function ProductDetailPage() {
   const router = useRouter()
@@ -11,7 +11,6 @@ export default function ProductDetailPage() {
   const productId = params.id as string
   const [product, setProduct] = useState<Product | null>(null)
   const [quantity, setQuantity] = useState(1)
-  const [selectedTier, setSelectedTier] = useState<'tier1' | 'tier2' | 'tier3' | 'tier4' | 'tier5'>('tier2')
 
   useEffect(() => {
     const cookies = document.cookie.split(';').map(c => c.trim())
@@ -61,24 +60,24 @@ export default function ProductDetailPage() {
   }
 
   const handleAddToCart = () => {
-    const tierLabel = PRICE_TIERS.find(t => t.key === selectedTier)?.label || '1-49 pcs'
-    alert(`Pridané do košíka: ${quantity}x ${product.name} (${tierLabel})`)
+    const priceInfo = calculatePrice(product, quantity)
+    alert(`Pridané do košíka: ${quantity}x ${product.name} (${priceInfo.tier.label})`)
   }
 
   const relatedProducts = products
     .filter(p => p.category === product.category && p.id !== product.id)
     .slice(0, 4)
 
-  const currentPrice = product.prices[selectedTier]
+  const priceInfo = calculatePrice(product, quantity)
 
   return (
-    <div className="min-h-screen bg-gradient-dark">
+    <div className="min-h-screen bg-gradient-to-br from-night-bg to-night-surface">
       {/* Header */}
       <header className="glass-card sticky top-0 z-50 mb-8">
         <div className="max-w-7xl mx-auto px-6 py-4">
           <button
             onClick={() => router.push('/catalog')}
-            className="flex items-center space-x-2 text-night-text hover:text-neon-pink transition-premium font-semibold"
+            className="flex items-center space-x-2 text-white hover:text-neon-pink transition-premium font-semibold"
           >
             <span>←</span>
             <span>Späť do katalógu</span>
@@ -113,7 +112,7 @@ export default function ProductDetailPage() {
             {/* Product Info */}
             <div className="space-y-8">
               <div>
-                <h1 className="text-4xl lg:text-5xl font-black text-night-text-dark mb-4 font-display neon-text">
+                <h1 className="text-4xl lg:text-5xl font-black text-white mb-4 font-display tracking-wider">
                   {product.name}
                 </h1>
                 <p className="text-lg text-night-text-light font-medium">
@@ -121,32 +120,68 @@ export default function ProductDetailPage() {
                 </p>
               </div>
 
-              {/* Price and Tier Selection */}
+              {/* Dynamic Pricing Display */}
               <div className="space-y-6">
                 <div className="flex items-center gap-4">
-                  <span className="text-4xl font-bold text-neon-orange">
-                    €{currentPrice.toFixed(2)}
-                  </span>
+                  <div className="text-right">
+                    <div className="text-4xl font-bold text-neon-orange">
+                      €{priceInfo.totalPrice.toFixed(2)}
+                    </div>
+                    <div className="text-sm text-night-text-light">
+                      {priceInfo.tier.description}
+                    </div>
+                  </div>
                   <div className={`px-3 py-1 rounded-full text-sm font-bold border ${getStrengthColor(product.strength)}`}>
                     💥 {product.strength}mg nikotínu
                   </div>
                 </div>
 
+                {/* Quantity Selector */}
                 <div>
-                  <label className="block text-lg font-bold text-night-text-dark mb-3">
-                    Vyberte množstvo:
+                  <label className="block text-lg font-bold text-white mb-3">
+                    Množstvo:
                   </label>
-                  <select
-                    value={selectedTier}
-                    onChange={(e) => setSelectedTier(e.target.value as any)}
-                    className="w-full px-4 py-3 bg-night-card border-2 border-night-border rounded-xl focus:outline-none focus:ring-4 focus:ring-neon-pink/20 focus:border-neon-pink transition-premium font-semibold text-lg text-night-text-dark"
-                  >
-                    {PRICE_TIERS.map(tier => (
-                      <option key={tier.key} value={tier.key}>
-                        {tier.label} - €{product.prices[tier.key].toFixed(2)}
-                      </option>
-                    ))}
-                  </select>
+                  <div className="flex items-center space-x-4">
+                    <button
+                      onClick={() => setQuantity(Math.max(1, quantity - 1))}
+                      className="w-12 h-12 bg-night-card hover:bg-night-surface rounded-xl font-bold text-xl transition-premium border border-night-border text-white"
+                    >
+                      -
+                    </button>
+                    <input
+                      type="number"
+                      value={quantity}
+                      onChange={(e) => setQuantity(Math.max(1, parseInt(e.target.value) || 1))}
+                      min="1"
+                      max={product.stock}
+                      className="w-24 text-center text-xl font-bold bg-night-card border-2 border-night-border rounded-xl py-3 focus:outline-none focus:ring-4 focus:ring-neon-pink/20 focus:border-neon-pink text-white"
+                    />
+                    <button
+                      onClick={() => setQuantity(Math.min(product.stock, quantity + 1))}
+                      className="w-12 h-12 bg-night-card hover:bg-night-surface rounded-xl font-bold text-xl transition-premium border border-night-border text-white"
+                    >
+                      +
+                    </button>
+                  </div>
+                </div>
+
+                {/* Pricing Chart */}
+                <div className="bg-night-card/50 rounded-lg p-4 border border-night-border">
+                  <p className="text-sm text-night-text-light mb-3">Buy more, pay less 💥</p>
+                  <div className="grid grid-cols-3 gap-4 text-sm">
+                    <div className="text-center">
+                      <div className="font-bold text-white">1-10 pcs</div>
+                      <div className="text-neon-orange">€4 per unit</div>
+                    </div>
+                    <div className="text-center">
+                      <div className="font-bold text-white">11-49 pcs</div>
+                      <div className="text-neon-orange">€3.5 per unit</div>
+                    </div>
+                    <div className="text-center">
+                      <div className="font-bold text-white">50+ pcs</div>
+                      <div className="text-neon-orange">€3 per unit</div>
+                    </div>
+                  </div>
                 </div>
               </div>
 

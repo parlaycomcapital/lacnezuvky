@@ -1,6 +1,6 @@
 'use client'
 
-import { Product, PRICE_TIERS } from '@/types/product'
+import { Product, PRICE_TIERS, calculatePrice } from '@/types/product'
 import { useRouter } from 'next/navigation'
 import { useState } from 'react'
 
@@ -10,8 +10,10 @@ interface ProductCardProps {
 
 export default function ProductCard({ product }: ProductCardProps) {
   const router = useRouter()
-  const [selectedTier, setSelectedTier] = useState<'tier1' | 'tier2' | 'tier3' | 'tier4' | 'tier5'>('tier2')
+  const [quantity, setQuantity] = useState(1)
   const [isHovered, setIsHovered] = useState(false)
+  
+  const priceInfo = calculatePrice(product, quantity)
 
   const getCategoryIcon = (category: string) => {
     const icons: { [key: string]: string } = {
@@ -30,8 +32,6 @@ export default function ProductCard({ product }: ProductCardProps) {
     if (strength >= 10) return 'text-yellow-400 bg-yellow-900/20 border-yellow-500/30'
     return 'text-green-400 bg-green-900/20 border-green-500/30'
   }
-
-  const currentPrice = product.prices[selectedTier]
 
   return (
     <div
@@ -68,7 +68,7 @@ export default function ProductCard({ product }: ProductCardProps) {
         </div>
 
         {/* Brand Badge */}
-        <div className="absolute top-3 left-3 bg-night-card/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-bold text-night-text-dark border border-night-border">
+        <div className="absolute top-3 left-3 bg-night-card/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-bold text-white border border-night-border">
           {product.category}
         </div>
 
@@ -76,7 +76,7 @@ export default function ProductCard({ product }: ProductCardProps) {
         <div className={`absolute top-3 right-3 px-3 py-1 rounded-full text-xs font-bold border ${getStrengthColor(product.strength)}`}>
           <span className="relative group/strength">
             {product.strength}mg
-            <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 bg-night-card text-night-text text-xs rounded opacity-0 group-hover/strength:opacity-100 transition-opacity whitespace-nowrap border border-night-border">
+            <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 bg-night-card text-white text-xs rounded opacity-0 group-hover/strength:opacity-100 transition-opacity whitespace-nowrap border border-night-border">
               💥 {product.strength}mg of power!
             </div>
           </span>
@@ -86,7 +86,7 @@ export default function ProductCard({ product }: ProductCardProps) {
       {/* Product Info */}
       <div className="space-y-4">
         <div>
-          <h3 className="font-bold text-xl text-night-text-dark mb-2 line-clamp-2 group-hover:text-neon-pink transition-premium">
+          <h3 className="font-bold text-xl text-white mb-2 line-clamp-2 group-hover:text-neon-pink transition-premium">
             {product.name}
           </h3>
           <p className="text-sm text-night-text-light font-medium">
@@ -94,27 +94,60 @@ export default function ProductCard({ product }: ProductCardProps) {
           </p>
         </div>
 
-        {/* Price Tiers */}
+        {/* Dynamic Pricing Display */}
         <div className="space-y-3">
           <div className="flex items-center justify-between">
-            <span className="text-sm font-semibold text-night-text">Cena:</span>
-            <span className="text-2xl font-bold text-neon-orange">
-              €{currentPrice.toFixed(2)}
-            </span>
+            <span className="text-sm font-semibold text-white">Cena:</span>
+            <div className="text-right">
+              <div className="text-2xl font-bold text-neon-orange">
+                €{priceInfo.totalPrice.toFixed(2)}
+              </div>
+              <div className="text-xs text-night-text-light">
+                {priceInfo.tier.description}
+              </div>
+            </div>
           </div>
           
-          <select
-            value={selectedTier}
-            onChange={(e) => setSelectedTier(e.target.value as any)}
-            onClick={(e) => e.stopPropagation()}
-            className="w-full text-sm bg-night-card border border-night-border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-neon-pink/20 focus:border-neon-pink transition-premium text-night-text-dark"
-          >
-            {PRICE_TIERS.map(tier => (
-              <option key={tier.key} value={tier.key}>
-                {tier.label} - €{product.prices[tier.key].toFixed(2)}
-              </option>
-            ))}
-          </select>
+          {/* Quantity Selector */}
+          <div className="flex items-center space-x-2">
+            <button
+              onClick={(e) => {
+                e.stopPropagation()
+                setQuantity(Math.max(1, quantity - 1))
+              }}
+              className="w-8 h-8 bg-night-card hover:bg-night-surface rounded-lg font-bold text-white border border-night-border transition-premium"
+            >
+              -
+            </button>
+            <input
+              type="number"
+              value={quantity}
+              onChange={(e) => setQuantity(Math.max(1, parseInt(e.target.value) || 1))}
+              onClick={(e) => e.stopPropagation()}
+              min="1"
+              max={product.stock}
+              className="w-16 text-center text-sm font-bold bg-night-card border border-night-border rounded-lg py-2 focus:outline-none focus:ring-2 focus:ring-neon-pink/20 focus:border-neon-pink text-white"
+            />
+            <button
+              onClick={(e) => {
+                e.stopPropagation()
+                setQuantity(Math.min(product.stock, quantity + 1))
+              }}
+              className="w-8 h-8 bg-night-card hover:bg-night-surface rounded-lg font-bold text-white border border-night-border transition-premium"
+            >
+              +
+            </button>
+          </div>
+        </div>
+
+        {/* Pricing Chart */}
+        <div className="bg-night-card/50 rounded-lg p-3 border border-night-border">
+          <p className="text-xs text-night-text-light mb-2">Buy more, pay less 💥</p>
+          <div className="flex justify-between text-xs">
+            <span>1-10: €4</span>
+            <span>11-49: €3.5</span>
+            <span>50+: €3</span>
+          </div>
         </div>
 
         {/* Stock Status */}
@@ -132,7 +165,7 @@ export default function ProductCard({ product }: ProductCardProps) {
           onClick={(e) => {
             e.stopPropagation()
             // TODO: Add to cart functionality
-            alert(`Pridané do košíka: ${product.name} (${PRICE_TIERS.find(t => t.key === selectedTier)?.label})`)
+            alert(`Pridané do košíka: ${quantity}x ${product.name} (${priceInfo.tier.label})`)
           }}
           disabled={product.stock === 0}
           className={`w-full py-3 rounded-xl font-bold transition-premium ${

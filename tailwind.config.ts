@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Dark mode premium palette
+        // Modern dark mode palette
         'dark': {
           50: '#f8fafc',
           100: '#f1f5f9',
@@ -21,15 +21,15 @@ const config: Config = {
           700: '#334155',
           800: '#1e293b',
           900: '#0f172a',
-          950: '#0D1117',
+          950: '#0E1217',
         },
         'night': {
-          'bg': '#0D1117',
-          'surface': '#1E232B',
+          'bg': '#0E1217',
+          'surface': '#1C222A',
           'card': '#161B22',
           'border': '#30363D',
-          'text': '#C5C8CE',
-          'text-light': '#8B949E',
+          'text': '#FFFFFF',
+          'text-light': '#B5BAC1',
           'text-dark': '#F0F6FC',
         },
         'neon': {
@@ -43,8 +43,8 @@ const config: Config = {
           'primary': '#FF6FA5',
           'secondary': '#FF914D',
           'accent': '#A7D8F9',
-          'text': '#F0F6FC',
-          'muted': '#8B949E',
+          'text': '#FFFFFF',
+          'muted': '#B5BAC1',
         }
       },
       fontFamily: {
