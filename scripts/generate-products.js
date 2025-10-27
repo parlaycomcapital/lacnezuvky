@@ -8,7 +8,7 @@ const sheetName = workbook.SheetNames[0];
 const worksheet = workbook.Sheets[sheetName];
 const data = XLSX.utils.sheet_to_json(worksheet);
 
-// Transform data to our Product interface
+// Transform data to our Product interface with real pricing
 const products = data.map((row, index) => ({
   id: `snus-${index + 1}`,
   code: row['Code'] || '',
@@ -20,10 +20,20 @@ const products = data.map((row, index) => ({
     tier2: 3.5, // 11-49 pcs = €3.5 per unit
     tier3: 3.0, // 50+ pcs = €3 per unit
   },
-  stock: 999, // Default stock
+  // Real pricing from Excel (for reference/display)
+  originalPrices: {
+    min10: parseFloat(row['Price 10 pcs *minimum (€)']) || 0,
+    tier1_49: parseFloat(row['Price 1–49 pcs (€)']) || 0,
+    tier50_149: parseFloat(row['Price 50–149 pcs (€)']) || 0,
+    tier150_239: parseFloat(row['Price 150+ pcs (€)']) || 0,
+    tier240plus: parseFloat(row['Price 240+ pcs (€)']) || 0,
+  },
+  stock: Math.floor(Math.random() * 100) + 10, // Random stock between 10-110
   tags: ['premium'],
-  description: `${row['Category']} snus with ${row['MG/Pouch']}mg nicotine strength`,
+  description: `${row['Category']} snus with ${row['MG/Pouch']}mg nicotine strength. Premium quality product with authentic flavor.`,
   flavor: row['Product Name']?.split(' ').slice(1).join(' ') || 'Classic',
+  brand: row['Category'] || 'Unknown',
+  imageUrl: `/images/products/${row['Code']?.toLowerCase() || `product-${index + 1}`}.jpg`, // Real image path
 }));
 
 // Get unique categories

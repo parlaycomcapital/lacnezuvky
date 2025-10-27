@@ -13,17 +13,17 @@ export default function SearchBar({ value, onChange }: SearchBarProps) {
         value={value}
         onChange={(e) => onChange(e.target.value)}
         placeholder="Hľadať produkty, značky, kódy..."
-        className="w-full px-6 py-4 pr-16 text-lg bg-night-card border-2 border-night-border rounded-2xl focus:outline-none focus:ring-4 focus:ring-neon-pink/20 focus:border-neon-pink transition-premium font-medium text-white placeholder-night-text-light"
+        className="w-full px-4 py-3 pr-12 bg-minimal-surface border border-minimal-border rounded-lg focus:outline-none focus:ring-2 focus:ring-accent-primary focus:border-accent-primary transition-colors text-minimal-text placeholder-minimal-text-secondary"
       />
-      <div className="absolute right-4 top-1/2 transform -translate-y-1/2">
-        <div className="text-2xl animate-pulse">🔍</div>
+      <div className="absolute right-3 top-1/2 transform -translate-y-1/2">
+        <div className="text-lg text-minimal-text-secondary">🔍</div>
       </div>
       
       {/* Search suggestions overlay */}
       {value && (
-        <div className="absolute top-full left-0 right-0 mt-2 bg-night-card rounded-xl shadow-lg border border-night-border z-10">
-          <div className="p-4 text-sm text-night-text-light">
-            Hľadáte: <span className="font-semibold text-neon-pink">"{value}"</span>
+        <div className="absolute top-full left-0 right-0 mt-2 bg-minimal-card rounded-lg shadow-lg border border-minimal-border z-10">
+          <div className="p-3 text-sm text-minimal-text-secondary">
+            Hľadáte: <span className="font-medium text-accent-primary">"{value}"</span>
           </div>
         </div>
       )}

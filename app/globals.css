@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -25,7 +25,7 @@ html {
 }
 
 body {
-  background: linear-gradient(135deg, #0E1116 0%, #1C222A 100%);
+  background: linear-gradient(135deg, #0D1117 0%, #161B22 100%);
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -52,87 +52,72 @@ body {
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 }
 
-/* Premium tin-inspired product cards */
-.tin-card {
-  background: linear-gradient(145deg, #161B22 0%, #1E232B 100%);
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255, 255, 255, 0.05);
-  border-radius: 16px;
+/* Minimalist product cards */
+.product-card {
+  background: #1E242C;
+  border: 1px solid #30363D;
+  border-radius: 12px;
   position: relative;
   overflow: hidden;
-  border: 1px solid rgba(48, 54, 61, 0.2);
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
-.tin-card::before {
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(255, 145, 77, 0.2);
+  border-color: rgba(255, 145, 77, 0.3);
+}
+
+.product-card::before {
   content: '';
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(255, 111, 165, 0.4), transparent);
-}
-
-.tin-card::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(255, 111, 165, 0.05) 100%);
+  background: linear-gradient(90deg, transparent, rgba(255, 145, 77, 0.3), transparent);
   opacity: 0;
-  transition: opacity 0.4s ease;
-  pointer-events: none;
+  transition: opacity 0.3s ease;
 }
 
-.tin-card:hover {
-  transform: translateY(-12px) rotateX(8deg) scale(1.02);
-  box-shadow: 
-    0 40px 80px -12px rgba(0, 0, 0, 0.8), 
-    0 0 0 1px rgba(255, 111, 165, 0.4),
-    0 0 30px rgba(255, 111, 165, 0.2),
-    0 0 60px rgba(255, 111, 165, 0.1);
-  border-color: rgba(255, 111, 165, 0.6);
-}
-
-.tin-card:hover::after {
+.product-card:hover::before {
   opacity: 1;
 }
 
-/* Neon buttons */
-.btn-premium {
-  background: linear-gradient(135deg, #FF6FA5 0%, #FF914D 100%);
+/* Minimalist buttons */
+.btn-primary {
+  background: #FF914D;
   color: white;
   font-weight: 600;
   padding: 12px 24px;
-  border-radius: 12px;
+  border-radius: 8px;
   border: none;
   cursor: pointer;
-  position: relative;
-  overflow: hidden;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(255, 111, 165, 0.3);
+  transition: all 0.2s ease;
 }
 
-.btn-premium::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
-  transition: left 0.5s;
+.btn-primary:hover {
+  background: #FF7A2B;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(255, 145, 77, 0.3);
 }
 
-.btn-premium:hover::before {
-  left: 100%;
+.btn-secondary {
+  background: transparent;
+  color: #AAB1B9;
+  border: 1px solid #30363D;
+  border-radius: 8px;
+  font-weight: 500;
+  padding: 12px 24px;
+  cursor: pointer;
+  transition: all 0.2s ease;
 }
 
-.btn-premium:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(255, 111, 165, 0.5), 0 0 30px rgba(255, 111, 165, 0.2);
+.btn-secondary:hover {
+  background: #1E242C;
+  color: #FFFFFF;
+  border-color: #FF914D;
 }
 
 /* Mascot animations and effects */

@@ -3,11 +3,19 @@ export interface Product {
   code: string
   category: string
   name: string
+  brand: string
   strength: number // MG/Pouch - nicotine strength
   prices: {
     tier1: number // 1-10 pcs = €4 per unit
     tier2: number // 11-49 pcs = €3.5 per unit  
     tier3: number // 50+ pcs = €3 per unit
+  }
+  originalPrices?: {
+    min10: number
+    tier1_49: number
+    tier50_149: number
+    tier150_239: number
+    tier240plus: number
   }
   imageUrl?: string
   tags?: string[]

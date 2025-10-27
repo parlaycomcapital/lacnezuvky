@@ -20,20 +20,19 @@ export default function CategoryFilter({ selected, onChange, categories }: Categ
   }
 
   return (
-    <div className="space-y-4">
-      <h3 className="text-lg font-bold text-white">Filtrovať podľa značky</h3>
-      <div className="flex flex-wrap gap-3">
+    <div className="space-y-3">
+      <div className="flex flex-wrap gap-2">
         {categories.map(category => (
           <button
             key={category}
             onClick={() => onChange(category)}
-            className={`px-6 py-3 rounded-xl font-bold transition-premium flex items-center space-x-2 ${
+            className={`px-3 py-2 rounded font-medium transition-colors flex items-center space-x-2 text-sm ${
               selected === category
-                ? 'bg-gradient-cta text-white shadow-lg transform scale-105 neon-glow'
-                : 'bg-night-card text-night-text hover:bg-night-surface border-2 border-night-border hover:border-neon-pink'
+                ? 'bg-accent-primary text-white'
+                : 'bg-minimal-surface text-minimal-text-secondary hover:bg-minimal-card hover:text-minimal-text border border-minimal-border'
             }`}
           >
-            <span className="text-lg">{getCategoryIcon(category)}</span>
+            <span className="text-sm">{getCategoryIcon(category)}</span>
             <span>{category === 'all' ? 'Všetky' : category}</span>
           </button>
         ))}

@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Premium dark mode palette inspired by tin visuals
+        // Minimalist dark theme inspired by europouches.com
         'dark': {
           50: '#f8fafc',
           100: '#f1f5f9',
@@ -21,41 +21,35 @@ const config: Config = {
           700: '#334155',
           800: '#1e293b',
           900: '#0f172a',
-          950: '#0E1116',
+          950: '#0D1117',
         },
-        'night': {
-          'bg': '#0E1116',
-          'surface': '#1C222A',
-          'card': '#161B22',
+        'minimal': {
+          'bg': '#0D1117',
+          'surface': '#161B22',
+          'card': '#1E242C',
           'border': '#30363D',
           'text': '#FFFFFF',
-          'text-light': '#C9CDD3',
-          'text-dark': '#F0F6FC',
+          'text-secondary': '#AAB1B9',
+          'text-muted': '#8B949E',
         },
-        'neon': {
-          'pink': '#FF6FA5',
-          'orange': '#FF914D',
-          'blue': '#A7D8F9',
-          'green': '#7EE787',
-          'purple': '#D2A8FF',
+        'accent': {
+          'primary': '#FF914D',
+          'secondary': '#A7D8F9',
+          'highlight': '#FF6FA5',
+          'success': '#7EE787',
+          'warning': '#FFD700',
         },
         'brand': {
-          'primary': '#FF6FA5',
-          'secondary': '#FF914D',
-          'accent': '#A7D8F9',
+          'primary': '#FF914D',
+          'secondary': '#A7D8F9',
+          'accent': '#FF6FA5',
           'text': '#FFFFFF',
-          'muted': '#C9CDD3',
-        },
-        'tin': {
-          'gold': '#D4AF37',
-          'silver': '#C0C0C0',
-          'bronze': '#CD7F32',
-          'steel': '#71797E',
+          'muted': '#AAB1B9',
         }
       },
       fontFamily: {
-        'display': ['Rubik', 'Bebas Neue', 'sans-serif'],
-        'body': ['Inter', 'Nunito Sans', 'sans-serif'],
+        'display': ['Poppins', 'Inter', 'sans-serif'],
+        'body': ['Inter', 'system-ui', 'sans-serif'],
         'mascot': ['Comic Sans MS', 'cursive'],
       },
       backgroundImage: {

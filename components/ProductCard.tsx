@@ -35,74 +35,59 @@ export default function ProductCard({ product }: ProductCardProps) {
 
   return (
     <div
-      className="tin-card p-6 cursor-pointer group transition-premium hover:neon-glow"
+      className="product-card p-6 cursor-pointer group"
       onClick={() => router.push(`/catalog/product/${product.id}`)}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
       {/* Product Image */}
-      <div className="relative mb-6">
-        <div className="w-full h-48 bg-gradient-to-br from-night-card to-night-surface rounded-xl flex items-center justify-center relative overflow-hidden border border-night-border">
+      <div className="relative mb-4">
+        <div className="w-full h-48 bg-minimal-surface rounded-lg flex items-center justify-center relative overflow-hidden border border-minimal-border">
           {product.imageUrl ? (
             <img
               src={product.imageUrl}
               alt={product.name}
-              className="w-full h-full object-cover rounded-xl transition-premium group-hover:scale-110"
+              className="w-full h-full object-cover rounded-lg transition-transform group-hover:scale-105"
             />
           ) : (
             <div className="text-center">
-              <div className="text-6xl mb-2">{getCategoryIcon(product.category)}</div>
-              <div className="text-sm font-semibold text-night-text-light">{product.category}</div>
+              <div className="text-4xl mb-2">{getCategoryIcon(product.category)}</div>
+              <div className="text-sm font-medium text-minimal-text-secondary">{product.category}</div>
             </div>
           )}
           
-          {/* Neon overlay on hover */}
-          <div className="absolute inset-0 bg-gradient-to-t from-neon-pink/20 to-transparent rounded-xl opacity-0 group-hover:opacity-100 transition-premium"></div>
-          
-          {/* Floating mascot on hover */}
-          {isHovered && (
-            <div className="absolute top-2 right-2 text-2xl animate-bounce-gentle">
-              😊
-            </div>
-          )}
-        </div>
+          {/* Brand Badge */}
+          <div className="absolute top-2 left-2 bg-minimal-card/90 backdrop-blur-sm px-2 py-1 rounded text-xs font-medium text-minimal-text border border-minimal-border">
+            {product.category}
+          </div>
 
-        {/* Brand Badge */}
-        <div className="absolute top-3 left-3 bg-night-card/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-bold text-white border border-night-border">
-          {product.category}
-        </div>
-
-        {/* Nicotine Strength Badge with Tooltip */}
-        <div className={`absolute top-3 right-3 px-3 py-1 rounded-full text-xs font-bold border ${getStrengthColor(product.strength)}`}>
-          <span className="relative group/strength">
+          {/* Nicotine Strength Badge */}
+          <div className={`absolute top-2 right-2 px-2 py-1 rounded text-xs font-medium border ${getStrengthColor(product.strength)}`}>
             {product.strength}mg
-            <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 bg-night-card text-white text-xs rounded opacity-0 group-hover/strength:opacity-100 transition-opacity whitespace-nowrap border border-night-border">
-              💥 {product.strength}mg of power!
-            </div>
-          </span>
+          </div>
         </div>
       </div>
 
       {/* Product Info */}
-      <div className="space-y-4">
+      <div className="space-y-3">
         <div>
-          <h3 className="font-bold text-xl text-white mb-2 line-clamp-2 group-hover:text-neon-pink transition-premium">
+          <h3 className="font-semibold text-lg text-minimal-text mb-1 line-clamp-2 group-hover:text-accent-primary transition-colors">
             {product.name}
           </h3>
-          <p className="text-sm text-night-text-light font-medium">
+          <p className="text-sm text-minimal-text-secondary">
             {product.code}
           </p>
         </div>
 
-        {/* Dynamic Pricing Display */}
-        <div className="space-y-3">
+        {/* Pricing Display */}
+        <div className="space-y-2">
           <div className="flex items-center justify-between">
-            <span className="text-sm font-semibold text-white">Cena:</span>
+            <span className="text-sm font-medium text-minimal-text">Cena:</span>
             <div className="text-right">
-              <div className="text-2xl font-bold text-neon-orange">
+              <div className="text-xl font-bold text-accent-primary">
                 €{priceInfo.totalPrice.toFixed(2)}
               </div>
-              <div className="text-xs text-night-text-light">
+              <div className="text-xs text-minimal-text-secondary">
                 {priceInfo.tier.description}
               </div>
             </div>
@@ -115,7 +100,7 @@ export default function ProductCard({ product }: ProductCardProps) {
                 e.stopPropagation()
                 setQuantity(Math.max(1, quantity - 1))
               }}
-              className="w-8 h-8 bg-night-card hover:bg-night-surface rounded-lg font-bold text-white border border-night-border transition-premium"
+              className="w-8 h-8 bg-minimal-surface hover:bg-minimal-card rounded border border-minimal-border font-medium text-minimal-text transition-colors"
             >
               -
             </button>
@@ -126,52 +111,46 @@ export default function ProductCard({ product }: ProductCardProps) {
               onClick={(e) => e.stopPropagation()}
               min="1"
               max={product.stock}
-              className="w-16 text-center text-sm font-bold bg-night-card border border-night-border rounded-lg py-2 focus:outline-none focus:ring-2 focus:ring-neon-pink/20 focus:border-neon-pink text-white"
+              className="w-16 text-center text-sm font-medium bg-minimal-surface border border-minimal-border rounded py-2 focus:outline-none focus:ring-2 focus:ring-accent-primary focus:border-accent-primary text-minimal-text"
             />
             <button
               onClick={(e) => {
                 e.stopPropagation()
                 setQuantity(Math.min(product.stock, quantity + 1))
               }}
-              className="w-8 h-8 bg-night-card hover:bg-night-surface rounded-lg font-bold text-white border border-night-border transition-premium"
+              className="w-8 h-8 bg-minimal-surface hover:bg-minimal-card rounded border border-minimal-border font-medium text-minimal-text transition-colors"
             >
               +
             </button>
           </div>
         </div>
 
-        {/* Enhanced Pricing Chart */}
-        <div className="bg-night-card/50 rounded-lg p-3 border border-night-border relative group">
-          <p className="text-xs text-night-text-light mb-2 flex items-center">
+        {/* Pricing Chart */}
+        <div className="bg-minimal-surface/50 rounded p-3 border border-minimal-border">
+          <p className="text-xs text-minimal-text-secondary mb-2">
             💸 Buy more, pay less
-            <span className="ml-2 text-xs text-neon-pink animate-pulse">💥</span>
           </p>
-          <div className="grid grid-cols-3 gap-2 text-xs">
-            <div className="text-center p-2 rounded bg-night-surface/50">
-              <div className="font-bold text-white">1-10</div>
-              <div className="text-neon-orange">€4</div>
+          <div className="grid grid-cols-3 gap-1 text-xs">
+            <div className="text-center p-1 rounded bg-minimal-card/50">
+              <div className="font-medium text-minimal-text">1-10</div>
+              <div className="text-accent-primary">€4</div>
             </div>
-            <div className="text-center p-2 rounded bg-night-surface/50">
-              <div className="font-bold text-white">11-49</div>
-              <div className="text-neon-orange">€3.5</div>
+            <div className="text-center p-1 rounded bg-minimal-card/50">
+              <div className="font-medium text-minimal-text">11-49</div>
+              <div className="text-accent-primary">€3.5</div>
             </div>
-            <div className="text-center p-2 rounded bg-night-surface/50">
-              <div className="font-bold text-white">50+</div>
-              <div className="text-neon-orange">€3</div>
+            <div className="text-center p-1 rounded bg-minimal-card/50">
+              <div className="font-medium text-minimal-text">50+</div>
+              <div className="text-accent-primary">€3</div>
             </div>
-          </div>
-          
-          {/* Tooltip on hover */}
-          <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 bg-night-card text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap border border-night-border shadow-cinematic">
-            Current tier: {priceInfo.tier.label}
           </div>
         </div>
 
         {/* Stock Status */}
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <div className={`w-2 h-2 rounded-full ${product.stock > 10 ? 'bg-green-400' : 'bg-orange-400'}`}></div>
-            <span className="text-sm font-medium text-night-text-light">
+            <div className={`w-2 h-2 rounded-full ${product.stock > 10 ? 'bg-accent-success' : 'bg-accent-warning'}`}></div>
+            <span className="text-sm text-minimal-text-secondary">
               {product.stock > 0 ? `Na sklade (${product.stock})` : 'Nie je na sklade'}
             </span>
           </div>
@@ -185,10 +164,10 @@ export default function ProductCard({ product }: ProductCardProps) {
             alert(`Pridané do košíka: ${quantity}x ${product.name} (${priceInfo.tier.label})`)
           }}
           disabled={product.stock === 0}
-          className={`w-full py-3 rounded-xl font-bold transition-premium ${
+          className={`w-full py-2 rounded font-medium transition-colors ${
             product.stock > 0
-              ? 'btn-premium hover:scale-105 neon-glow'
-              : 'bg-night-border text-night-text-light cursor-not-allowed'
+              ? 'btn-primary hover:scale-105'
+              : 'bg-minimal-border text-minimal-text-muted cursor-not-allowed'
           }`}
         >
           {product.stock > 0 ? 'Pridať do košíka' : 'Nie je na sklade'}
