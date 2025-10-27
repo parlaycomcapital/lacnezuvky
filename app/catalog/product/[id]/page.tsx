@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import { getProductById, products } from '@/lib/products'
-import { Product } from '@/types/product'
+import { Product, PRICE_TIERS } from '@/types/product'
 
 export default function ProductDetailPage() {
   const router = useRouter()
@@ -11,6 +11,7 @@ export default function ProductDetailPage() {
   const productId = params.id as string
   const [product, setProduct] = useState<Product | null>(null)
   const [quantity, setQuantity] = useState(1)
+  const [selectedTier, setSelectedTier] = useState<'tier1' | 'tier2' | 'tier3' | 'tier4' | 'tier5'>('tier2')
 
   useEffect(() => {
     const cookies = document.cookie.split(';').map(c => c.trim())
@@ -32,103 +33,140 @@ export default function ProductDetailPage() {
 
   if (!product) {
     return (
-      <div className="min-h-screen bg-sky-blue flex items-center justify-center">
-        <p>Loading...</p>
+      <div className="min-h-screen bg-gradient-hero flex items-center justify-center">
+        <div className="text-center">
+          <div className="w-16 h-16 border-4 border-brand-blue/30 border-t-brand-blue rounded-full animate-spin mx-auto mb-4"></div>
+          <p className="text-metallic-600 font-semibold">Načítavam...</p>
+        </div>
       </div>
     )
   }
 
+  const getCategoryIcon = (category: string) => {
+    const icons: { [key: string]: string } = {
+      'PABLO': '🔵',
+      'KILLA': '⚡',
+      'CUBA': '🌴',
+      'ICEBERG': '❄️',
+      'SIBERIA': '🏔️',
+    }
+    return icons[category] || '🍃'
+  }
+
+  const getStrengthColor = (strength: number) => {
+    if (strength >= 20) return 'text-red-600 bg-red-50'
+    if (strength >= 15) return 'text-orange-600 bg-orange-50'
+    if (strength >= 10) return 'text-yellow-600 bg-yellow-50'
+    return 'text-green-600 bg-green-50'
+  }
+
   const handleAddToCart = () => {
-    alert(`Added ${quantity} x ${product.name} to cart!`)
+    const tierLabel = PRICE_TIERS.find(t => t.key === selectedTier)?.label || '1-49 pcs'
+    alert(`Pridané do košíka: ${quantity}x ${product.name} (${tierLabel})`)
   }
 
   const relatedProducts = products
     .filter(p => p.category === product.category && p.id !== product.id)
     .slice(0, 4)
 
+  const currentPrice = product.prices[selectedTier]
+
   return (
-    <div className="min-h-screen bg-sky-blue">
+    <div className="min-h-screen bg-gradient-hero">
       {/* Header */}
-      <header className="bg-white sticker mb-6">
-        <div className="max-w-7xl mx-auto px-4 py-4">
+      <header className="glass-card sticky top-0 z-50 mb-8">
+        <div className="max-w-7xl mx-auto px-6 py-4">
           <button
             onClick={() => router.push('/catalog')}
-            className="text-deep-navy hover:text-soft-pink transition-playful"
+            className="flex items-center space-x-2 text-metallic-700 hover:text-brand-blue transition-premium font-semibold"
           >
-            ← Back to Catalog
+            <span>←</span>
+            <span>Späť do katalógu</span>
           </button>
         </div>
       </header>
 
-      <div className="max-w-7xl mx-auto px-4 pb-8">
-        <div className="bg-white rounded-playful sticker p-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+      <div className="max-w-7xl mx-auto px-6 pb-12">
+        <div className="glass-card rounded-3xl p-8 lg:p-12">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Product Image */}
-            <div>
-              <div className="w-full h-96 bg-gradient-to-br from-sky-blue to-soft-pink rounded-lg flex items-center justify-center">
+            <div className="relative">
+              <div className="w-full h-96 lg:h-[500px] bg-gradient-to-br from-metallic-50 to-metallic-100 rounded-2xl flex items-center justify-center relative overflow-hidden">
                 {product.imageUrl ? (
                   <img
                     src={product.imageUrl}
                     alt={product.name}
-                    className="w-full h-full object-cover rounded-lg"
+                    className="w-full h-full object-cover rounded-2xl"
                   />
                 ) : (
-                  <span className="text-9xl">
-                    {product.category === 'Mint' && '🌿'}
-                    {product.category === 'Fruit' && '🍎'}
-                    {product.category === 'Bubble' && '💨'}
-                    {product.category === 'Sugar-Free' && '✨'}
-                    {!['Mint', 'Fruit', 'Bubble', 'Sugar-Free'].includes(product.category) && '🍬'}
-                  </span>
+                  <div className="text-center">
+                    <div className="text-9xl mb-4">{getCategoryIcon(product.category)}</div>
+                    <div className="text-2xl font-bold text-metallic-600">{product.category}</div>
+                  </div>
                 )}
+                
+                {/* Floating mascot */}
+                <div className="absolute top-4 right-4 text-4xl animate-bounce-gentle">😊</div>
               </div>
             </div>
 
             {/* Product Info */}
-            <div>
-              <h1 className="text-4xl font-bold text-deep-navy mb-2">
-                {product.name}
-              </h1>
-
-              <div className="flex items-center gap-4 mb-4">
-                <p className="text-3xl font-bold text-soft-pink">
-                  €{product.price.toFixed(2)}
+            <div className="space-y-8">
+              <div>
+                <h1 className="text-4xl lg:text-5xl font-black text-brand-navy mb-4 font-display">
+                  {product.name}
+                </h1>
+                <p className="text-lg text-metallic-600 font-medium">
+                  {product.code}
                 </p>
-                {product.tags && product.tags.includes('popular') && (
-                  <span className="px-3 py-1 bg-warm-orange text-white text-sm rounded-full font-bold">
-                    Popular!
-                  </span>
-                )}
               </div>
 
-              <p className="text-gray-600 mb-6">{product.description}</p>
+              {/* Price and Tier Selection */}
+              <div className="space-y-6">
+                <div className="flex items-center gap-4">
+                  <span className="text-4xl font-bold text-brand-orange">
+                    €{currentPrice.toFixed(2)}
+                  </span>
+                  <div className={`px-3 py-1 rounded-full text-sm font-bold ${getStrengthColor(product.strength)}`}>
+                    {product.strength}mg nikotínu
+                  </div>
+                </div>
 
-              {/* SKU */}
-              <div className="mb-6">
-                <p className="text-sm text-gray-500">
-                  <strong>SKU:</strong> {product.sku}
-                </p>
-                <p className="text-sm text-gray-500">
-                  <strong>Category:</strong> {product.category}
-                </p>
+                <div>
+                  <label className="block text-lg font-bold text-metallic-800 mb-3">
+                    Vyberte množstvo:
+                  </label>
+                  <select
+                    value={selectedTier}
+                    onChange={(e) => setSelectedTier(e.target.value as any)}
+                    className="w-full px-4 py-3 border-2 border-metallic-200 rounded-xl focus:outline-none focus:ring-4 focus:ring-brand-blue/20 focus:border-brand-blue transition-premium font-semibold text-lg"
+                  >
+                    {PRICE_TIERS.map(tier => (
+                      <option key={tier.key} value={tier.key}>
+                        {tier.label} - €{product.prices[tier.key].toFixed(2)}
+                      </option>
+                    ))}
+                  </select>
+                </div>
               </div>
 
               {/* Stock Status */}
-              <div className="mb-6">
+              <div className="flex items-center space-x-3">
+                <div className={`w-3 h-3 rounded-full ${product.stock > 10 ? 'bg-green-500' : 'bg-orange-500'}`}></div>
                 <p className={`text-lg font-semibold ${product.stock > 10 ? 'text-green-600' : 'text-orange-600'}`}>
-                  {product.stock > 0 ? `✓ In Stock (${product.stock} available)` : '✗ Out of Stock'}
+                  {product.stock > 0 ? `✓ Na sklade (${product.stock} kusov)` : '✗ Nie je na sklade'}
                 </p>
               </div>
 
               {/* Quantity Selector */}
-              <div className="mb-6">
-                <label className="block text-sm font-medium text-deep-navy mb-2">
-                  Quantity
+              <div className="space-y-4">
+                <label className="block text-lg font-bold text-metallic-800">
+                  Množstvo:
                 </label>
-                <div className="flex items-center gap-3">
+                <div className="flex items-center gap-4">
                   <button
                     onClick={() => setQuantity(Math.max(1, quantity - 1))}
-                    className="w-10 h-10 bg-gray-200 rounded-lg font-bold hover:bg-gray-300 transition-playful"
+                    className="w-12 h-12 bg-metallic-100 hover:bg-metallic-200 rounded-xl font-bold text-xl transition-premium"
                   >
                     -
                   </button>
@@ -138,11 +176,11 @@ export default function ProductDetailPage() {
                     onChange={(e) => setQuantity(Math.max(1, parseInt(e.target.value) || 1))}
                     min="1"
                     max={product.stock}
-                    className="w-20 text-center border-2 border-deep-navy rounded-lg py-2"
+                    className="w-24 text-center text-xl font-bold border-2 border-metallic-200 rounded-xl py-3 focus:outline-none focus:ring-4 focus:ring-brand-blue/20 focus:border-brand-blue"
                   />
                   <button
                     onClick={() => setQuantity(Math.min(product.stock, quantity + 1))}
-                    className="w-10 h-10 bg-gray-200 rounded-lg font-bold hover:bg-gray-300 transition-playful"
+                    className="w-12 h-12 bg-metallic-100 hover:bg-metallic-200 rounded-xl font-bold text-xl transition-premium"
                   >
                     +
                   </button>
@@ -153,22 +191,22 @@ export default function ProductDetailPage() {
               <button
                 onClick={handleAddToCart}
                 disabled={product.stock === 0}
-                className={`w-full py-4 rounded-lg font-bold text-lg transition-playful sticker ${
+                className={`w-full py-4 rounded-2xl font-bold text-xl transition-premium ${
                   product.stock > 0
-                    ? 'bg-warm-orange hover:bg-orange-600 text-white bounce-hover'
-                    : 'bg-gray-300 text-gray-500 cursor-not-allowed'
+                    ? 'btn-premium hover:scale-105'
+                    : 'bg-metallic-200 text-metallic-400 cursor-not-allowed'
                 }`}
               >
-                {product.stock > 0 ? 'Add to Cart' : 'Out of Stock'}
+                {product.stock > 0 ? 'Pridať do košíka' : 'Nie je na sklade'}
               </button>
 
               {/* Tags */}
               {product.tags && product.tags.length > 0 && (
-                <div className="flex flex-wrap gap-2 mt-4">
+                <div className="flex flex-wrap gap-2">
                   {product.tags.map(tag => (
                     <span
                       key={tag}
-                      className="px-3 py-1 bg-warm-orange text-white text-sm rounded-full"
+                      className="px-4 py-2 bg-gradient-cta text-white text-sm rounded-full font-bold"
                     >
                       {tag}
                     </span>
@@ -181,23 +219,23 @@ export default function ProductDetailPage() {
 
         {/* Related Products */}
         {relatedProducts.length > 0 && (
-          <div className="mt-8">
-            <h2 className="text-2xl font-bold text-deep-navy mb-4">Related Products</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="mt-12">
+            <h2 className="text-3xl font-bold text-brand-navy mb-8 font-display">Podobné produkty</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {relatedProducts.map(relatedProduct => (
                 <div
                   key={relatedProduct.id}
                   onClick={() => router.push(`/catalog/product/${relatedProduct.id}`)}
-                  className="bg-white rounded-playful sticker p-4 hover:shadow-lg transition-playful cursor-pointer"
+                  className="tin-card p-4 hover:shadow-lg transition-premium cursor-pointer"
                 >
-                  <div className="w-full h-32 bg-gradient-to-br from-sky-blue to-soft-pink rounded-lg mb-2 flex items-center justify-center">
-                    <span className="text-4xl">🍬</span>
+                  <div className="w-full h-32 bg-gradient-to-br from-metallic-50 to-metallic-100 rounded-xl mb-3 flex items-center justify-center">
+                    <span className="text-4xl">{getCategoryIcon(relatedProduct.category)}</span>
                   </div>
-                  <h3 className="font-bold text-deep-navy mb-1">
+                  <h3 className="font-bold text-metallic-800 mb-2 line-clamp-2">
                     {relatedProduct.name}
                   </h3>
-                  <p className="text-xl font-bold text-soft-pink">
-                    €{relatedProduct.price.toFixed(2)}
+                  <p className="text-xl font-bold text-brand-orange">
+                    €{relatedProduct.prices.tier2.toFixed(2)}
                   </p>
                 </div>
               ))}
