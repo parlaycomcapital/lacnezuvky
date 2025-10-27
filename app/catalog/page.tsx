@@ -78,7 +78,13 @@ export default function CatalogPage() {
         <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <div className="text-2xl mascot-bounce">😊</div>
+              <div className="w-10 h-10">
+                <img 
+                  src="/images/mascot.png" 
+                  alt="Lacné Žuvky Mascot" 
+                  className="w-full h-full object-contain mascot-bounce"
+                />
+              </div>
               <div>
                 <h1 className="text-2xl font-bold text-minimal-text font-display tracking-wider">
                   LACNÉ ŽUVKY
@@ -98,30 +104,54 @@ export default function CatalogPage() {
         </div>
       </header>
 
-      {/* Clean Hero Section */}
+      {/* Hero Section with Product Photography */}
       <div className="max-w-7xl mx-auto px-6 py-12">
-        <div className="text-center mb-8">
-          <h2 className="text-3xl lg:text-4xl font-bold text-minimal-text font-display tracking-wider mb-4">
-            Lacné Žuvky — Nabité aj v noci
-          </h2>
-          <p className="text-minimal-text-secondary text-lg max-w-2xl mx-auto">
-            Objavte našu prémiovú kolekciu snus produktov s najlepšími cenami v Európe
-          </p>
-        </div>
-        
-        {/* Stats */}
-        <div className="flex justify-center gap-8 text-sm">
-          <div className="text-center">
-            <div className="text-2xl font-bold text-accent-primary">{products.length}</div>
-            <div className="text-minimal-text-secondary">Produktov</div>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          {/* Left Side - Text */}
+          <div className="text-center lg:text-left">
+            <h2 className="text-3xl lg:text-4xl font-bold text-minimal-text font-display tracking-wider mb-4">
+              Lacné Žuvky — Nabité aj v noci
+            </h2>
+            <p className="text-minimal-text-secondary text-lg mb-8">
+              Objavte našu prémiovú kolekciu snus produktov s najlepšími cenami v Európe
+            </p>
+            
+            {/* Stats */}
+            <div className="flex justify-center lg:justify-start gap-8 text-sm">
+              <div className="text-center">
+                <div className="text-2xl font-bold text-accent-primary">{products.length}</div>
+                <div className="text-minimal-text-secondary">Produktov</div>
+              </div>
+              <div className="text-center">
+                <div className="text-2xl font-bold text-accent-primary">{getCategories().length}</div>
+                <div className="text-minimal-text-secondary">Značiek</div>
+              </div>
+              <div className="text-center">
+                <div className="text-2xl font-bold text-accent-primary">24/7</div>
+                <div className="text-minimal-text-secondary">Podpora</div>
+              </div>
+            </div>
           </div>
-          <div className="text-center">
-            <div className="text-2xl font-bold text-accent-primary">{getCategories().length}</div>
-            <div className="text-minimal-text-secondary">Značiek</div>
-          </div>
-          <div className="text-center">
-            <div className="text-2xl font-bold text-accent-primary">24/7</div>
-            <div className="text-minimal-text-secondary">Podpora</div>
+          
+          {/* Right Side - Product Photography */}
+          <div className="relative">
+            <div className="relative rounded-lg overflow-hidden shadow-2xl">
+              <img 
+                src="/images/product-hero.png" 
+                alt="Premium Snus Products" 
+                className="w-full h-96 object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-minimal-bg/20 to-transparent"></div>
+            </div>
+            
+            {/* Floating mascot */}
+            <div className="absolute -top-4 -right-4 w-16 h-16">
+              <img 
+                src="/images/mascot.png" 
+                alt="Mascot" 
+                className="w-full h-full object-contain mascot-bounce"
+              />
+            </div>
           </div>
         </div>
       </div>

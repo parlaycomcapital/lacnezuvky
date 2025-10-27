@@ -8,7 +8,13 @@ export default function Footer() {
           {/* Brand Section */}
           <div className="text-center md:text-left">
             <div className="flex items-center justify-center md:justify-start space-x-3 mb-4">
-              <div className="text-2xl mascot-bounce">😊</div>
+              <div className="w-8 h-8">
+                <img 
+                  src="/images/mascot.png" 
+                  alt="Lacné Žuvky Mascot" 
+                  className="w-full h-full object-contain mascot-bounce"
+                />
+              </div>
               <div>
                 <h3 className="text-xl font-bold text-minimal-text font-display tracking-wider">
                   LACNÉ ŽUVKY
@@ -63,7 +69,13 @@ export default function Footer() {
               © {new Date().getFullYear()} LACNÉ ŽUVKY. Všetky práva vyhradené.
             </p>
             <div className="flex items-center space-x-4 mt-4 md:mt-0">
-              <div className="text-lg mascot-bounce">😊</div>
+              <div className="w-6 h-6">
+                <img 
+                  src="/images/mascot.png" 
+                  alt="Mascot" 
+                  className="w-full h-full object-contain mascot-bounce"
+                />
+              </div>
               <p className="text-minimal-text-secondary text-sm">
                 Vytvorené s ❤️ pre milovníkov kvality
               </p>

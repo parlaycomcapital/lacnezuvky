@@ -39,8 +39,12 @@ export default function PasswordGate() {
       <div className="relative z-10 w-full max-w-md">
         <div className="text-center mb-8">
           {/* Mascot Logo */}
-          <div className="w-24 h-24 mx-auto mb-6">
-            <div className="text-6xl mascot-bounce">😊</div>
+          <div className="w-32 h-32 mx-auto mb-6 relative">
+            <img 
+              src="/images/mascot.png" 
+              alt="Lacné Žuvky Mascot" 
+              className="w-full h-full object-contain mascot-bounce"
+            />
           </div>
           
           <h1 className="text-4xl font-bold text-minimal-text font-display tracking-wider mb-2">
