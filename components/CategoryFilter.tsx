@@ -7,21 +7,37 @@ interface CategoryFilterProps {
 }
 
 export default function CategoryFilter({ selected, onChange, categories }: CategoryFilterProps) {
+  const getCategoryIcon = (category: string) => {
+    const icons: { [key: string]: string } = {
+      'all': '🌟',
+      'PABLO': '🔵',
+      'KILLA': '⚡',
+      'CUBA': '🌴',
+      'ICEBERG': '❄️',
+      'SIBERIA': '🏔️',
+    }
+    return icons[category] || '🍃'
+  }
+
   return (
-    <div className="flex flex-wrap gap-2">
-      {categories.map(category => (
-        <button
-          key={category}
-          onClick={() => onChange(category)}
-          className={`px-4 py-2 rounded-lg font-semibold transition-playful ${
-            selected === category
-              ? 'bg-soft-pink text-white sticker'
-              : 'bg-white text-deep-navy hover:bg-gray-100'
-          }`}
-        >
-          {category.charAt(0).toUpperCase() + category.slice(1)}
-        </button>
-      ))}
+    <div className="space-y-4">
+      <h3 className="text-lg font-bold text-metallic-800">Filtrovať podľa značky</h3>
+      <div className="flex flex-wrap gap-3">
+        {categories.map(category => (
+          <button
+            key={category}
+            onClick={() => onChange(category)}
+            className={`px-6 py-3 rounded-xl font-bold transition-premium flex items-center space-x-2 ${
+              selected === category
+                ? 'bg-gradient-cta text-white shadow-lg transform scale-105'
+                : 'bg-white text-metallic-700 hover:bg-metallic-50 border-2 border-metallic-200 hover:border-brand-blue'
+            }`}
+          >
+            <span className="text-lg">{getCategoryIcon(category)}</span>
+            <span>{category === 'all' ? 'Všetky' : category}</span>
+          </button>
+        ))}
+      </div>
     </div>
   )
 }

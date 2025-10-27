@@ -12,12 +12,21 @@ export default function SearchBar({ value, onChange }: SearchBarProps) {
         type="text"
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        placeholder="Search products..."
-        className="w-full px-4 py-3 pr-12 border-2 border-deep-navy rounded-lg focus:outline-none focus:ring-2 focus:ring-soft-pink"
+        placeholder="Hľadať produkty, značky, kódy..."
+        className="w-full px-6 py-4 pr-16 text-lg border-2 border-metallic-200 rounded-2xl focus:outline-none focus:ring-4 focus:ring-brand-blue/20 focus:border-brand-blue transition-premium font-medium placeholder-metallic-400"
       />
-      <span className="absolute right-3 top-1/2 transform -translate-y-1/2 text-2xl">
-        🔍
-      </span>
+      <div className="absolute right-4 top-1/2 transform -translate-y-1/2">
+        <div className="text-2xl animate-pulse">🔍</div>
+      </div>
+      
+      {/* Search suggestions overlay could go here */}
+      {value && (
+        <div className="absolute top-full left-0 right-0 mt-2 bg-white rounded-xl shadow-lg border border-metallic-200 z-10">
+          <div className="p-4 text-sm text-metallic-600">
+            Hľadáte: <span className="font-semibold text-brand-blue">"{value}"</span>
+          </div>
+        </div>
+      )}
     </div>
   )
 }
