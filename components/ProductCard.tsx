@@ -140,13 +140,30 @@ export default function ProductCard({ product }: ProductCardProps) {
           </div>
         </div>
 
-        {/* Pricing Chart */}
-        <div className="bg-night-card/50 rounded-lg p-3 border border-night-border">
-          <p className="text-xs text-night-text-light mb-2">Buy more, pay less 💥</p>
-          <div className="flex justify-between text-xs">
-            <span>1-10: €4</span>
-            <span>11-49: €3.5</span>
-            <span>50+: €3</span>
+        {/* Enhanced Pricing Chart */}
+        <div className="bg-night-card/50 rounded-lg p-3 border border-night-border relative group">
+          <p className="text-xs text-night-text-light mb-2 flex items-center">
+            💸 Buy more, pay less
+            <span className="ml-2 text-xs text-neon-pink animate-pulse">💥</span>
+          </p>
+          <div className="grid grid-cols-3 gap-2 text-xs">
+            <div className="text-center p-2 rounded bg-night-surface/50">
+              <div className="font-bold text-white">1-10</div>
+              <div className="text-neon-orange">€4</div>
+            </div>
+            <div className="text-center p-2 rounded bg-night-surface/50">
+              <div className="font-bold text-white">11-49</div>
+              <div className="text-neon-orange">€3.5</div>
+            </div>
+            <div className="text-center p-2 rounded bg-night-surface/50">
+              <div className="font-bold text-white">50+</div>
+              <div className="text-neon-orange">€3</div>
+            </div>
+          </div>
+          
+          {/* Tooltip on hover */}
+          <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 bg-night-card text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap border border-night-border shadow-cinematic">
+            Current tier: {priceInfo.tier.label}
           </div>
         </div>
 

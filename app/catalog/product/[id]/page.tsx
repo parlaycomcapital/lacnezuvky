@@ -165,19 +165,28 @@ export default function ProductDetailPage() {
                   </div>
                 </div>
 
-                {/* Pricing Chart */}
-                <div className="bg-night-card/50 rounded-lg p-4 border border-night-border">
-                  <p className="text-sm text-night-text-light mb-3">Buy more, pay less 💥</p>
+                {/* Enhanced Pricing Chart */}
+                <div className="bg-night-card/50 rounded-lg p-4 border border-night-border shadow-cinematic">
+                  <p className="text-sm text-night-text-light mb-3 flex items-center">
+                    💸 Buy more, pay less
+                    <span className="ml-2 text-sm text-neon-pink animate-pulse">💥</span>
+                  </p>
                   <div className="grid grid-cols-3 gap-4 text-sm">
-                    <div className="text-center">
+                    <div className={`text-center p-3 rounded transition-premium ${
+                      priceInfo.tier.key === 'tier1' ? 'bg-neon-pink/20 border border-neon-pink/50' : 'bg-night-surface/50'
+                    }`}>
                       <div className="font-bold text-white">1-10 pcs</div>
                       <div className="text-neon-orange">€4 per unit</div>
                     </div>
-                    <div className="text-center">
+                    <div className={`text-center p-3 rounded transition-premium ${
+                      priceInfo.tier.key === 'tier2' ? 'bg-neon-pink/20 border border-neon-pink/50' : 'bg-night-surface/50'
+                    }`}>
                       <div className="font-bold text-white">11-49 pcs</div>
                       <div className="text-neon-orange">€3.5 per unit</div>
                     </div>
-                    <div className="text-center">
+                    <div className={`text-center p-3 rounded transition-premium ${
+                      priceInfo.tier.key === 'tier3' ? 'bg-neon-pink/20 border border-neon-pink/50' : 'bg-night-surface/50'
+                    }`}>
                       <div className="font-bold text-white">50+ pcs</div>
                       <div className="text-neon-orange">€3 per unit</div>
                     </div>

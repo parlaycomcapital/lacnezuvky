@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Modern dark mode palette
+        // Premium dark mode palette inspired by tin visuals
         'dark': {
           50: '#f8fafc',
           100: '#f1f5f9',
@@ -21,15 +21,15 @@ const config: Config = {
           700: '#334155',
           800: '#1e293b',
           900: '#0f172a',
-          950: '#0E1217',
+          950: '#0E1116',
         },
         'night': {
-          'bg': '#0E1217',
+          'bg': '#0E1116',
           'surface': '#1C222A',
           'card': '#161B22',
           'border': '#30363D',
           'text': '#FFFFFF',
-          'text-light': '#B5BAC1',
+          'text-light': '#C9CDD3',
           'text-dark': '#F0F6FC',
         },
         'neon': {
@@ -44,7 +44,13 @@ const config: Config = {
           'secondary': '#FF914D',
           'accent': '#A7D8F9',
           'text': '#FFFFFF',
-          'muted': '#B5BAC1',
+          'muted': '#C9CDD3',
+        },
+        'tin': {
+          'gold': '#D4AF37',
+          'silver': '#C0C0C0',
+          'bronze': '#CD7F32',
+          'steel': '#71797E',
         }
       },
       fontFamily: {
@@ -67,6 +73,11 @@ const config: Config = {
         'neon-orange': '0 0 20px rgba(255, 145, 77, 0.3), 0 0 40px rgba(255, 145, 77, 0.1)',
         'glow-card': '0 0 30px rgba(255, 111, 165, 0.1), 0 0 60px rgba(255, 111, 165, 0.05)',
         'inner-glow': 'inset 0 1px 0 rgba(255, 255, 255, 0.1)',
+        'tin-gold': '0 8px 32px rgba(212, 175, 55, 0.3), 0 0 0 1px rgba(212, 175, 55, 0.1)',
+        'tin-silver': '0 8px 32px rgba(192, 192, 192, 0.2), 0 0 0 1px rgba(192, 192, 192, 0.1)',
+        'tin-bronze': '0 8px 32px rgba(205, 127, 50, 0.3), 0 0 0 1px rgba(205, 127, 50, 0.1)',
+        'cinematic': '0 25px 50px -12px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255, 255, 255, 0.05)',
+        'mascot-glow': '0 0 30px rgba(255, 111, 165, 0.4), 0 0 60px rgba(255, 111, 165, 0.2), 0 0 90px rgba(255, 111, 165, 0.1)',
       },
       animation: {
         'float': 'float 6s ease-in-out infinite',
@@ -76,6 +87,11 @@ const config: Config = {
         'pulse-neon': 'pulse-neon 2s ease-in-out infinite',
         'particle': 'particle 8s ease-in-out infinite',
         'wave': 'wave 3s ease-in-out infinite',
+        'wiggle': 'wiggle 1s ease-in-out infinite',
+        'tin-float': 'tin-float 8s ease-in-out infinite',
+        'mascot-bounce': 'mascot-bounce 2s ease-in-out infinite',
+        'glow-pulse': 'glow-pulse 3s ease-in-out infinite',
+        'parallax': 'parallax 20s linear infinite',
       },
       keyframes: {
         float: {
@@ -116,6 +132,38 @@ const config: Config = {
           '0%, 100%': { transform: 'rotate(0deg)' },
           '25%': { transform: 'rotate(5deg)' },
           '75%': { transform: 'rotate(-5deg)' },
+        },
+        wiggle: {
+          '0%, 100%': { transform: 'rotate(0deg)' },
+          '25%': { transform: 'rotate(3deg)' },
+          '75%': { transform: 'rotate(-3deg)' },
+        },
+        'tin-float': {
+          '0%, 100%': { transform: 'translateY(0px) rotate(0deg) scale(1)' },
+          '25%': { transform: 'translateY(-15px) rotate(2deg) scale(1.02)' },
+          '50%': { transform: 'translateY(-30px) rotate(0deg) scale(1.05)' },
+          '75%': { transform: 'translateY(-15px) rotate(-2deg) scale(1.02)' },
+        },
+        'mascot-bounce': {
+          '0%, 100%': { transform: 'translateY(0px) scale(1)' },
+          '50%': { transform: 'translateY(-8px) scale(1.05)' },
+        },
+        'glow-pulse': {
+          '0%, 100%': { 
+            boxShadow: '0 0 20px rgba(255, 111, 165, 0.3), 0 0 40px rgba(255, 111, 165, 0.1)',
+            filter: 'brightness(1)'
+          },
+          '50%': { 
+            boxShadow: '0 0 40px rgba(255, 111, 165, 0.6), 0 0 80px rgba(255, 111, 165, 0.3)',
+            filter: 'brightness(1.1)'
+          },
+        },
+        parallax: {
+          '0%': { transform: 'translateY(0px) translateX(0px)' },
+          '25%': { transform: 'translateY(-20px) translateX(10px)' },
+          '50%': { transform: 'translateY(-40px) translateX(0px)' },
+          '75%': { transform: 'translateY(-20px) translateX(-10px)' },
+          '100%': { transform: 'translateY(0px) translateX(0px)' },
         },
       },
     },

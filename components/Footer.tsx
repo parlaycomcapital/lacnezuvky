@@ -8,9 +8,9 @@ export default function Footer() {
           {/* Brand Section */}
           <div className="text-center md:text-left">
             <div className="flex items-center justify-center md:justify-start space-x-3 mb-4">
-              <div className="text-3xl mascot-wave">😊</div>
+              <div className="text-3xl mascot-glow mascot-bounce">😊</div>
               <div>
-                <h3 className="text-2xl font-black text-night-text-dark font-display neon-text">
+                <h3 className="text-2xl font-black text-white font-display tracking-wider">
                   LACNÉ ŽUVKY
                 </h3>
                 <p className="text-sm text-neon-orange font-mascot font-bold">
@@ -19,26 +19,26 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-night-text-light text-sm">
-              Lacné Žuvky — Nabité aj v noci. Najlepšie ceny v Európe.
+              Lacné Žuvky — nabité chuťou aj energiou. Najlepšie ceny v Európe.
             </p>
           </div>
 
           {/* Contact Section */}
           <div className="text-center md:text-left">
-            <h4 className="text-lg font-bold text-night-text-dark mb-4">Kontakt</h4>
+            <h4 className="text-lg font-bold text-white mb-4">Kontakt</h4>
             <div className="space-y-3">
               <div className="flex items-center justify-center md:justify-start space-x-2">
                 <span className="text-2xl">📱</span>
                 <div>
                   <p className="text-night-text-light text-sm">Kontaktuj nás na Signal:</p>
-                  <p className="text-neon-pink font-semibold">@golo.21</p>
+                  <p className="text-neon-pink font-semibold animate-pulse">@golo.21</p>
                 </div>
               </div>
               <div className="flex items-center justify-center md:justify-start space-x-2">
                 <span className="text-2xl">💬</span>
                 <div>
                   <p className="text-night-text-light text-sm">Rýchle odpovede</p>
-                  <p className="text-night-text text-sm">24/7 podpora</p>
+                  <p className="text-white text-sm">24/7 podpora</p>
                 </div>
               </div>
             </div>
@@ -46,7 +46,7 @@ export default function Footer() {
 
           {/* Info Section */}
           <div className="text-center md:text-left">
-            <h4 className="text-lg font-bold text-night-text-dark mb-4">Informácie</h4>
+            <h4 className="text-lg font-bold text-white mb-4">Informácie</h4>
             <div className="space-y-2 text-sm text-night-text-light">
               <p>139 prémiových produktov</p>
               <p>5 značiek (PABLO, KILLA, CUBA, ICEBERG, SIBERIA)</p>

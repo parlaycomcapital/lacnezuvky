@@ -32,8 +32,16 @@ export default function PasswordGate() {
 
   return (
     <div className="min-h-screen relative overflow-hidden bg-gradient-to-br from-night-bg to-night-surface">
-      {/* Animated Background Particles */}
+      {/* Cinematic Background with Floating Tins */}
       <div className="absolute inset-0">
+        {/* Floating Tin Elements */}
+        <div className="absolute top-20 left-10 w-16 h-20 bg-gradient-to-br from-tin-gold to-tin-bronze rounded-lg tin-float tin-gold" style={{ animationDelay: '0s' }}></div>
+        <div className="absolute top-40 right-20 w-14 h-18 bg-gradient-to-br from-tin-silver to-tin-steel rounded-lg tin-float tin-silver" style={{ animationDelay: '2s' }}></div>
+        <div className="absolute bottom-32 left-1/4 w-18 h-22 bg-gradient-to-br from-tin-bronze to-tin-gold rounded-lg tin-float tin-bronze" style={{ animationDelay: '4s' }}></div>
+        <div className="absolute bottom-20 right-1/3 w-16 h-20 bg-gradient-to-br from-tin-steel to-tin-silver rounded-lg tin-float tin-silver" style={{ animationDelay: '6s' }}></div>
+        <div className="absolute top-1/2 left-1/2 w-20 h-24 bg-gradient-to-br from-tin-gold to-tin-bronze rounded-lg tin-float tin-gold" style={{ animationDelay: '8s' }}></div>
+        
+        {/* Animated Background Particles */}
         <div className="particle absolute top-20 left-10"></div>
         <div className="particle absolute top-40 right-20"></div>
         <div className="particle absolute bottom-32 left-1/4"></div>
@@ -55,21 +63,26 @@ export default function PasswordGate() {
             <div className="text-center lg:text-left">
               <div className="relative mb-8">
                 <div className="w-96 h-96 mx-auto lg:mx-0 relative">
-                  {/* Glow effect */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-neon-pink/30 to-neon-blue/30 rounded-full blur-2xl animate-glow"></div>
+                  {/* Cinematic glow effect */}
+                  <div className="absolute inset-0 bg-gradient-to-br from-neon-pink/40 to-neon-blue/40 rounded-full blur-3xl animate-glow-pulse"></div>
+                  <div className="absolute inset-0 bg-gradient-to-br from-neon-orange/20 to-neon-pink/20 rounded-full blur-2xl animate-glow"></div>
                   
-                  {/* Mascot container with wave animation */}
+                  {/* Mascot container with enhanced animations */}
                   <div className="relative z-10 w-full h-full flex items-center justify-center">
-                    <div className="text-9xl mascot-wave">😊</div>
+                    <div className="text-9xl mascot-glow mascot-bounce">😊</div>
                   </div>
                   
-                  {/* Floating elements */}
-                  <div className="absolute -top-6 -right-6 text-5xl animate-bounce-gentle">💰</div>
-                  <div className="absolute -bottom-6 -left-6 text-4xl animate-bounce-gentle" style={{ animationDelay: '1s' }}>👍</div>
+                  {/* Floating elements with tin-inspired styling */}
+                  <div className="absolute -top-6 -right-6 text-5xl animate-bounce-gentle mascot-wiggle">💰</div>
+                  <div className="absolute -bottom-6 -left-6 text-4xl animate-bounce-gentle mascot-wiggle" style={{ animationDelay: '1s' }}>👍</div>
+                  
+                  {/* Additional floating tins around mascot */}
+                  <div className="absolute top-4 left-4 w-8 h-10 bg-gradient-to-br from-tin-gold to-tin-bronze rounded tin-float tin-gold" style={{ animationDelay: '1s' }}></div>
+                  <div className="absolute bottom-4 right-4 w-6 h-8 bg-gradient-to-br from-tin-silver to-tin-steel rounded tin-float tin-silver" style={{ animationDelay: '3s' }}></div>
                 </div>
               </div>
               
-              <h1 className="text-6xl lg:text-8xl font-black text-white mt-8 font-display tracking-wider">
+              <h1 className="text-6xl lg:text-8xl font-black text-white mt-8 font-display tracking-wider animate-glow-pulse">
                 LACNÉ ŽUVKY
               </h1>
               <p className="text-3xl lg:text-4xl font-bold text-neon-orange mt-4 font-mascot animate-pulse-neon">

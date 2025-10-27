@@ -98,28 +98,33 @@ export default function CatalogPage() {
         </div>
       </header>
 
-      {/* Hero Section */}
+      {/* Cinematic Hero Section */}
       <div className="max-w-7xl mx-auto px-6 mb-12">
-        <div className="glass-card rounded-3xl p-8 lg:p-12 text-center relative overflow-hidden">
-          {/* Background Elements */}
+        <div className="glass-card rounded-3xl p-8 lg:p-12 text-center relative overflow-hidden shadow-cinematic">
+          {/* Floating Tin Background Elements */}
+          <div className="absolute top-4 right-4 w-12 h-16 bg-gradient-to-br from-tin-gold to-tin-bronze rounded tin-float tin-gold" style={{ animationDelay: '0s' }}></div>
+          <div className="absolute bottom-4 left-4 w-10 h-14 bg-gradient-to-br from-tin-silver to-tin-steel rounded tin-float tin-silver" style={{ animationDelay: '2s' }}></div>
+          <div className="absolute top-1/2 right-1/4 w-8 h-12 bg-gradient-to-br from-tin-bronze to-tin-gold rounded tin-float tin-bronze" style={{ animationDelay: '4s' }}></div>
+          
+          {/* Animated Elements */}
           <div className="absolute top-4 right-4 text-6xl opacity-20 animate-float">💰</div>
           <div className="absolute bottom-4 left-4 text-4xl opacity-20 animate-float" style={{ animationDelay: '2s' }}>👍</div>
           
           <div className="relative z-10">
-            <h2 className="text-4xl lg:text-6xl font-black text-white mb-4 font-display tracking-wider">
+            <h2 className="text-4xl lg:text-6xl font-black text-white mb-4 font-display tracking-wider animate-glow-pulse">
               Lacné Žuvky — nabité chuťou aj energiou
             </h2>
             <p className="text-xl text-night-text-light mb-8 max-w-2xl mx-auto">
               Objavte našu prémiovú kolekciu snus produktov s najlepšími cenami v Európe
             </p>
             <div className="flex flex-wrap justify-center gap-4 text-sm">
-              <div className="bg-neon-pink/20 px-4 py-2 rounded-full font-semibold text-white border border-neon-pink/30">
+              <div className="bg-neon-pink/20 px-4 py-2 rounded-full font-semibold text-white border border-neon-pink/30 hover:bg-neon-pink/30 transition-premium">
                 {products.length} produktov
               </div>
-              <div className="bg-neon-blue/20 px-4 py-2 rounded-full font-semibold text-white border border-neon-blue/30">
+              <div className="bg-neon-blue/20 px-4 py-2 rounded-full font-semibold text-white border border-neon-blue/30 hover:bg-neon-blue/30 transition-premium">
                 {getCategories().length} značiek
               </div>
-              <div className="bg-neon-orange/20 px-4 py-2 rounded-full font-semibold text-white border border-neon-orange/30">
+              <div className="bg-neon-orange/20 px-4 py-2 rounded-full font-semibold text-white border border-neon-orange/30 hover:bg-neon-orange/30 transition-premium">
                 Rýchle dodanie
               </div>
             </div>
