@@ -7,6 +7,7 @@ import { Product } from '@/types/product'
 import ProductCard from '@/components/ProductCard'
 import SearchBar from '@/components/SearchBar'
 import CategoryFilter from '@/components/CategoryFilter'
+import Footer from '@/components/Footer'
 
 export default function CatalogPage() {
   const router = useRouter()
@@ -71,7 +72,7 @@ export default function CatalogPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-hero">
+    <div className="min-h-screen bg-gradient-dark">
       {/* Header */}
       <header className="glass-card sticky top-0 z-50 mb-8">
         <div className="max-w-7xl mx-auto px-6 py-4">
@@ -79,17 +80,17 @@ export default function CatalogPage() {
             <div className="flex items-center space-x-4">
               <div className="text-4xl mascot-float">😊</div>
               <div>
-                <h1 className="text-3xl font-black text-brand-navy font-display glow-text">
+                <h1 className="text-3xl font-black text-night-text-dark font-display neon-text">
                   LACNÉ ŽUVKY
                 </h1>
-                <p className="text-sm text-brand-orange font-mascot font-bold">
+                <p className="text-sm text-neon-orange font-mascot font-bold">
                   NABIJEME?!
                 </p>
               </div>
             </div>
             <button
               onClick={handleLogout}
-              className="px-6 py-3 bg-metallic-100 hover:bg-metallic-200 rounded-xl transition-premium font-semibold text-metallic-700"
+              className="px-6 py-3 bg-night-card hover:bg-night-surface rounded-xl transition-premium font-semibold text-night-text border border-night-border"
             >
               Odhlásiť sa
             </button>
@@ -105,20 +106,20 @@ export default function CatalogPage() {
           <div className="absolute bottom-4 left-4 text-4xl opacity-20 animate-float" style={{ animationDelay: '2s' }}>👍</div>
           
           <div className="relative z-10">
-            <h2 className="text-4xl lg:text-6xl font-black text-brand-navy mb-4 font-display">
-              Lacné Žuvky – nabité chuťou, nie cenou
+            <h2 className="text-4xl lg:text-6xl font-black text-night-text-dark mb-4 font-display neon-text">
+              Lacné Žuvky — Nabité aj v noci
             </h2>
-            <p className="text-xl text-metallic-600 mb-8 max-w-2xl mx-auto">
+            <p className="text-xl text-night-text-light mb-8 max-w-2xl mx-auto">
               Objavte našu prémiovú kolekciu snus produktov s najlepšími cenami v Európe
             </p>
             <div className="flex flex-wrap justify-center gap-4 text-sm">
-              <div className="bg-brand-blue/20 px-4 py-2 rounded-full font-semibold text-brand-navy">
+              <div className="bg-neon-pink/20 px-4 py-2 rounded-full font-semibold text-night-text-dark border border-neon-pink/30">
                 {products.length} produktov
               </div>
-              <div className="bg-brand-pink/20 px-4 py-2 rounded-full font-semibold text-brand-navy">
+              <div className="bg-neon-blue/20 px-4 py-2 rounded-full font-semibold text-night-text-dark border border-neon-blue/30">
                 {getCategories().length} značiek
               </div>
-              <div className="bg-brand-orange/20 px-4 py-2 rounded-full font-semibold text-brand-navy">
+              <div className="bg-neon-orange/20 px-4 py-2 rounded-full font-semibold text-night-text-dark border border-neon-orange/30">
                 Rýchle dodanie
               </div>
             </div>
@@ -210,6 +211,8 @@ export default function CatalogPage() {
           </>
         )}
       </div>
+      
+      <Footer />
     </div>
   )
 }

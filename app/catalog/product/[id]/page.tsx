@@ -33,10 +33,10 @@ export default function ProductDetailPage() {
 
   if (!product) {
     return (
-      <div className="min-h-screen bg-gradient-hero flex items-center justify-center">
+      <div className="min-h-screen bg-gradient-dark flex items-center justify-center">
         <div className="text-center">
-          <div className="w-16 h-16 border-4 border-brand-blue/30 border-t-brand-blue rounded-full animate-spin mx-auto mb-4"></div>
-          <p className="text-metallic-600 font-semibold">Načítavam...</p>
+          <div className="w-16 h-16 border-4 border-neon-pink/30 border-t-neon-pink rounded-full animate-spin mx-auto mb-4"></div>
+          <p className="text-night-text-light font-semibold">Načítavam...</p>
         </div>
       </div>
     )
@@ -54,10 +54,10 @@ export default function ProductDetailPage() {
   }
 
   const getStrengthColor = (strength: number) => {
-    if (strength >= 20) return 'text-red-600 bg-red-50'
-    if (strength >= 15) return 'text-orange-600 bg-orange-50'
-    if (strength >= 10) return 'text-yellow-600 bg-yellow-50'
-    return 'text-green-600 bg-green-50'
+    if (strength >= 20) return 'text-red-400 bg-red-900/20 border-red-500/30'
+    if (strength >= 15) return 'text-orange-400 bg-orange-900/20 border-orange-500/30'
+    if (strength >= 10) return 'text-yellow-400 bg-yellow-900/20 border-yellow-500/30'
+    return 'text-green-400 bg-green-900/20 border-green-500/30'
   }
 
   const handleAddToCart = () => {
@@ -72,13 +72,13 @@ export default function ProductDetailPage() {
   const currentPrice = product.prices[selectedTier]
 
   return (
-    <div className="min-h-screen bg-gradient-hero">
+    <div className="min-h-screen bg-gradient-dark">
       {/* Header */}
       <header className="glass-card sticky top-0 z-50 mb-8">
         <div className="max-w-7xl mx-auto px-6 py-4">
           <button
             onClick={() => router.push('/catalog')}
-            className="flex items-center space-x-2 text-metallic-700 hover:text-brand-blue transition-premium font-semibold"
+            className="flex items-center space-x-2 text-night-text hover:text-neon-pink transition-premium font-semibold"
           >
             <span>←</span>
             <span>Späť do katalógu</span>
@@ -91,7 +91,7 @@ export default function ProductDetailPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Product Image */}
             <div className="relative">
-              <div className="w-full h-96 lg:h-[500px] bg-gradient-to-br from-metallic-50 to-metallic-100 rounded-2xl flex items-center justify-center relative overflow-hidden">
+              <div className="w-full h-96 lg:h-[500px] bg-gradient-to-br from-night-card to-night-surface rounded-2xl flex items-center justify-center relative overflow-hidden border border-night-border">
                 {product.imageUrl ? (
                   <img
                     src={product.imageUrl}
@@ -101,11 +101,11 @@ export default function ProductDetailPage() {
                 ) : (
                   <div className="text-center">
                     <div className="text-9xl mb-4">{getCategoryIcon(product.category)}</div>
-                    <div className="text-2xl font-bold text-metallic-600">{product.category}</div>
+                    <div className="text-2xl font-bold text-night-text-light">{product.category}</div>
                   </div>
                 )}
                 
-                {/* Floating mascot */}
+                {/* Floating mascot with wink animation */}
                 <div className="absolute top-4 right-4 text-4xl animate-bounce-gentle">😊</div>
               </div>
             </div>
@@ -113,10 +113,10 @@ export default function ProductDetailPage() {
             {/* Product Info */}
             <div className="space-y-8">
               <div>
-                <h1 className="text-4xl lg:text-5xl font-black text-brand-navy mb-4 font-display">
+                <h1 className="text-4xl lg:text-5xl font-black text-night-text-dark mb-4 font-display neon-text">
                   {product.name}
                 </h1>
-                <p className="text-lg text-metallic-600 font-medium">
+                <p className="text-lg text-night-text-light font-medium">
                   {product.code}
                 </p>
               </div>
@@ -124,22 +124,22 @@ export default function ProductDetailPage() {
               {/* Price and Tier Selection */}
               <div className="space-y-6">
                 <div className="flex items-center gap-4">
-                  <span className="text-4xl font-bold text-brand-orange">
+                  <span className="text-4xl font-bold text-neon-orange">
                     €{currentPrice.toFixed(2)}
                   </span>
-                  <div className={`px-3 py-1 rounded-full text-sm font-bold ${getStrengthColor(product.strength)}`}>
-                    {product.strength}mg nikotínu
+                  <div className={`px-3 py-1 rounded-full text-sm font-bold border ${getStrengthColor(product.strength)}`}>
+                    💥 {product.strength}mg nikotínu
                   </div>
                 </div>
 
                 <div>
-                  <label className="block text-lg font-bold text-metallic-800 mb-3">
+                  <label className="block text-lg font-bold text-night-text-dark mb-3">
                     Vyberte množstvo:
                   </label>
                   <select
                     value={selectedTier}
                     onChange={(e) => setSelectedTier(e.target.value as any)}
-                    className="w-full px-4 py-3 border-2 border-metallic-200 rounded-xl focus:outline-none focus:ring-4 focus:ring-brand-blue/20 focus:border-brand-blue transition-premium font-semibold text-lg"
+                    className="w-full px-4 py-3 bg-night-card border-2 border-night-border rounded-xl focus:outline-none focus:ring-4 focus:ring-neon-pink/20 focus:border-neon-pink transition-premium font-semibold text-lg text-night-text-dark"
                   >
                     {PRICE_TIERS.map(tier => (
                       <option key={tier.key} value={tier.key}>
@@ -152,21 +152,21 @@ export default function ProductDetailPage() {
 
               {/* Stock Status */}
               <div className="flex items-center space-x-3">
-                <div className={`w-3 h-3 rounded-full ${product.stock > 10 ? 'bg-green-500' : 'bg-orange-500'}`}></div>
-                <p className={`text-lg font-semibold ${product.stock > 10 ? 'text-green-600' : 'text-orange-600'}`}>
+                <div className={`w-3 h-3 rounded-full ${product.stock > 10 ? 'bg-green-400' : 'bg-orange-400'}`}></div>
+                <p className={`text-lg font-semibold ${product.stock > 10 ? 'text-green-400' : 'text-orange-400'}`}>
                   {product.stock > 0 ? `✓ Na sklade (${product.stock} kusov)` : '✗ Nie je na sklade'}
                 </p>
               </div>
 
               {/* Quantity Selector */}
               <div className="space-y-4">
-                <label className="block text-lg font-bold text-metallic-800">
+                <label className="block text-lg font-bold text-night-text-dark">
                   Množstvo:
                 </label>
                 <div className="flex items-center gap-4">
                   <button
                     onClick={() => setQuantity(Math.max(1, quantity - 1))}
-                    className="w-12 h-12 bg-metallic-100 hover:bg-metallic-200 rounded-xl font-bold text-xl transition-premium"
+                    className="w-12 h-12 bg-night-card hover:bg-night-surface rounded-xl font-bold text-xl transition-premium border border-night-border text-night-text-dark"
                   >
                     -
                   </button>
@@ -176,11 +176,11 @@ export default function ProductDetailPage() {
                     onChange={(e) => setQuantity(Math.max(1, parseInt(e.target.value) || 1))}
                     min="1"
                     max={product.stock}
-                    className="w-24 text-center text-xl font-bold border-2 border-metallic-200 rounded-xl py-3 focus:outline-none focus:ring-4 focus:ring-brand-blue/20 focus:border-brand-blue"
+                    className="w-24 text-center text-xl font-bold bg-night-card border-2 border-night-border rounded-xl py-3 focus:outline-none focus:ring-4 focus:ring-neon-pink/20 focus:border-neon-pink text-night-text-dark"
                   />
                   <button
                     onClick={() => setQuantity(Math.min(product.stock, quantity + 1))}
-                    className="w-12 h-12 bg-metallic-100 hover:bg-metallic-200 rounded-xl font-bold text-xl transition-premium"
+                    className="w-12 h-12 bg-night-card hover:bg-night-surface rounded-xl font-bold text-xl transition-premium border border-night-border text-night-text-dark"
                   >
                     +
                   </button>
@@ -193,8 +193,8 @@ export default function ProductDetailPage() {
                 disabled={product.stock === 0}
                 className={`w-full py-4 rounded-2xl font-bold text-xl transition-premium ${
                   product.stock > 0
-                    ? 'btn-premium hover:scale-105'
-                    : 'bg-metallic-200 text-metallic-400 cursor-not-allowed'
+                    ? 'btn-premium hover:scale-105 neon-glow'
+                    : 'bg-night-border text-night-text-light cursor-not-allowed'
                 }`}
               >
                 {product.stock > 0 ? 'Pridať do košíka' : 'Nie je na sklade'}
@@ -220,21 +220,21 @@ export default function ProductDetailPage() {
         {/* Related Products */}
         {relatedProducts.length > 0 && (
           <div className="mt-12">
-            <h2 className="text-3xl font-bold text-brand-navy mb-8 font-display">Podobné produkty</h2>
+            <h2 className="text-3xl font-bold text-night-text-dark mb-8 font-display neon-text">Podobné produkty</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {relatedProducts.map(relatedProduct => (
                 <div
                   key={relatedProduct.id}
                   onClick={() => router.push(`/catalog/product/${relatedProduct.id}`)}
-                  className="tin-card p-4 hover:shadow-lg transition-premium cursor-pointer"
+                  className="tin-card p-4 hover:neon-glow transition-premium cursor-pointer"
                 >
-                  <div className="w-full h-32 bg-gradient-to-br from-metallic-50 to-metallic-100 rounded-xl mb-3 flex items-center justify-center">
+                  <div className="w-full h-32 bg-gradient-to-br from-night-card to-night-surface rounded-xl mb-3 flex items-center justify-center border border-night-border">
                     <span className="text-4xl">{getCategoryIcon(relatedProduct.category)}</span>
                   </div>
-                  <h3 className="font-bold text-metallic-800 mb-2 line-clamp-2">
+                  <h3 className="font-bold text-night-text-dark mb-2 line-clamp-2">
                     {relatedProduct.name}
                   </h3>
-                  <p className="text-xl font-bold text-brand-orange">
+                  <p className="text-xl font-bold text-neon-orange">
                     €{relatedProduct.prices.tier2.toFixed(2)}
                   </p>
                 </div>
