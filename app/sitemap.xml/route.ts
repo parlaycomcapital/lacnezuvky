@@ -1,5 +1,3 @@
-import { NextResponse } from 'next/server'
-
 export async function GET() {
   const baseUrl = 'https://lacnezuvky.vercel.app'
   
@@ -31,7 +29,7 @@ export async function GET() {
   </url>
 </urlset>`
 
-  return new NextResponse(sitemap, {
+  return new Response(sitemap, {
     headers: {
       'Content-Type': 'application/xml',
     },

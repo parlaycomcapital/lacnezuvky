@@ -1,6 +1,5 @@
 'use client'
 
-import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 
@@ -10,12 +9,7 @@ export default function NotFound() {
   return (
     <div className="min-h-screen bg-minimal-bg flex items-center justify-center px-4">
       <div className="text-center max-w-2xl mx-auto">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="space-y-8"
-        >
+        <div className="space-y-8">
           {/* Mascot */}
           <div className="w-32 h-32 mx-auto mb-6 relative">
             <img 
@@ -59,7 +53,7 @@ export default function NotFound() {
               kontaktujte nás na Signal: @golo.21
             </p>
           </div>
-        </motion.div>
+        </div>
       </div>
     </div>
   )

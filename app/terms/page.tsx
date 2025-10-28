@@ -1,18 +1,10 @@
-'use client'
-
-import { motion } from 'framer-motion'
 import Link from 'next/link'
 
 export default function TermsPage() {
   return (
     <div className="min-h-screen bg-minimal-bg text-minimal-text">
       <div className="container mx-auto px-4 py-12 max-w-4xl">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="space-y-8"
-        >
+        <div className="space-y-8">
           <div className="text-center mb-12">
             <h1 className="text-4xl font-bold text-minimal-text mb-4">
               Terms of Service
@@ -95,7 +87,7 @@ export default function TermsPage() {
               <span>← Back to Catalog</span>
             </Link>
           </div>
-        </motion.div>
+        </div>
       </div>
     </div>
   )
