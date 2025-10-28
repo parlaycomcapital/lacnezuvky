@@ -17,14 +17,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 54,
+    "stock": 20,
     "tags": [
       "premium"
     ],
     "description": "PABLO snus with 24mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Ice Cold",
     "brand": "PABLO",
-    "imageUrl": "/images/products/pab-001.jpg"
+    "imageUrl": "/images/products/pablo.png"
   },
   {
     "id": "snus-2",
@@ -44,14 +44,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 92,
+    "stock": 70,
     "tags": [
       "premium"
     ],
     "description": "PABLO snus with 15mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Mini Ice Cold",
     "brand": "PABLO",
-    "imageUrl": "/images/products/pab-002.jpg"
+    "imageUrl": "/images/products/pablo.png"
   },
   {
     "id": "snus-3",
@@ -71,14 +71,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 23,
+    "stock": 18,
     "tags": [
       "premium"
     ],
     "description": "PABLO snus with 24mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Ice Cold XXL",
     "brand": "PABLO",
-    "imageUrl": "/images/products/pab-003.jpg"
+    "imageUrl": "/images/products/pablo.png"
   },
   {
     "id": "snus-4",
@@ -98,14 +98,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 84,
+    "stock": 80,
     "tags": [
       "premium"
     ],
     "description": "PABLO snus with 35mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Ice Cold Limited Edition",
     "brand": "PABLO",
-    "imageUrl": "/images/products/pab-004.jpg"
+    "imageUrl": "/images/products/pablo.png"
   },
   {
     "id": "snus-5",
@@ -125,14 +125,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 93,
+    "stock": 106,
     "tags": [
       "premium"
     ],
     "description": "PABLO snus with 24mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "X-Ice Cold",
     "brand": "PABLO",
-    "imageUrl": "/images/products/pab-005.jpg"
+    "imageUrl": "/images/products/pablo.png"
   },
   {
     "id": "snus-6",
@@ -152,14 +152,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 55,
+    "stock": 33,
     "tags": [
       "premium"
     ],
     "description": "PABLO snus with 15mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Mini X Ice Cold",
     "brand": "PABLO",
-    "imageUrl": "/images/products/pab-006.jpg"
+    "imageUrl": "/images/products/pablo.png"
   },
   {
     "id": "snus-7",
@@ -179,14 +179,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 65,
+    "stock": 16,
     "tags": [
       "premium"
     ],
     "description": "PABLO snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Exclusive Kiwi",
     "brand": "PABLO",
-    "imageUrl": "/images/products/pab-007.jpg"
+    "imageUrl": "/images/products/pablo.png"
   },
   {
     "id": "snus-8",
@@ -206,14 +206,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 39,
+    "stock": 20,
     "tags": [
       "premium"
     ],
     "description": "PABLO snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Exclusive Blue Raspberry",
     "brand": "PABLO",
-    "imageUrl": "/images/products/pab-008.jpg"
+    "imageUrl": "/images/products/pablo.png"
   },
   {
     "id": "snus-9",
@@ -233,14 +233,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 104,
+    "stock": 39,
     "tags": [
       "premium"
     ],
     "description": "PABLO snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Exclusive Frosted Ice",
     "brand": "PABLO",
-    "imageUrl": "/images/products/pab-009.jpg"
+    "imageUrl": "/images/products/pablo.png"
   },
   {
     "id": "snus-10",
@@ -260,14 +260,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 36,
+    "stock": 101,
     "tags": [
       "premium"
     ],
     "description": "PABLO snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Exclusive Cherry Cola",
     "brand": "PABLO",
-    "imageUrl": "/images/products/pab-010.jpg"
+    "imageUrl": "/images/products/pablo.png"
   },
   {
     "id": "snus-11",
@@ -287,14 +287,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 49,
+    "stock": 73,
     "tags": [
       "premium"
     ],
     "description": "PABLO snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Exclusive Mango Ice",
     "brand": "PABLO",
-    "imageUrl": "/images/products/pab-011.jpg"
+    "imageUrl": "/images/products/pablo.png"
   },
   {
     "id": "snus-12",
@@ -314,14 +314,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 89,
+    "stock": 77,
     "tags": [
       "premium"
     ],
     "description": "PABLO snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Exclusive Sour Blueberries",
     "brand": "PABLO",
-    "imageUrl": "/images/products/pab-012.jpg"
+    "imageUrl": "/images/products/pablo.png"
   },
   {
     "id": "snus-13",
@@ -341,14 +341,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 50,
+    "stock": 77,
     "tags": [
       "premium"
     ],
     "description": "PABLO snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Exclusive Grape Ice",
     "brand": "PABLO",
-    "imageUrl": "/images/products/pab-013.jpg"
+    "imageUrl": "/images/products/pablo.png"
   },
   {
     "id": "snus-14",
@@ -368,14 +368,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 10,
+    "stock": 105,
     "tags": [
       "premium"
     ],
     "description": "PABLO snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Exclusive Strawberry Kiwi",
     "brand": "PABLO",
-    "imageUrl": "/images/products/pab-014.jpg"
+    "imageUrl": "/images/products/pablo.png"
   },
   {
     "id": "snus-15",
@@ -395,14 +395,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 60,
+    "stock": 34,
     "tags": [
       "premium"
     ],
     "description": "PABLO snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Exclusive Strawberry Watermelon",
     "brand": "PABLO",
-    "imageUrl": "/images/products/pab-015.jpg"
+    "imageUrl": "/images/products/pablo.png"
   },
   {
     "id": "snus-16",
@@ -422,14 +422,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 21,
+    "stock": 72,
     "tags": [
       "premium"
     ],
     "description": "PABLO snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Exclusive Banana Ice",
     "brand": "PABLO",
-    "imageUrl": "/images/products/pab-016.jpg"
+    "imageUrl": "/images/products/pablo.png"
   },
   {
     "id": "snus-17",
@@ -449,14 +449,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 45,
+    "stock": 101,
     "tags": [
       "premium"
     ],
     "description": "PABLO snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Exclusive Cola",
     "brand": "PABLO",
-    "imageUrl": "/images/products/pab-017.jpg"
+    "imageUrl": "/images/products/pablo.png"
   },
   {
     "id": "snus-18",
@@ -476,14 +476,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 96,
+    "stock": 37,
     "tags": [
       "premium"
     ],
     "description": "PABLO snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Exclusive Dark Cherry",
     "brand": "PABLO",
-    "imageUrl": "/images/products/pab-018.jpg"
+    "imageUrl": "/images/products/pablo.png"
   },
   {
     "id": "snus-19",
@@ -503,14 +503,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 32,
+    "stock": 30,
     "tags": [
       "premium"
     ],
     "description": "PABLO snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Exclusive Strawberry Lychee",
     "brand": "PABLO",
-    "imageUrl": "/images/products/pab-019.jpg"
+    "imageUrl": "/images/products/pablo.png"
   },
   {
     "id": "snus-20",
@@ -530,14 +530,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 38,
+    "stock": 58,
     "tags": [
       "premium"
     ],
     "description": "PABLO snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Exclusive Pink Lemonade",
     "brand": "PABLO",
-    "imageUrl": "/images/products/pab-020.jpg"
+    "imageUrl": "/images/products/pablo.png"
   },
   {
     "id": "snus-21",
@@ -557,14 +557,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 102,
+    "stock": 52,
     "tags": [
       "premium"
     ],
     "description": "PABLO snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Exclusive Bubblegum",
     "brand": "PABLO",
-    "imageUrl": "/images/products/pab-021.jpg"
+    "imageUrl": "/images/products/pablo.png"
   },
   {
     "id": "snus-22",
@@ -584,14 +584,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 45,
+    "stock": 103,
     "tags": [
       "premium"
     ],
     "description": "PABLO snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Exclusive Orange",
     "brand": "PABLO",
-    "imageUrl": "/images/products/pab-022.jpg"
+    "imageUrl": "/images/products/pablo.png"
   },
   {
     "id": "snus-23",
@@ -611,14 +611,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 51,
+    "stock": 62,
     "tags": [
       "premium"
     ],
     "description": "PABLO snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Exclusive Blue Mint",
     "brand": "PABLO",
-    "imageUrl": "/images/products/pab-023.jpg"
+    "imageUrl": "/images/products/pablo.png"
   },
   {
     "id": "snus-24",
@@ -638,14 +638,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 61,
+    "stock": 29,
     "tags": [
       "premium"
     ],
     "description": "PABLO snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Exclusive Green Mint",
     "brand": "PABLO",
-    "imageUrl": "/images/products/pab-024.jpg"
+    "imageUrl": "/images/products/pablo.png"
   },
   {
     "id": "snus-25",
@@ -665,14 +665,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 75,
+    "stock": 88,
     "tags": [
       "premium"
     ],
     "description": "PABLO snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Exclusive Liquorice",
     "brand": "PABLO",
-    "imageUrl": "/images/products/pab-025.jpg"
+    "imageUrl": "/images/products/pablo.png"
   },
   {
     "id": "snus-26",
@@ -692,14 +692,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 75,
+    "stock": 31,
     "tags": [
       "premium"
     ],
     "description": "PABLO snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Exclusive Strawberry Cheesecake",
     "brand": "PABLO",
-    "imageUrl": "/images/products/pab-026.jpg"
+    "imageUrl": "/images/products/pablo.png"
   },
   {
     "id": "snus-27",
@@ -719,14 +719,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 77,
+    "stock": 85,
     "tags": [
       "premium"
     ],
     "description": "PABLO snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Exclusive Blueberry Peach Ice",
     "brand": "PABLO",
-    "imageUrl": "/images/products/pab-027.jpg"
+    "imageUrl": "/images/products/pablo.png"
   },
   {
     "id": "snus-28",
@@ -746,14 +746,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 98,
+    "stock": 50,
     "tags": [
       "premium"
     ],
     "description": "PABLO snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Exclusive Blueberry Cranberry Cherry",
     "brand": "PABLO",
-    "imageUrl": "/images/products/pab-028.jpg"
+    "imageUrl": "/images/products/pablo.png"
   },
   {
     "id": "snus-29",
@@ -773,14 +773,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 58,
+    "stock": 97,
     "tags": [
       "premium"
     ],
     "description": "PABLO snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Exclusive Frosted Mint",
     "brand": "PABLO",
-    "imageUrl": "/images/products/pab-029.jpg"
+    "imageUrl": "/images/products/pablo.png"
   },
   {
     "id": "snus-30",
@@ -800,14 +800,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 66,
+    "stock": 38,
     "tags": [
       "premium"
     ],
     "description": "PABLO snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Exclusive Tropical Punch",
     "brand": "PABLO",
-    "imageUrl": "/images/products/pab-030.jpg"
+    "imageUrl": "/images/products/pablo.png"
   },
   {
     "id": "snus-31",
@@ -827,14 +827,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 71,
+    "stock": 90,
     "tags": [
       "premium"
     ],
     "description": "PABLO snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Exclusive Pear",
     "brand": "PABLO",
-    "imageUrl": "/images/products/pab-031.jpg"
+    "imageUrl": "/images/products/pablo.png"
   },
   {
     "id": "snus-32",
@@ -854,14 +854,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 94,
+    "stock": 62,
     "tags": [
       "premium"
     ],
     "description": "PABLO snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Exclusive Lemonade",
     "brand": "PABLO",
-    "imageUrl": "/images/products/pab-032.jpg"
+    "imageUrl": "/images/products/pablo.png"
   },
   {
     "id": "snus-33",
@@ -881,14 +881,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 30,
+    "stock": 51,
     "tags": [
       "premium"
     ],
     "description": "PABLO snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Exclusive Passion Fruit",
     "brand": "PABLO",
-    "imageUrl": "/images/products/pab-033.jpg"
+    "imageUrl": "/images/products/pablo.png"
   },
   {
     "id": "snus-34",
@@ -908,14 +908,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 20,
+    "stock": 17,
     "tags": [
       "premium"
     ],
     "description": "PABLO snus with 24mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Red",
     "brand": "PABLO",
-    "imageUrl": "/images/products/pab-034.jpg"
+    "imageUrl": "/images/products/pablo.png"
   },
   {
     "id": "snus-35",
@@ -935,14 +935,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 40,
+    "stock": 98,
     "tags": [
       "premium"
     ],
     "description": "PABLO snus with 15mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Mini Red",
     "brand": "PABLO",
-    "imageUrl": "/images/products/pab-035.jpg"
+    "imageUrl": "/images/products/pablo.png"
   },
   {
     "id": "snus-36",
@@ -962,14 +962,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 89,
+    "stock": 18,
     "tags": [
       "premium"
     ],
     "description": "KILLA snus with 11.2mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Cold Mint",
     "brand": "KILLA",
-    "imageUrl": "/images/products/kil-001.jpg"
+    "imageUrl": "/images/products/killa.png"
   },
   {
     "id": "snus-37",
@@ -989,14 +989,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 21,
+    "stock": 28,
     "tags": [
       "premium"
     ],
     "description": "KILLA snus with 11.2mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Energy",
     "brand": "KILLA",
-    "imageUrl": "/images/products/kil-002.jpg"
+    "imageUrl": "/images/products/killa.png"
   },
   {
     "id": "snus-38",
@@ -1016,14 +1016,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 38,
+    "stock": 29,
     "tags": [
       "premium"
     ],
     "description": "KILLA snus with 11.2mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Cola",
     "brand": "KILLA",
-    "imageUrl": "/images/products/kil-003.jpg"
+    "imageUrl": "/images/products/killa.png"
   },
   {
     "id": "snus-39",
@@ -1043,14 +1043,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 97,
+    "stock": 108,
     "tags": [
       "premium"
     ],
     "description": "KILLA snus with 13.2mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Exclusive Tropical Punch",
     "brand": "KILLA",
-    "imageUrl": "/images/products/kil-004.jpg"
+    "imageUrl": "/images/products/killa.png"
   },
   {
     "id": "snus-40",
@@ -1070,14 +1070,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 10,
+    "stock": 106,
     "tags": [
       "premium"
     ],
     "description": "KILLA snus with 11.2mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Blueberry",
     "brand": "KILLA",
-    "imageUrl": "/images/products/kil-005.jpg"
+    "imageUrl": "/images/products/killa.png"
   },
   {
     "id": "snus-41",
@@ -1097,14 +1097,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 105,
+    "stock": 45,
     "tags": [
       "premium"
     ],
     "description": "KILLA snus with 13.2mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Exclusive Cherry Cola",
     "brand": "KILLA",
-    "imageUrl": "/images/products/kil-006.jpg"
+    "imageUrl": "/images/products/killa.png"
   },
   {
     "id": "snus-42",
@@ -1124,14 +1124,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 68,
+    "stock": 16,
     "tags": [
       "premium"
     ],
     "description": "KILLA snus with 13.2mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Exclusive Strawberry Watermelon",
     "brand": "KILLA",
-    "imageUrl": "/images/products/kil-007.jpg"
+    "imageUrl": "/images/products/killa.png"
   },
   {
     "id": "snus-43",
@@ -1151,14 +1151,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 45,
+    "stock": 82,
     "tags": [
       "premium"
     ],
     "description": "KILLA snus with 11.2mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Apple",
     "brand": "KILLA",
-    "imageUrl": "/images/products/kil-008.jpg"
+    "imageUrl": "/images/products/killa.png"
   },
   {
     "id": "snus-44",
@@ -1178,14 +1178,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 11,
+    "stock": 79,
     "tags": [
       "premium"
     ],
     "description": "KILLA snus with 11.2mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Grape Ice",
     "brand": "KILLA",
-    "imageUrl": "/images/products/kil-009.jpg"
+    "imageUrl": "/images/products/killa.png"
   },
   {
     "id": "snus-45",
@@ -1205,14 +1205,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 103,
+    "stock": 104,
     "tags": [
       "premium"
     ],
     "description": "KILLA snus with 11.2mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Watermelon",
     "brand": "KILLA",
-    "imageUrl": "/images/products/kil-010.jpg"
+    "imageUrl": "/images/products/killa.png"
   },
   {
     "id": "snus-46",
@@ -1232,14 +1232,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 74,
+    "stock": 52,
     "tags": [
       "premium"
     ],
     "description": "KILLA snus with 8mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Mini Frosted Mint",
     "brand": "KILLA",
-    "imageUrl": "/images/products/kil-011.jpg"
+    "imageUrl": "/images/products/killa.png"
   },
   {
     "id": "snus-47",
@@ -1259,14 +1259,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 20,
+    "stock": 55,
     "tags": [
       "premium"
     ],
     "description": "KILLA snus with 11.2mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Frosted Mint",
     "brand": "KILLA",
-    "imageUrl": "/images/products/kil-012.jpg"
+    "imageUrl": "/images/products/killa.png"
   },
   {
     "id": "snus-48",
@@ -1286,14 +1286,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 93,
+    "stock": 74,
     "tags": [
       "premium"
     ],
     "description": "KILLA snus with 16mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Strawberry Lychee",
     "brand": "KILLA",
-    "imageUrl": "/images/products/kil-013.jpg"
+    "imageUrl": "/images/products/killa.png"
   },
   {
     "id": "snus-49",
@@ -1313,14 +1313,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 57,
+    "stock": 56,
     "tags": [
       "premium"
     ],
     "description": "KILLA snus with 8mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Mini Cold Mint",
     "brand": "KILLA",
-    "imageUrl": "/images/products/kil-014.jpg"
+    "imageUrl": "/images/products/killa.png"
   },
   {
     "id": "snus-50",
@@ -1340,14 +1340,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 54,
+    "stock": 19,
     "tags": [
       "premium"
     ],
     "description": "KILLA snus with 11.2mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Banana Ice",
     "brand": "KILLA",
-    "imageUrl": "/images/products/kil-015.jpg"
+    "imageUrl": "/images/products/killa.png"
   },
   {
     "id": "snus-51",
@@ -1367,14 +1367,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 27,
+    "stock": 72,
     "tags": [
       "premium"
     ],
     "description": "KILLA snus with 11.2mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Bubblegum",
     "brand": "KILLA",
-    "imageUrl": "/images/products/kil-016.jpg"
+    "imageUrl": "/images/products/killa.png"
   },
   {
     "id": "snus-52",
@@ -1394,14 +1394,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 10,
+    "stock": 54,
     "tags": [
       "premium"
     ],
     "description": "KILLA snus with 11.2mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Mango Ice",
     "brand": "KILLA",
-    "imageUrl": "/images/products/kil-017.jpg"
+    "imageUrl": "/images/products/killa.png"
   },
   {
     "id": "snus-53",
@@ -1421,14 +1421,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 30,
+    "stock": 93,
     "tags": [
       "premium"
     ],
     "description": "KILLA snus with 11.2mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Pineapple",
     "brand": "KILLA",
-    "imageUrl": "/images/products/kil-018.jpg"
+    "imageUrl": "/images/products/killa.png"
   },
   {
     "id": "snus-54",
@@ -1448,14 +1448,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 55,
+    "stock": 73,
     "tags": [
       "premium"
     ],
     "description": "KILLA snus with 13.2mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Exclusive Dark Cherry",
     "brand": "KILLA",
-    "imageUrl": "/images/products/kil-019.jpg"
+    "imageUrl": "/images/products/killa.png"
   },
   {
     "id": "snus-55",
@@ -1475,14 +1475,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 36,
+    "stock": 102,
     "tags": [
       "premium"
     ],
     "description": "KILLA snus with 13.2mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Exclusive Orange",
     "brand": "KILLA",
-    "imageUrl": "/images/products/kil-020.jpg"
+    "imageUrl": "/images/products/killa.png"
   },
   {
     "id": "snus-56",
@@ -1502,14 +1502,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 97,
+    "stock": 96,
     "tags": [
       "premium"
     ],
     "description": "KILLA snus with 11.2mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Spearmint",
     "brand": "KILLA",
-    "imageUrl": "/images/products/kil-021.jpg"
+    "imageUrl": "/images/products/killa.png"
   },
   {
     "id": "snus-57",
@@ -1529,14 +1529,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 67,
+    "stock": 25,
     "tags": [
       "premium"
     ],
     "description": "KILLA snus with 8mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Mini Blueberry",
     "brand": "KILLA",
-    "imageUrl": "/images/products/kil-022.jpg"
+    "imageUrl": "/images/products/killa.png"
   },
   {
     "id": "snus-58",
@@ -1563,7 +1563,7 @@
     "description": "KILLA snus with 8mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Mini Mango Ice",
     "brand": "KILLA",
-    "imageUrl": "/images/products/kil-023.jpg"
+    "imageUrl": "/images/products/killa.png"
   },
   {
     "id": "snus-59",
@@ -1583,14 +1583,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 34,
+    "stock": 38,
     "tags": [
       "premium"
     ],
     "description": "KILLA snus with 11.2mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Melon",
     "brand": "KILLA",
-    "imageUrl": "/images/products/kil-024.jpg"
+    "imageUrl": "/images/products/killa.png"
   },
   {
     "id": "snus-60",
@@ -1610,14 +1610,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 96,
+    "stock": 42,
     "tags": [
       "premium"
     ],
     "description": "KILLA snus with 11.2mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Double Dutch Cold (Limited Edition)",
     "brand": "KILLA",
-    "imageUrl": "/images/products/kil-025.jpg"
+    "imageUrl": "/images/products/killa.png"
   },
   {
     "id": "snus-61",
@@ -1637,14 +1637,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 58,
+    "stock": 22,
     "tags": [
       "premium"
     ],
     "description": "KILLA snus with 11.2mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "13",
     "brand": "KILLA",
-    "imageUrl": "/images/products/kil-026.jpg"
+    "imageUrl": "/images/products/killa.png"
   },
   {
     "id": "snus-62",
@@ -1664,14 +1664,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 20,
+    "stock": 36,
     "tags": [
       "premium"
     ],
     "description": "KILLA snus with 11.2mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Exclusive Blue Mint",
     "brand": "KILLA",
-    "imageUrl": "/images/products/kil-027.jpg"
+    "imageUrl": "/images/products/killa.png"
   },
   {
     "id": "snus-63",
@@ -1691,14 +1691,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 77,
+    "stock": 75,
     "tags": [
       "premium"
     ],
     "description": "KILLA snus with 13.2mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Exclusive Green Mint",
     "brand": "KILLA",
-    "imageUrl": "/images/products/kil-028.jpg"
+    "imageUrl": "/images/products/killa.png"
   },
   {
     "id": "snus-64",
@@ -1718,14 +1718,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 84,
+    "stock": 106,
     "tags": [
       "premium"
     ],
     "description": "KILLA snus with 13.2mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Exclusive Cold Dry",
     "brand": "KILLA",
-    "imageUrl": "/images/products/kil-029.jpg"
+    "imageUrl": "/images/products/killa.png"
   },
   {
     "id": "snus-65",
@@ -1745,14 +1745,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 45,
+    "stock": 82,
     "tags": [
       "premium"
     ],
     "description": "KILLA snus with 8mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Mini Banana Ice",
     "brand": "KILLA",
-    "imageUrl": "/images/products/kil-030.jpg"
+    "imageUrl": "/images/products/killa.png"
   },
   {
     "id": "snus-66",
@@ -1772,14 +1772,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 25,
+    "stock": 84,
     "tags": [
       "premium"
     ],
     "description": "KILLA snus with 13.2mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Exclusive Blue Raspberry",
     "brand": "KILLA",
-    "imageUrl": "/images/products/kil-031.jpg"
+    "imageUrl": "/images/products/killa.png"
   },
   {
     "id": "snus-67",
@@ -1799,14 +1799,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 73,
+    "stock": 95,
     "tags": [
       "premium"
     ],
     "description": "KILLA snus with 13.2mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Exclusive Lemonade",
     "brand": "KILLA",
-    "imageUrl": "/images/products/kil-032.jpg"
+    "imageUrl": "/images/products/killa.png"
   },
   {
     "id": "snus-68",
@@ -1826,14 +1826,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 85,
+    "stock": 27,
     "tags": [
       "premium"
     ],
     "description": "KILLA snus with 16.5mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "XXL Cold Mint",
     "brand": "KILLA",
-    "imageUrl": "/images/products/kil-033.jpg"
+    "imageUrl": "/images/products/killa.png"
   },
   {
     "id": "snus-69",
@@ -1853,14 +1853,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 86,
+    "stock": 74,
     "tags": [
       "premium"
     ],
     "description": "KILLA snus with 11.2mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Cold Mint XXL",
     "brand": "KILLA",
-    "imageUrl": "/images/products/kil-034.jpg"
+    "imageUrl": "/images/products/killa.png"
   },
   {
     "id": "snus-70",
@@ -1880,14 +1880,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 45,
+    "stock": 22,
     "tags": [
       "premium"
     ],
     "description": "KILLA snus with 16.5mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "XXL Freeze Gold",
     "brand": "KILLA",
-    "imageUrl": "/images/products/kil-035.jpg"
+    "imageUrl": "/images/products/killa.png"
   },
   {
     "id": "snus-71",
@@ -1907,14 +1907,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 40,
+    "stock": 105,
     "tags": [
       "premium"
     ],
     "description": "KILLA snus with 16.5mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "XXL Double Mint",
     "brand": "KILLA",
-    "imageUrl": "/images/products/kil-036.jpg"
+    "imageUrl": "/images/products/killa.png"
   },
   {
     "id": "snus-72",
@@ -1934,14 +1934,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 65,
+    "stock": 67,
     "tags": [
       "premium"
     ],
     "description": "KILLA snus with 16.5mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "XXL Cold Dry",
     "brand": "KILLA",
-    "imageUrl": "/images/products/kil-037.jpg"
+    "imageUrl": "/images/products/killa.png"
   },
   {
     "id": "snus-73",
@@ -1961,14 +1961,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 10,
+    "stock": 73,
     "tags": [
       "premium"
     ],
     "description": "KILLA snus with 13.2mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Exclusive Liquorice",
     "brand": "KILLA",
-    "imageUrl": "/images/products/kil-038.jpg"
+    "imageUrl": "/images/products/killa.png"
   },
   {
     "id": "snus-74",
@@ -1988,14 +1988,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 18,
+    "stock": 23,
     "tags": [
       "premium"
     ],
     "description": "KILLA snus with 11.2mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Strawberry Cheesecake",
     "brand": "KILLA",
-    "imageUrl": "/images/products/kil-039.jpg"
+    "imageUrl": "/images/products/killa.png"
   },
   {
     "id": "snus-75",
@@ -2015,14 +2015,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 107,
+    "stock": 86,
     "tags": [
       "premium"
     ],
     "description": "KILLA snus with 11.2mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Gold Freeze",
     "brand": "KILLA",
-    "imageUrl": "/images/products/kil-040.jpg"
+    "imageUrl": "/images/products/killa.png"
   },
   {
     "id": "snus-76",
@@ -2042,14 +2042,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 83,
+    "stock": 12,
     "tags": [
       "premium"
     ],
     "description": "CUBA snus with 43mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Cherry Strong",
     "brand": "CUBA",
-    "imageUrl": "/images/products/cub-001.jpg"
+    "imageUrl": "/images/products/cuba.png"
   },
   {
     "id": "snus-77",
@@ -2069,14 +2069,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 23,
+    "stock": 82,
     "tags": [
       "premium"
     ],
     "description": "CUBA snus with 43mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Forest Berries Strong",
     "brand": "CUBA",
-    "imageUrl": "/images/products/cub-002.jpg"
+    "imageUrl": "/images/products/cuba.png"
   },
   {
     "id": "snus-78",
@@ -2096,14 +2096,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 49,
+    "stock": 57,
     "tags": [
       "premium"
     ],
     "description": "CUBA snus with 43mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Blueberry Strong",
     "brand": "CUBA",
-    "imageUrl": "/images/products/cub-003.jpg"
+    "imageUrl": "/images/products/cuba.png"
   },
   {
     "id": "snus-79",
@@ -2123,14 +2123,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 66,
+    "stock": 31,
     "tags": [
       "premium"
     ],
     "description": "CUBA snus with 43mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Cola Strong",
     "brand": "CUBA",
-    "imageUrl": "/images/products/cub-004.jpg"
+    "imageUrl": "/images/products/cuba.png"
   },
   {
     "id": "snus-80",
@@ -2150,14 +2150,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 79,
+    "stock": 59,
     "tags": [
       "premium"
     ],
     "description": "CUBA snus with 43mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Peach Strong",
     "brand": "CUBA",
-    "imageUrl": "/images/products/cub-005.jpg"
+    "imageUrl": "/images/products/cuba.png"
   },
   {
     "id": "snus-81",
@@ -2177,14 +2177,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 105,
+    "stock": 48,
     "tags": [
       "premium"
     ],
     "description": "CUBA snus with 43mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Apple Juice Strong",
     "brand": "CUBA",
-    "imageUrl": "/images/products/cub-006.jpg"
+    "imageUrl": "/images/products/cuba.png"
   },
   {
     "id": "snus-82",
@@ -2204,14 +2204,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 34,
+    "stock": 81,
     "tags": [
       "premium"
     ],
     "description": "CUBA snus with 43mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Grape Strong",
     "brand": "CUBA",
-    "imageUrl": "/images/products/cub-007.jpg"
+    "imageUrl": "/images/products/cuba.png"
   },
   {
     "id": "snus-83",
@@ -2231,14 +2231,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 46,
+    "stock": 96,
     "tags": [
       "premium"
     ],
     "description": "CUBA snus with 43mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Watermelon Strong",
     "brand": "CUBA",
-    "imageUrl": "/images/products/cub-008.jpg"
+    "imageUrl": "/images/products/cuba.png"
   },
   {
     "id": "snus-84",
@@ -2258,14 +2258,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 38,
+    "stock": 67,
     "tags": [
       "premium"
     ],
     "description": "CUBA snus with 43mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Pineapple Strong",
     "brand": "CUBA",
-    "imageUrl": "/images/products/cub-009.jpg"
+    "imageUrl": "/images/products/cuba.png"
   },
   {
     "id": "snus-85",
@@ -2285,14 +2285,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 24,
+    "stock": 91,
     "tags": [
       "premium"
     ],
     "description": "CUBA snus with 43mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Black Currant Strong",
     "brand": "CUBA",
-    "imageUrl": "/images/products/cub-010.jpg"
+    "imageUrl": "/images/products/cuba.png"
   },
   {
     "id": "snus-86",
@@ -2312,14 +2312,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 11,
+    "stock": 81,
     "tags": [
       "premium"
     ],
     "description": "CUBA snus with 43mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Cold Dry Strong",
     "brand": "CUBA",
-    "imageUrl": "/images/products/cub-011.jpg"
+    "imageUrl": "/images/products/cuba.png"
   },
   {
     "id": "snus-87",
@@ -2339,14 +2339,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 100,
+    "stock": 80,
     "tags": [
       "premium"
     ],
     "description": "CUBA snus with 10.4mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Cherry Medium",
     "brand": "CUBA",
-    "imageUrl": "/images/products/cub-012.jpg"
+    "imageUrl": "/images/products/cuba.png"
   },
   {
     "id": "snus-88",
@@ -2366,14 +2366,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 69,
+    "stock": 29,
     "tags": [
       "premium"
     ],
     "description": "CUBA snus with 43mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Banana Hit Strong",
     "brand": "CUBA",
-    "imageUrl": "/images/products/cub-013.jpg"
+    "imageUrl": "/images/products/cuba.png"
   },
   {
     "id": "snus-89",
@@ -2393,14 +2393,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 97,
+    "stock": 42,
     "tags": [
       "premium"
     ],
     "description": "CUBA snus with 10.4mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Peach Medium",
     "brand": "CUBA",
-    "imageUrl": "/images/products/cub-014.jpg"
+    "imageUrl": "/images/products/cuba.png"
   },
   {
     "id": "snus-90",
@@ -2420,14 +2420,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 58,
+    "stock": 50,
     "tags": [
       "premium"
     ],
     "description": "CUBA snus with 10.4mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Forest Berries Medium",
     "brand": "CUBA",
-    "imageUrl": "/images/products/cub-015.jpg"
+    "imageUrl": "/images/products/cuba.png"
   },
   {
     "id": "snus-91",
@@ -2447,14 +2447,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 109,
+    "stock": 18,
     "tags": [
       "premium"
     ],
     "description": "CUBA snus with 10.4mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Grape Medium",
     "brand": "CUBA",
-    "imageUrl": "/images/products/cub-016.jpg"
+    "imageUrl": "/images/products/cuba.png"
   },
   {
     "id": "snus-92",
@@ -2474,14 +2474,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 60,
+    "stock": 92,
     "tags": [
       "premium"
     ],
     "description": "CUBA snus with 10.4mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Apple Juice Medium",
     "brand": "CUBA",
-    "imageUrl": "/images/products/cub-017.jpg"
+    "imageUrl": "/images/products/cuba.png"
   },
   {
     "id": "snus-93",
@@ -2501,14 +2501,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 21,
+    "stock": 32,
     "tags": [
       "premium"
     ],
     "description": "CUBA snus with 10.4mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Watermelon Medium",
     "brand": "CUBA",
-    "imageUrl": "/images/products/cub-018.jpg"
+    "imageUrl": "/images/products/cuba.png"
   },
   {
     "id": "snus-94",
@@ -2528,14 +2528,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 50,
+    "stock": 86,
     "tags": [
       "premium"
     ],
     "description": "CUBA snus with 10.4mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Cola Medium",
     "brand": "CUBA",
-    "imageUrl": "/images/products/cub-019.jpg"
+    "imageUrl": "/images/products/cuba.png"
   },
   {
     "id": "snus-95",
@@ -2555,14 +2555,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 88,
+    "stock": 64,
     "tags": [
       "premium"
     ],
     "description": "CUBA snus with 10.4mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Black Currant Medium",
     "brand": "CUBA",
-    "imageUrl": "/images/products/cub-020.jpg"
+    "imageUrl": "/images/products/cuba.png"
   },
   {
     "id": "snus-96",
@@ -2582,14 +2582,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 94,
+    "stock": 18,
     "tags": [
       "premium"
     ],
     "description": "CUBA snus with 10.4mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Blueberry Medium",
     "brand": "CUBA",
-    "imageUrl": "/images/products/cub-021.jpg"
+    "imageUrl": "/images/products/cuba.png"
   },
   {
     "id": "snus-97",
@@ -2609,14 +2609,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 58,
+    "stock": 42,
     "tags": [
       "premium"
     ],
     "description": "CUBA snus with 10.4mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Pineapple Medium",
     "brand": "CUBA",
-    "imageUrl": "/images/products/cub-022.jpg"
+    "imageUrl": "/images/products/cuba.png"
   },
   {
     "id": "snus-98",
@@ -2636,14 +2636,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 12,
+    "stock": 75,
     "tags": [
       "premium"
     ],
     "description": "CUBA snus with 43mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "MEGA Cherry Strong",
     "brand": "CUBA",
-    "imageUrl": "/images/products/cub-023.jpg"
+    "imageUrl": "/images/products/cuba.png"
   },
   {
     "id": "snus-99",
@@ -2663,14 +2663,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 71,
+    "stock": 94,
     "tags": [
       "premium"
     ],
     "description": "CUBA snus with 10.4mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Cold Dry Medium",
     "brand": "CUBA",
-    "imageUrl": "/images/products/cub-024.jpg"
+    "imageUrl": "/images/products/cuba.png"
   },
   {
     "id": "snus-100",
@@ -2690,14 +2690,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 57,
+    "stock": 103,
     "tags": [
       "premium"
     ],
     "description": "CUBA snus with 10.4mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Banana Hit Medium",
     "brand": "CUBA",
-    "imageUrl": "/images/products/cub-025.jpg"
+    "imageUrl": "/images/products/cuba.png"
   },
   {
     "id": "snus-101",
@@ -2717,14 +2717,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 97,
+    "stock": 31,
     "tags": [
       "premium"
     ],
     "description": "CUBA snus with 43mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "MEGA Peach Strong",
     "brand": "CUBA",
-    "imageUrl": "/images/products/cub-026.jpg"
+    "imageUrl": "/images/products/cuba.png"
   },
   {
     "id": "snus-102",
@@ -2744,14 +2744,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 44,
+    "stock": 90,
     "tags": [
       "premium"
     ],
     "description": "CUBA snus with 43mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "MEGA Double Fresh Strong",
     "brand": "CUBA",
-    "imageUrl": "/images/products/cub-027.jpg"
+    "imageUrl": "/images/products/cuba.png"
   },
   {
     "id": "snus-103",
@@ -2771,14 +2771,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 50,
+    "stock": 20,
     "tags": [
       "premium"
     ],
     "description": "CUBA snus with 43mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "MEGA Blueberry Strong",
     "brand": "CUBA",
-    "imageUrl": "/images/products/cub-028.jpg"
+    "imageUrl": "/images/products/cuba.png"
   },
   {
     "id": "snus-104",
@@ -2798,14 +2798,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 98,
+    "stock": 30,
     "tags": [
       "premium"
     ],
     "description": "CUBA snus with 10.4mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "MEGA Double Fresh Medium",
     "brand": "CUBA",
-    "imageUrl": "/images/products/cub-029.jpg"
+    "imageUrl": "/images/products/cuba.png"
   },
   {
     "id": "snus-105",
@@ -2825,14 +2825,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 50,
+    "stock": 94,
     "tags": [
       "premium"
     ],
     "description": "CUBA snus with 10.4mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "MEGA Cherry Medium",
     "brand": "CUBA",
-    "imageUrl": "/images/products/cub-030.jpg"
+    "imageUrl": "/images/products/cuba.png"
   },
   {
     "id": "snus-106",
@@ -2852,14 +2852,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 107,
+    "stock": 51,
     "tags": [
       "premium"
     ],
     "description": "ICEBERG snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Emerald",
     "brand": "ICEBERG",
-    "imageUrl": "/images/products/ice-001.jpg"
+    "imageUrl": "/images/products/iceberg.png"
   },
   {
     "id": "snus-107",
@@ -2879,14 +2879,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 22,
+    "stock": 36,
     "tags": [
       "premium"
     ],
     "description": "ICEBERG snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Sour Berries",
     "brand": "ICEBERG",
-    "imageUrl": "/images/products/ice-002.jpg"
+    "imageUrl": "/images/products/iceberg.png"
   },
   {
     "id": "snus-108",
@@ -2906,14 +2906,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 94,
+    "stock": 44,
     "tags": [
       "premium"
     ],
     "description": "ICEBERG snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Dragon Fruit",
     "brand": "ICEBERG",
-    "imageUrl": "/images/products/ice-003.jpg"
+    "imageUrl": "/images/products/iceberg.png"
   },
   {
     "id": "snus-109",
@@ -2940,7 +2940,7 @@
     "description": "ICEBERG snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Black",
     "brand": "ICEBERG",
-    "imageUrl": "/images/products/ice-004.jpg"
+    "imageUrl": "/images/products/iceberg.png"
   },
   {
     "id": "snus-110",
@@ -2960,14 +2960,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 53,
+    "stock": 32,
     "tags": [
       "premium"
     ],
     "description": "ICEBERG snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Energy",
     "brand": "ICEBERG",
-    "imageUrl": "/images/products/ice-005.jpg"
+    "imageUrl": "/images/products/iceberg.png"
   },
   {
     "id": "snus-111",
@@ -2987,14 +2987,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 11,
+    "stock": 31,
     "tags": [
       "premium"
     ],
     "description": "ICEBERG snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Kiwi Strawberry",
     "brand": "ICEBERG",
-    "imageUrl": "/images/products/ice-006.jpg"
+    "imageUrl": "/images/products/iceberg.png"
   },
   {
     "id": "snus-112",
@@ -3014,14 +3014,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 49,
+    "stock": 52,
     "tags": [
       "premium"
     ],
     "description": "ICEBERG snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Grape",
     "brand": "ICEBERG",
-    "imageUrl": "/images/products/ice-007.jpg"
+    "imageUrl": "/images/products/iceberg.png"
   },
   {
     "id": "snus-113",
@@ -3041,14 +3041,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 64,
+    "stock": 60,
     "tags": [
       "premium"
     ],
     "description": "ICEBERG snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Pineapple Mango Coconut",
     "brand": "ICEBERG",
-    "imageUrl": "/images/products/ice-008.jpg"
+    "imageUrl": "/images/products/iceberg.png"
   },
   {
     "id": "snus-114",
@@ -3068,14 +3068,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 102,
+    "stock": 96,
     "tags": [
       "premium"
     ],
     "description": "ICEBERG snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Cola",
     "brand": "ICEBERG",
-    "imageUrl": "/images/products/ice-009.jpg"
+    "imageUrl": "/images/products/iceberg.png"
   },
   {
     "id": "snus-115",
@@ -3095,14 +3095,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 87,
+    "stock": 102,
     "tags": [
       "premium"
     ],
     "description": "ICEBERG snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Watermelon Mint Gum",
     "brand": "ICEBERG",
-    "imageUrl": "/images/products/ice-010.jpg"
+    "imageUrl": "/images/products/iceberg.png"
   },
   {
     "id": "snus-116",
@@ -3122,14 +3122,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 71,
+    "stock": 83,
     "tags": [
       "premium"
     ],
     "description": "ICEBERG snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Arasaka",
     "brand": "ICEBERG",
-    "imageUrl": "/images/products/ice-011.jpg"
+    "imageUrl": "/images/products/iceberg.png"
   },
   {
     "id": "snus-117",
@@ -3149,14 +3149,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 41,
+    "stock": 77,
     "tags": [
       "premium"
     ],
     "description": "ICEBERG snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Cherry",
     "brand": "ICEBERG",
-    "imageUrl": "/images/products/ice-012.jpg"
+    "imageUrl": "/images/products/iceberg.png"
   },
   {
     "id": "snus-118",
@@ -3176,14 +3176,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 25,
+    "stock": 83,
     "tags": [
       "premium"
     ],
     "description": "ICEBERG snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Grape Gum",
     "brand": "ICEBERG",
-    "imageUrl": "/images/products/ice-013.jpg"
+    "imageUrl": "/images/products/iceberg.png"
   },
   {
     "id": "snus-119",
@@ -3203,14 +3203,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 108,
+    "stock": 100,
     "tags": [
       "premium"
     ],
     "description": "ICEBERG snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Watermelon Lime",
     "brand": "ICEBERG",
-    "imageUrl": "/images/products/ice-014.jpg"
+    "imageUrl": "/images/products/iceberg.png"
   },
   {
     "id": "snus-120",
@@ -3230,14 +3230,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 94,
+    "stock": 60,
     "tags": [
       "premium"
     ],
     "description": "ICEBERG snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Strawberry Mango Gum",
     "brand": "ICEBERG",
-    "imageUrl": "/images/products/ice-015.jpg"
+    "imageUrl": "/images/products/iceberg.png"
   },
   {
     "id": "snus-121",
@@ -3257,14 +3257,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 53,
+    "stock": 69,
     "tags": [
       "premium"
     ],
     "description": "ICEBERG snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Dragon Fire",
     "brand": "ICEBERG",
-    "imageUrl": "/images/products/ice-016.jpg"
+    "imageUrl": "/images/products/iceberg.png"
   },
   {
     "id": "snus-122",
@@ -3284,14 +3284,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 72,
+    "stock": 107,
     "tags": [
       "premium"
     ],
     "description": "ICEBERG snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Ninja Orange",
     "brand": "ICEBERG",
-    "imageUrl": "/images/products/ice-017.jpg"
+    "imageUrl": "/images/products/iceberg.png"
   },
   {
     "id": "snus-123",
@@ -3311,14 +3311,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 52,
+    "stock": 69,
     "tags": [
       "premium"
     ],
     "description": "ICEBERG snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Melon Peach",
     "brand": "ICEBERG",
-    "imageUrl": "/images/products/ice-018.jpg"
+    "imageUrl": "/images/products/iceberg.png"
   },
   {
     "id": "snus-124",
@@ -3338,14 +3338,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 14,
+    "stock": 78,
     "tags": [
       "premium"
     ],
     "description": "ICEBERG snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Raspberry Gum",
     "brand": "ICEBERG",
-    "imageUrl": "/images/products/ice-019.jpg"
+    "imageUrl": "/images/products/iceberg.png"
   },
   {
     "id": "snus-125",
@@ -3365,14 +3365,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 76,
+    "stock": 82,
     "tags": [
       "premium"
     ],
     "description": "ICEBERG snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Crazy Mix",
     "brand": "ICEBERG",
-    "imageUrl": "/images/products/ice-020.jpg"
+    "imageUrl": "/images/products/iceberg.png"
   },
   {
     "id": "snus-126",
@@ -3392,14 +3392,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 16,
+    "stock": 76,
     "tags": [
       "premium"
     ],
     "description": "ICEBERG snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Bubblegum",
     "brand": "ICEBERG",
-    "imageUrl": "/images/products/ice-021.jpg"
+    "imageUrl": "/images/products/iceberg.png"
   },
   {
     "id": "snus-127",
@@ -3419,14 +3419,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 52,
+    "stock": 30,
     "tags": [
       "premium"
     ],
     "description": "ICEBERG snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Guava Lime",
     "brand": "ICEBERG",
-    "imageUrl": "/images/products/ice-022.jpg"
+    "imageUrl": "/images/products/iceberg.png"
   },
   {
     "id": "snus-128",
@@ -3446,14 +3446,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 88,
+    "stock": 52,
     "tags": [
       "premium"
     ],
     "description": "ICEBERG snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Cherry Apricot Gum",
     "brand": "ICEBERG",
-    "imageUrl": "/images/products/ice-023.jpg"
+    "imageUrl": "/images/products/iceberg.png"
   },
   {
     "id": "snus-129",
@@ -3473,14 +3473,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 78,
+    "stock": 66,
     "tags": [
       "premium"
     ],
     "description": "ICEBERG snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Strawberry Banana Gum",
     "brand": "ICEBERG",
-    "imageUrl": "/images/products/ice-024.jpg"
+    "imageUrl": "/images/products/iceberg.png"
   },
   {
     "id": "snus-130",
@@ -3500,14 +3500,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 99,
+    "stock": 53,
     "tags": [
       "premium"
     ],
     "description": "ICEBERG snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Coconut",
     "brand": "ICEBERG",
-    "imageUrl": "/images/products/ice-025.jpg"
+    "imageUrl": "/images/products/iceberg.png"
   },
   {
     "id": "snus-131",
@@ -3527,14 +3527,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 79,
+    "stock": 14,
     "tags": [
       "premium"
     ],
     "description": "ICEBERG snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Double Apple",
     "brand": "ICEBERG",
-    "imageUrl": "/images/products/ice-026.jpg"
+    "imageUrl": "/images/products/iceberg.png"
   },
   {
     "id": "snus-132",
@@ -3554,14 +3554,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 59,
+    "stock": 99,
     "tags": [
       "premium"
     ],
     "description": "ICEBERG snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Menthol",
     "brand": "ICEBERG",
-    "imageUrl": "/images/products/ice-027.jpg"
+    "imageUrl": "/images/products/iceberg.png"
   },
   {
     "id": "snus-133",
@@ -3581,14 +3581,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 57,
+    "stock": 48,
     "tags": [
       "premium"
     ],
     "description": "ICEBERG snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Strawberry Pomegranate",
     "brand": "ICEBERG",
-    "imageUrl": "/images/products/ice-028.jpg"
+    "imageUrl": "/images/products/iceberg.png"
   },
   {
     "id": "snus-134",
@@ -3608,14 +3608,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 14,
+    "stock": 77,
     "tags": [
       "premium"
     ],
     "description": "ICEBERG snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Energy Mango",
     "brand": "ICEBERG",
-    "imageUrl": "/images/products/ice-029.jpg"
+    "imageUrl": "/images/products/iceberg.png"
   },
   {
     "id": "snus-135",
@@ -3635,14 +3635,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 93,
+    "stock": 33,
     "tags": [
       "premium"
     ],
     "description": "ICEBERG snus with 30mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "Gummy Bears",
     "brand": "ICEBERG",
-    "imageUrl": "/images/products/ice-030.jpg"
+    "imageUrl": "/images/products/iceberg.png"
   },
   {
     "id": "snus-136",
@@ -3662,14 +3662,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 53,
+    "stock": 108,
     "tags": [
       "premium"
     ],
     "description": "SIBERIA snus with 24.75mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "-80°C All White Super Slim Nicotine",
     "brand": "SIBERIA",
-    "imageUrl": "/images/products/sib-001.jpg"
+    "imageUrl": "/images/products/siberia.png"
   },
   {
     "id": "snus-137",
@@ -3689,14 +3689,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 52,
+    "stock": 83,
     "tags": [
       "premium"
     ],
     "description": "SIBERIA snus with 24.75mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "-80°C All White Original Nicotine",
     "brand": "SIBERIA",
-    "imageUrl": "/images/products/sib-002.jpg"
+    "imageUrl": "/images/products/siberia.png"
   },
   {
     "id": "snus-138",
@@ -3716,14 +3716,14 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 30,
+    "stock": 42,
     "tags": [
       "premium"
     ],
     "description": "SIBERIA snus with 24.75mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "-80°C All White Slim Nicotine",
     "brand": "SIBERIA",
-    "imageUrl": "/images/products/sib-003.jpg"
+    "imageUrl": "/images/products/siberia.png"
   },
   {
     "id": "snus-139",
@@ -3743,13 +3743,13 @@
       "tier150_239": 2.6,
       "tier240plus": 2.4
     },
-    "stock": 17,
+    "stock": 43,
     "tags": [
       "premium"
     ],
     "description": "SIBERIA snus with 29.7mg nicotine strength. Premium quality product with authentic flavor.",
     "flavor": "-80 All White Maxi Nicotine",
     "brand": "SIBERIA",
-    "imageUrl": "/images/products/sib-004.jpg"
+    "imageUrl": "/images/products/siberia.png"
   }
 ]

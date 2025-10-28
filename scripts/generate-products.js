@@ -2,6 +2,32 @@ const XLSX = require('xlsx');
 const fs = require('fs');
 const path = require('path');
 
+// Map product categories to available images
+function getProductImageUrl(category, code) {
+  const categoryLower = category?.toLowerCase() || '';
+  const codeLower = code?.toLowerCase() || '';
+  
+  // Map specific brands to their images
+  if (categoryLower.includes('pablo') || codeLower.includes('pab')) {
+    return '/images/products/pablo.png';
+  }
+  if (categoryLower.includes('killa') || codeLower.includes('kil')) {
+    return '/images/products/killa.png';
+  }
+  if (categoryLower.includes('cuba') || codeLower.includes('cub')) {
+    return '/images/products/cuba.png';
+  }
+  if (categoryLower.includes('iceberg') || codeLower.includes('ice')) {
+    return '/images/products/iceberg.png';
+  }
+  if (categoryLower.includes('siberia') || codeLower.includes('sib')) {
+    return '/images/products/siberia.png';
+  }
+  
+  // Default fallback
+  return '/images/products/pablo.png';
+}
+
 // Read the Excel file
 const workbook = XLSX.readFile(path.join(process.cwd(), 'Snus catalog.xlsx'));
 const sheetName = workbook.SheetNames[0];
@@ -33,7 +59,7 @@ const products = data.map((row, index) => ({
   description: `${row['Category']} snus with ${row['MG/Pouch']}mg nicotine strength. Premium quality product with authentic flavor.`,
   flavor: row['Product Name']?.split(' ').slice(1).join(' ') || 'Classic',
   brand: row['Category'] || 'Unknown',
-  imageUrl: `/images/products/${row['Code']?.toLowerCase() || `product-${index + 1}`}.jpg`, // Real image path
+  imageUrl: getProductImageUrl(row['Category'], row['Code']), // Real image path
 }));
 
 // Get unique categories
