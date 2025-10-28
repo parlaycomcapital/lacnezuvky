@@ -58,6 +58,14 @@ export default function Footer() {
               <p>5 značiek (PABLO, KILLA, CUBA, ICEBERG, SIBERIA)</p>
               <p>Rýchle dodanie po celej Európe</p>
               <p>Bezpečné platby</p>
+              <div className="pt-2 space-y-1">
+                <a href="/privacy" className="block text-accent-primary hover:text-accent-secondary transition-colors">
+                  Ochrana súkromia
+                </a>
+                <a href="/terms" className="block text-accent-primary hover:text-accent-secondary transition-colors">
+                  Podmienky používania
+                </a>
+              </div>
             </div>
           </div>
         </div>

@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /admin
+Disallow: /api
+Disallow: /_next
+Disallow: /scripts
+Disallow: /lib
+
+# Allow main pages
+Allow: /
+Allow: /catalog
+Allow: /privacy
+Allow: /terms
+
+# Sitemap
+Sitemap: https://lacnezuvky.vercel.app/sitemap.xml

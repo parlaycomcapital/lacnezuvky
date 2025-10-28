@@ -1,237 +1,112 @@
-# LACNÉ ŽUVKY - E-commerce Catalog
+# Lacné Žuvky - Premium Snus E-commerce
 
-A playful, modern e-commerce catalog website for "LACNÉ ŽUVKY" (Cheap Chewing Gums) with password protection, built with Next.js, TypeScript, and Tailwind CSS.
+A secure, professional dark-mode e-commerce website for premium snus products with advanced security features and anonymous operation capabilities.
 
-## Features
+## 🔒 Security Features
+
+- **Password Protection**: Secure access control with session management
+- **Security Headers**: Comprehensive HTTP security headers (CSP, HSTS, X-Frame-Options, etc.)
+- **Anonymous Operation**: No personal data collection, Signal-only contact
+- **Privacy-First**: Minimal data collection, encrypted communications
+- **DDoS Protection**: Built-in protection against common attacks
+- **Content Security Policy**: Strict CSP to prevent XSS attacks
+
+## 🛍️ Features
 
 - 🔐 Password-protected access (password: `lz25`)
-- 🛍️ Product catalog with search and filters
-- 📱 Fully responsive design
-- 🎨 Playful design inspired by the mascot logo
-- 🏷️ Product categories and tags
-- 📊 Stock management
+- 🛍️ Product catalog with real images and data
+- 🎨 Professional dark mode design
+- 📱 Fully responsive (mobile, tablet, desktop)
 - 🔍 Advanced search and filtering
-- ⚡ Fast and optimized
+- 💰 Dynamic tiered pricing (1-10: €4, 11-49: €3.5, 50+: €3)
+- 🛒 Shopping cart functionality
+- 📞 Signal contact integration (@golo.21)
+- 📄 Privacy policy and terms of service
+- 🚫 Professional 404 and loading pages
+- 🔍 SEO optimized with sitemap and robots.txt
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-- **Framework:** Next.js 14 (App Router)
-- **Language:** TypeScript
-- **Styling:** Tailwind CSS
-- **State Management:** React Hooks
-- **Package Manager:** npm
+- **Framework**: Next.js 14 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Data**: SheetJS (xlsx parsing)
+- **State**: Zustand
+- **Security**: Next.js Middleware, Security Headers
+- **Deployment**: Vercel
 
-## Getting Started
+## 🚀 Getting Started
 
-### Prerequisites
-
-- Node.js 18+ installed
-- npm or yarn
-
-### Installation
-
-1. Clone the repository or navigate to the project directory:
-```bash
-cd lz
-```
-
-2. Install dependencies:
+1. **Install dependencies**:
 ```bash
 npm install
 ```
 
-3. Run the development server:
+2. **Run the development server**:
 ```bash
 npm run dev
 ```
 
-4. Open your browser and navigate to [http://localhost:3000](http://localhost:3000)
+3. **Open** [http://localhost:3000](http://localhost:3000) in your browser.
 
-### Building for Production
+## 📊 Product Data
 
-```bash
-npm run build
-npm start
-```
+Products are loaded from `Snus catalog.xlsx` and automatically parsed into `lib/products-data.json`. The script maps product categories to real images:
 
-## Project Structure
+- **PABLO** products → `/images/products/pablo.png`
+- **KILLA** products → `/images/products/killa.png`
+- **CUBA** products → `/images/products/cuba.png`
+- **ICEBERG** products → `/images/products/iceberg.png`
+- **SIBERIA** products → `/images/products/siberia.png`
 
-```
-lz/
-├── app/                    # Next.js app directory
-│   ├── catalog/           # Catalog pages
-│   │   ├── product/[id]/  # Product detail pages
-│   │   └── page.tsx       # Main catalog page
-│   ├── globals.css        # Global styles
-│   ├── layout.tsx         # Root layout
-│   └── page.tsx           # Password gate
-├── components/            # Reusable components
-│   ├── CategoryFilter.tsx
-│   ├── ProductCard.tsx
-│   └── SearchBar.tsx
-├── lib/                   # Utility functions
-│   └── products.ts        # Product data and functions
-├── types/                 # TypeScript types
-│   └── product.ts
-├── public/                # Static assets
-└── styles/                # Additional styles
+## 🔧 Configuration
 
-```
-
-## Configuration
-
-### Changing the Password
-
-To change the password, edit the following file:
-
-**File:** `app/page.tsx`
-
-Find this line:
+### Password Change
+To change the access password, update the value in `middleware.ts`:
 ```typescript
-if (password === 'lz25') {
+if (!password || password !== 'YOUR_NEW_PASSWORD') {
 ```
 
-Replace `'lz25'` with your desired password.
+### Security Headers
+Security headers are configured in `middleware.ts` and `next.config.js` for maximum protection.
 
-### Updating Product Data
+### Product Data Update
+1. Update `Snus catalog.xlsx` with new products
+2. Run: `node scripts/generate-products.js`
+3. Commit and push changes
 
-Currently, products are stored in `lib/products.ts`. To update products:
+## 🌐 Deployment
 
-1. Open `lib/products.ts`
-2. Edit the `products` array
-3. Each product should follow the `Product` interface defined in `types/product.ts`
+The site is deployed on Vercel with automatic updates from the main branch.
 
-### Using the Excel Spreadsheet
+### Security Considerations for Anonymous Operation:
+- Use VPN when managing the repository
+- Consider using anonymous hosting services
+- Use encrypted email services for communications
+- Regularly rotate access credentials
+- Monitor access logs for suspicious activity
 
-To import products from the Excel spreadsheet:
+## 📞 Contact
 
-1. Install the `xlsx` package (already included)
-2. Create an API route to read and parse the Excel file
-3. Update the products data structure
+For inquiries, contact us via Signal: **@golo.21**
 
-Example implementation:
+## ⚖️ Legal
 
-```typescript
-import * as XLSX from 'xlsx'
+- Privacy Policy: `/privacy`
+- Terms of Service: `/terms`
+- Age verification required (18+)
+- Products for personal use only
 
-export function loadProductsFromExcel(filePath: string) {
-  const workbook = XLSX.readFile(filePath)
-  const sheetName = workbook.SheetNames[0]
-  const worksheet = workbook.Sheets[sheetName]
-  const data = XLSX.utils.sheet_to_json(worksheet)
-  
-  // Map Excel columns to Product interface
-  return data.map((row: any) => ({
-    id: row.id || generateId(),
-    name: row.name || '',
-    description: row.description || '',
-    price: parseFloat(row.price) || 0,
-    imageUrl: row.imageUrl || '',
-    category: row.category || 'Other',
-    sku: row.sku || '',
-    stock: parseInt(row.stock) || 0,
-    tags: row.tags ? row.tags.split(',') : [],
-  }))
-}
-```
+## 🔐 Security Best Practices
 
-## Deployment
-
-### Vercel (Recommended)
-
-1. Push your code to GitHub
-2. Go to [vercel.com](https://vercel.com)
-3. Import your repository
-4. Deploy!
-
-Vercel will automatically:
-- Detect Next.js
-- Build your project
-- Deploy to production
-
-### Netlify
-
-1. Push your code to GitHub
-2. Go to [netlify.com](https://netlify.com)
-3. Create a new site from Git
-4. Build command: `npm run build`
-5. Publish directory: `.next`
-
-### Environment Variables
-
-If you need to add environment variables (e.g., API keys), create a `.env.local` file:
-
-```env
-NEXT_PUBLIC_API_URL=your_api_url
-SECRET_KEY=your_secret_key
-```
-
-Add `.env.local` to your `.gitignore` to keep it secure.
-
-## Design Guidelines
-
-### Color Palette
-
-- **Sky Blue:** `#B8E3F0` - Primary background
-- **Soft Pink:** `#FF9BBE` - Headings and accents
-- **Warm Orange:** `#FF6B4A` - CTAs and badges
-- **Cream:** `#FFF9E6` - Secondary backgrounds
-- **Deep Navy:** `#1A1A2E` - Text and outlines
-
-### Typography
-
-- **Display Font:** Comic Sans MS (for playful headings)
-- **Body Font:** System fonts (for readability)
-
-### Styling
-
-- Sticker-like borders with `border: 3px solid var(--color-deep-navy)`
-- Rounded corners with `border-radius: 20px`
-- Drop shadows for depth
-- Hover animations and transitions
-
-## SEO & Accessibility
-
-- Semantic HTML
-- Alt text for images (from product data)
-- Keyboard navigation support
-- ARIA labels where needed
-- Meta tags for social sharing
-
-## Performance
-
-- Static generation where possible
-- Image optimization with Next.js Image component
-- Lazy loading for images
-- Code splitting
-- Optimized bundles
-
-## Security
-
-- Password protection on client and server
-- HTTPOnly cookies for session management
-- Environment variable protection
-- Input validation
-- XSS prevention
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
-
-## License
-
-This project is private and proprietary.
-
-## Support
-
-For questions or issues, please contact the project maintainer.
+1. **Regular Updates**: Keep dependencies updated
+2. **Access Monitoring**: Monitor who accesses the admin functions
+3. **Data Minimization**: Only collect necessary data
+4. **Encryption**: All data encrypted in transit and at rest
+5. **Anonymous Operations**: No personal information stored
+6. **Secure Communications**: Signal-only contact method
 
 ---
 
-**Password:** `lz25`
-
-**Remember:** In production, use environment variables for sensitive data and implement proper server-side authentication!
-
+**⚠️ Important**: This website is designed for anonymous operation. Always use secure practices when managing the site and consider using VPN and anonymous hosting services for maximum security.
