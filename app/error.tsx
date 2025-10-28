@@ -1,6 +1,20 @@
-import Link from 'next/link'
+'use client'
 
-export default function NotFound() {
+import Link from 'next/link'
+import { useEffect } from 'react'
+
+export default function Error({
+  error,
+  reset,
+}: {
+  error: Error & { digest?: string }
+  reset: () => void
+}) {
+  useEffect(() => {
+    // Log the error to an error reporting service
+    console.error(error)
+  }, [error])
+
   return (
     <div className="min-h-screen bg-minimal-bg flex items-center justify-center px-4">
       <div className="text-center max-w-2xl mx-auto">
@@ -16,23 +30,23 @@ export default function NotFound() {
 
           {/* Error Message */}
           <div className="space-y-4">
-            <h1 className="text-6xl font-bold text-accent-primary">404</h1>
+            <h1 className="text-6xl font-bold text-accent-primary">500</h1>
             <h2 className="text-2xl font-semibold text-minimal-text">
-              Stránka sa nenašla
+              Chyba servera
             </h2>
             <p className="text-minimal-text-secondary text-lg">
-              Oops! Táto stránka neexistuje alebo bola presunutá.
+              Oops! Niečo sa pokazilo na našej strane.
             </p>
           </div>
 
           {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link 
-              href="/"
+            <button
+              onClick={() => reset()}
               className="btn-secondary px-6 py-3"
             >
-              ← Domov
-            </Link>
+              Skúsiť znova
+            </button>
             <Link 
               href="/catalog"
               className="btn-primary px-6 py-3"
@@ -44,8 +58,7 @@ export default function NotFound() {
           {/* Security Notice */}
           <div className="mt-12 p-4 bg-minimal-surface/50 rounded-lg border border-minimal-border">
             <p className="text-sm text-minimal-text-secondary">
-              🔒 Táto stránka je chránená. Ak si myslíte, že je to chyba, 
-              kontaktujte nás na Signal: @golo.21
+              🔒 Ak problém pretrváva, kontaktujte nás na Signal: @golo.21
             </p>
           </div>
         </div>

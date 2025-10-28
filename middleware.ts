@@ -24,19 +24,22 @@ const securityHeaders = {
 }
 
 export function middleware(request: NextRequest) {
-  // Password protection for all routes except static assets
-  if (!request.nextUrl.pathname.startsWith('/_next') && 
-      !request.nextUrl.pathname.startsWith('/images') &&
-      !request.nextUrl.pathname.startsWith('/favicon')) {
-    
-    const password = request.cookies.get('lz-auth')?.value
-    
-    if (!password || password !== 'lz25') {
-      if (request.nextUrl.pathname === '/') {
-        return NextResponse.next()
-      }
-      return NextResponse.redirect(new URL('/', request.url))
+  // Skip middleware for static assets and API routes
+  if (request.nextUrl.pathname.startsWith('/_next') || 
+      request.nextUrl.pathname.startsWith('/images') ||
+      request.nextUrl.pathname.startsWith('/favicon') ||
+      request.nextUrl.pathname.startsWith('/api')) {
+    return NextResponse.next()
+  }
+
+  // Password protection for all other routes
+  const password = request.cookies.get('lz-auth')?.value
+  
+  if (!password || password !== 'lz25') {
+    if (request.nextUrl.pathname === '/') {
+      return NextResponse.next()
     }
+    return NextResponse.redirect(new URL('/', request.url))
   }
 
   // Apply security headers
